@@ -63,7 +63,7 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
   "name" : "RUIM",
   "title" : "Référentiel Unique d'Interopérabilité du Médicament",
   "status" : "draft",
-  "date" : "2026-02-06T10:39:27+00:00",
+  "date" : "2026-02-06T10:41:32+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [
     {
