@@ -1,4 +1,4 @@
-# Flux 01 - ANS IG Example v0.1.0
+# Flux 01 - Référentiel Unique d'Interopérabilité du Médicament v0.1.0
 
 * [**Table of Contents**](toc.md)
 * [**Specifications Techniques**](specifications_techniques.md)

@@ -1,4 +1,4 @@
-# Type Carte Value Set - ANS IG Example v0.1.0
+# Type Carte Value Set - Référentiel Unique d'Interopérabilité du Médicament v0.1.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,15 +8,15 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:https://interop.esante.gouv.fr/ig/fhir/[code]/ValueSet/TypeCarteVS | *Version*:0.1.0 |
-| Draft as of 2026-01-29 | *Computable Name*:TypeCarteVS |
+| *Official URL*:https://interop.esante.gouv.fr/ig/fhir/ruim/ValueSet/TypeCarteVS | *Version*:0.1.0 |
+| Draft as of 2026-02-06 | *Computable Name*:TypeCarteVS |
 
  
 Type Carte Value Set. 
 
  **References** 
 
-Ce jeu de valeurs nest pas utilisé ici ; il peut être utilisé autre part (par exemple dans les spécifications et / ou implémentations qui utilisent ce contenu)
+Ce jeu de valeurs n'est pas utilisé ici ; il peut être utilisé autre part (par exemple dans les spécifications et / ou implémentations qui utilisent ce contenu)
 
 ### Définition logique (CLD)
 
@@ -45,12 +45,12 @@ Ce jeu de valeurs nest pas utilisé ici ; il peut être utilisé autre part (par
 {
   "resourceType" : "ValueSet",
   "id" : "TypeCarteVS",
-  "url" : "https://interop.esante.gouv.fr/ig/fhir/[code]/ValueSet/TypeCarteVS",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/ruim/ValueSet/TypeCarteVS",
   "version" : "0.1.0",
   "name" : "TypeCarteVS",
   "title" : "Type Carte Value Set",
   "status" : "draft",
-  "date" : "2026-01-29T17:15:36+00:00",
+  "date" : "2026-02-06T10:39:27+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [
     {
@@ -78,7 +78,7 @@ Ce jeu de valeurs nest pas utilisé ici ; il peut être utilisé autre part (par
   "compose" : {
     "include" : [
       {
-        "system" : "https://interop.esante.gouv.fr/ig/fhir/[code]/CodeSystem/type-carte-code-system"
+        "system" : "https://interop.esante.gouv.fr/ig/fhir/ruim/CodeSystem/type-carte-code-system"
       }
     ]
   }

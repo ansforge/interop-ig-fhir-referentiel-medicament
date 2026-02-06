@@ -1,4 +1,4 @@
-# Melting Pot Value Set - ANS IG Example v0.1.0
+# Melting Pot Value Set - Référentiel Unique d'Interopérabilité du Médicament v0.1.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,15 +8,15 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:https://interop.esante.gouv.fr/ig/fhir/[code]/ValueSet/MeltingPotVS | *Version*:0.1.0 |
-| Draft as of 2026-01-29 | *Computable Name*:MeltingPotVS |
+| *Official URL*:https://interop.esante.gouv.fr/ig/fhir/ruim/ValueSet/MeltingPotVS | *Version*:0.1.0 |
+| Draft as of 2026-02-06 | *Computable Name*:MeltingPotVS |
 
  
 Melting Pot Value Set. 
 
  **References** 
 
-Ce jeu de valeurs nest pas utilisé ici ; il peut être utilisé autre part (par exemple dans les spécifications et / ou implémentations qui utilisent ce contenu)
+Ce jeu de valeurs n'est pas utilisé ici ; il peut être utilisé autre part (par exemple dans les spécifications et / ou implémentations qui utilisent ce contenu)
 
 ### Définition logique (CLD)
 
@@ -45,12 +45,12 @@ Ce jeu de valeurs nest pas utilisé ici ; il peut être utilisé autre part (par
 {
   "resourceType" : "ValueSet",
   "id" : "MeltingPotVS",
-  "url" : "https://interop.esante.gouv.fr/ig/fhir/[code]/ValueSet/MeltingPotVS",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/ruim/ValueSet/MeltingPotVS",
   "version" : "0.1.0",
   "name" : "MeltingPotVS",
   "title" : "Melting Pot Value Set",
   "status" : "draft",
-  "date" : "2026-01-29T17:15:36+00:00",
+  "date" : "2026-02-06T10:39:27+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [
     {
@@ -90,7 +90,7 @@ Ce jeu de valeurs nest pas utilisé ici ; il peut être utilisé autre part (par
         ]
       },
       {
-        "system" : "https://interop.esante.gouv.fr/ig/fhir/[code]/CodeSystem/competence-code-system",
+        "system" : "https://interop.esante.gouv.fr/ig/fhir/ruim/CodeSystem/competence-code-system",
         "concept" : [
           {
             "code" : "C01"
@@ -98,7 +98,7 @@ Ce jeu de valeurs nest pas utilisé ici ; il peut être utilisé autre part (par
         ]
       },
       {
-        "system" : "https://interop.esante.gouv.fr/ig/fhir/[code]/CodeSystem/type-carte-code-system"
+        "system" : "https://interop.esante.gouv.fr/ig/fhir/ruim/CodeSystem/type-carte-code-system"
       }
     ]
   }

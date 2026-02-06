@@ -1,4 +1,4 @@
-# Patient français - ANS IG Example v0.1.0
+# Patient français - Référentiel Unique d'Interopérabilité du Médicament v0.1.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,17 +8,17 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:https://interop.esante.gouv.fr/ig/fhir/[code]/StructureDefinition/fr-patient | *Version*:0.1.0 |
-| Draft as of 2026-01-29 | *Computable Name*:FrPatient |
+| *Official URL*:https://interop.esante.gouv.fr/ig/fhir/ruim/StructureDefinition/fr-patient | *Version*:0.1.0 |
+| Draft as of 2026-02-06 | *Computable Name*:FrPatient |
 
  
 Description du patient français 
 
 **Utilisations:**
 
-* Exemples pour ce Profil: [Patient/frpatient-exemple](Patient-frpatient-exemple.md)
+* Exemples pour ce/t/te Profil: [Patient/frpatient-exemple](Patient-frpatient-exemple.md)
 
-You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/ans.fhir.fr.[code]|current/StructureDefinition/fr-patient)
+Vous pouvez également vérifier [les usages dans le FHIR IG Statistics](https://packages2.fhir.org/xig/ans.fhir.fr.ruim|current/StructureDefinition/fr-patient)
 
 ### Formal Views of Profile Content
 
@@ -36,12 +36,12 @@ Other representations of profile: [CSV](StructureDefinition-fr-patient.csv), [Ex
 {
   "resourceType" : "StructureDefinition",
   "id" : "fr-patient",
-  "url" : "https://interop.esante.gouv.fr/ig/fhir/[code]/StructureDefinition/fr-patient",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/ruim/StructureDefinition/fr-patient",
   "version" : "0.1.0",
   "name" : "FrPatient",
   "title" : "Patient français",
   "status" : "draft",
-  "date" : "2026-01-29T17:15:36+00:00",
+  "date" : "2026-02-06T10:39:27+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [
     {
@@ -130,7 +130,7 @@ Other representations of profile: [CSV](StructureDefinition-fr-patient.csv), [Ex
           {
             "code" : "Extension",
             "profile" : [
-              "https://interop.esante.gouv.fr/ig/fhir/[code]/StructureDefinition/EyeColor|0.1.0"
+              "https://interop.esante.gouv.fr/ig/fhir/ruim/StructureDefinition/EyeColor|0.1.0"
             ]
           }
         ],
@@ -172,7 +172,7 @@ Other representations of profile: [CSV](StructureDefinition-fr-patient.csv), [Ex
         "short" : "male | female | other",
         "binding" : {
           "strength" : "required",
-          "valueSet" : "https://interop.esante.gouv.fr/ig/fhir/[code]/ValueSet/ModifiedAdministrativeGender|0.1.0"
+          "valueSet" : "https://interop.esante.gouv.fr/ig/fhir/ruim/ValueSet/ModifiedAdministrativeGender|0.1.0"
         }
       }
     ]

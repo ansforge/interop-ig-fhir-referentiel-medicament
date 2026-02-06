@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="3b964c97-68eb-44f2-8f6f-ddc7f878e47c"/>
+  <id value="57ac4479-371e-4637-897b-b4eef7683acd"/>
   <meta>
-    <lastUpdated value="2026-01-29T17:15:36.132+00:00"/>
+    <lastUpdated value="2026-02-06T10:39:27.613+00:00"/>
   </meta>
   <type value="collection"/>
   <entry>
-    <fullUrl value="https://interop.esante.gouv.fr/ig/fhir/[code]/ValueSet/EyeColorVS"/>
+    <fullUrl value="https://interop.esante.gouv.fr/ig/fhir/ruim/ValueSet/EyeColorVS"/>
     <resource>
       <ValueSet>
         <text>
@@ -16,7 +16,7 @@
             <p class="res-header-id"/>
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion de smt.esante.gouv.fr basée sur SNOMED CT édition 11000315107 21-Jun 2025
               <span class="copy-text-inline">
-                <button data-clipboard-text="http://snomed.info/sct|http://snomed.info/sct/11000315107/version/20250621" title="Cliquer pour copier lURL" class="btn-copy"> </button>
+                <button data-clipboard-text="http://snomed.info/sct|http://snomed.info/sct/11000315107/version/20250621" title="Cliquer pour copier l'URL" class="btn-copy"> </button>
               </span>
             </p>
             <p>Ce jeu de valeur (ValueSet) contient 3 concepts</p>
@@ -107,12 +107,12 @@
             </table>
           </div>
         </text>
-        <url value="https://interop.esante.gouv.fr/ig/fhir/[code]/ValueSet/EyeColorVS"/>
+        <url value="https://interop.esante.gouv.fr/ig/fhir/ruim/ValueSet/EyeColorVS"/>
         <version value="0.1.0"/>
         <name value="EyeColorVS"/>
         <title value="EyeColor Value Set"/>
         <status value="draft"/>
-        <date value="2026-01-29T17:15:36+00:00"/>
+        <date value="2026-02-06T10:39:27+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -121,8 +121,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:6574005f-1cb1-4869-a9c6-8876cdcce7cb"/>
-          <timestamp value="2026-01-29T17:16:57+00:00"/>
+          <identifier value="urn:uuid:57a13f53-1f5f-4a0b-a9fc-92dc5f290ae1"/>
+          <timestamp value="2026-02-06T10:40:28+00:00"/>
           <total value="3"/>
           <offset value="0"/>
           <parameter>
@@ -178,7 +178,7 @@
     </resource>
   </entry>
   <entry>
-    <fullUrl value="https://interop.esante.gouv.fr/ig/fhir/[code]/ValueSet/MeltingPotVS"/>
+    <fullUrl value="https://interop.esante.gouv.fr/ig/fhir/ruim/ValueSet/MeltingPotVS"/>
     <resource>
       <ValueSet>
         <text>
@@ -190,19 +190,19 @@
               <ul>
                 <li>SNOMED CT édition 11000315107 21-Jun 2025
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="http://snomed.info/sct|http://snomed.info/sct/11000315107/version/20250621" title="Cliquer pour copier lURL" class="btn-copy"> </button>
+                    <button data-clipboard-text="http://snomed.info/sct|http://snomed.info/sct/11000315107/version/20250621" title="Cliquer pour copier l'URL" class="btn-copy"> </button>
                   </span>
                 </li>
                 <li>
                   <a href="CodeSystem-competence-code-system.html">codesystem Compétences CodeSystem v0.1.0 (CodeSystem)</a>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="https://interop.esante.gouv.fr/ig/fhir/[code]/CodeSystem/competence-code-system|0.1.0" title="Cliquer pour copier lURL" class="btn-copy"> </button>
+                    <button data-clipboard-text="https://interop.esante.gouv.fr/ig/fhir/ruim/CodeSystem/competence-code-system|0.1.0" title="Cliquer pour copier l'URL" class="btn-copy"> </button>
                   </span>
                 </li>
                 <li>
                   <a href="CodeSystem-type-carte-code-system.html">codesystem Type de carte v0.1.0 (CodeSystem)</a>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="https://interop.esante.gouv.fr/ig/fhir/[code]/CodeSystem/type-carte-code-system|0.1.0" title="Cliquer pour copier lURL" class="btn-copy"> </button>
+                    <button data-clipboard-text="https://interop.esante.gouv.fr/ig/fhir/ruim/CodeSystem/type-carte-code-system|0.1.0" title="Cliquer pour copier l'URL" class="btn-copy"> </button>
                   </span>
                 </li>
               </ul>
@@ -273,8 +273,8 @@
               </tr>
               <tr>
                 <td>
-                  <a name="x-https://interop.esante.gouv.fr/ig/fhir/|5bcode|5d/CodeSystem/competence-code-system-C01"> </a>
-                  <code>https://interop.esante.gouv.fr/ig/fhir/[code]/CodeSystem/competence-code-system</code>
+                  <a name="x-https://interop.esante.gouv.fr/ig/fhir/ruim/CodeSystem/competence-code-system-C01"> </a>
+                  <code>https://interop.esante.gouv.fr/ig/fhir/ruim/CodeSystem/competence-code-system</code>
                 </td>
                 <td style="white-space:nowrap">  
                   <a href="CodeSystem-competence-code-system.html#competence-code-system-C01">C01</a>
@@ -283,19 +283,19 @@
                 <td>Anatomie, Cyto patho;Anatomie et Cytologie pathologiques humaines</td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://interop.esante.gouv.fr/ig/fhir/[code]/CodeSystem/competence-code-system&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;C01&quot;}" title="Cliquer pour copier en tant que Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://interop.esante.gouv.fr/ig/fhir/ruim/CodeSystem/competence-code-system&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;C01&quot;}" title="Cliquer pour copier en tant que Coding" class="btn-copy"> </button>
                   </span>
                 </td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://interop.esante.gouv.fr/ig/fhir/[code]/CodeSystem/competence-code-system&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;C01&quot;&gt;&lt;/coding&gt;" title="Cliquer pour copier en tant que Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://interop.esante.gouv.fr/ig/fhir/ruim/CodeSystem/competence-code-system&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;C01&quot;&gt;&lt;/coding&gt;" title="Cliquer pour copier en tant que Coding" class="btn-copy"> </button>
                   </span>
                 </td>
               </tr>
               <tr>
                 <td>
-                  <a name="x-https://interop.esante.gouv.fr/ig/fhir/|5bcode|5d/CodeSystem/type-carte-code-system-CPA"> </a>
-                  <code>https://interop.esante.gouv.fr/ig/fhir/[code]/CodeSystem/type-carte-code-system</code>
+                  <a name="x-https://interop.esante.gouv.fr/ig/fhir/ruim/CodeSystem/type-carte-code-system-CPA"> </a>
+                  <code>https://interop.esante.gouv.fr/ig/fhir/ruim/CodeSystem/type-carte-code-system</code>
                 </td>
                 <td style="white-space:nowrap">  
                   <a href="CodeSystem-type-carte-code-system.html#type-carte-code-system-CPA">CPA</a>
@@ -304,19 +304,19 @@
                 <td>La carte d'un personnel autorisé (CDA/CPA)</td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://interop.esante.gouv.fr/ig/fhir/[code]/CodeSystem/type-carte-code-system&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;CPA&quot;}" title="Cliquer pour copier en tant que Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://interop.esante.gouv.fr/ig/fhir/ruim/CodeSystem/type-carte-code-system&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;CPA&quot;}" title="Cliquer pour copier en tant que Coding" class="btn-copy"> </button>
                   </span>
                 </td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://interop.esante.gouv.fr/ig/fhir/[code]/CodeSystem/type-carte-code-system&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;CPA&quot;&gt;&lt;/coding&gt;" title="Cliquer pour copier en tant que Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://interop.esante.gouv.fr/ig/fhir/ruim/CodeSystem/type-carte-code-system&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;CPA&quot;&gt;&lt;/coding&gt;" title="Cliquer pour copier en tant que Coding" class="btn-copy"> </button>
                   </span>
                 </td>
               </tr>
               <tr>
                 <td>
-                  <a name="x-https://interop.esante.gouv.fr/ig/fhir/|5bcode|5d/CodeSystem/type-carte-code-system-CPE"> </a>
-                  <code>https://interop.esante.gouv.fr/ig/fhir/[code]/CodeSystem/type-carte-code-system</code>
+                  <a name="x-https://interop.esante.gouv.fr/ig/fhir/ruim/CodeSystem/type-carte-code-system-CPE"> </a>
+                  <code>https://interop.esante.gouv.fr/ig/fhir/ruim/CodeSystem/type-carte-code-system</code>
                 </td>
                 <td style="white-space:nowrap">  
                   <a href="CodeSystem-type-carte-code-system.html#type-carte-code-system-CPE">CPE</a>
@@ -325,19 +325,19 @@
                 <td>La Carte de Personnel d'Etablissement de santé (CDE/CPE).</td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://interop.esante.gouv.fr/ig/fhir/[code]/CodeSystem/type-carte-code-system&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;CPE&quot;}" title="Cliquer pour copier en tant que Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://interop.esante.gouv.fr/ig/fhir/ruim/CodeSystem/type-carte-code-system&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;CPE&quot;}" title="Cliquer pour copier en tant que Coding" class="btn-copy"> </button>
                   </span>
                 </td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://interop.esante.gouv.fr/ig/fhir/[code]/CodeSystem/type-carte-code-system&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;CPE&quot;&gt;&lt;/coding&gt;" title="Cliquer pour copier en tant que Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://interop.esante.gouv.fr/ig/fhir/ruim/CodeSystem/type-carte-code-system&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;CPE&quot;&gt;&lt;/coding&gt;" title="Cliquer pour copier en tant que Coding" class="btn-copy"> </button>
                   </span>
                 </td>
               </tr>
               <tr>
                 <td>
-                  <a name="x-https://interop.esante.gouv.fr/ig/fhir/|5bcode|5d/CodeSystem/type-carte-code-system-CPF"> </a>
-                  <code>https://interop.esante.gouv.fr/ig/fhir/[code]/CodeSystem/type-carte-code-system</code>
+                  <a name="x-https://interop.esante.gouv.fr/ig/fhir/ruim/CodeSystem/type-carte-code-system-CPF"> </a>
+                  <code>https://interop.esante.gouv.fr/ig/fhir/ruim/CodeSystem/type-carte-code-system</code>
                 </td>
                 <td style="white-space:nowrap">  
                   <a href="CodeSystem-type-carte-code-system.html#type-carte-code-system-CPF">CPF</a>
@@ -346,19 +346,19 @@
                 <td>La Carte de Professionnel de Santé en Formation (CPF).</td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://interop.esante.gouv.fr/ig/fhir/[code]/CodeSystem/type-carte-code-system&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;CPF&quot;}" title="Cliquer pour copier en tant que Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://interop.esante.gouv.fr/ig/fhir/ruim/CodeSystem/type-carte-code-system&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;CPF&quot;}" title="Cliquer pour copier en tant que Coding" class="btn-copy"> </button>
                   </span>
                 </td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://interop.esante.gouv.fr/ig/fhir/[code]/CodeSystem/type-carte-code-system&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;CPF&quot;&gt;&lt;/coding&gt;" title="Cliquer pour copier en tant que Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://interop.esante.gouv.fr/ig/fhir/ruim/CodeSystem/type-carte-code-system&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;CPF&quot;&gt;&lt;/coding&gt;" title="Cliquer pour copier en tant que Coding" class="btn-copy"> </button>
                   </span>
                 </td>
               </tr>
               <tr>
                 <td>
-                  <a name="x-https://interop.esante.gouv.fr/ig/fhir/|5bcode|5d/CodeSystem/type-carte-code-system-CPS"> </a>
-                  <code>https://interop.esante.gouv.fr/ig/fhir/[code]/CodeSystem/type-carte-code-system</code>
+                  <a name="x-https://interop.esante.gouv.fr/ig/fhir/ruim/CodeSystem/type-carte-code-system-CPS"> </a>
+                  <code>https://interop.esante.gouv.fr/ig/fhir/ruim/CodeSystem/type-carte-code-system</code>
                 </td>
                 <td style="white-space:nowrap">  
                   <a href="CodeSystem-type-carte-code-system.html#type-carte-code-system-CPS">CPS</a>
@@ -367,24 +367,24 @@
                 <td>La Carte de Professionnel de Santé (CPS).</td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://interop.esante.gouv.fr/ig/fhir/[code]/CodeSystem/type-carte-code-system&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;CPS&quot;}" title="Cliquer pour copier en tant que Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://interop.esante.gouv.fr/ig/fhir/ruim/CodeSystem/type-carte-code-system&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;CPS&quot;}" title="Cliquer pour copier en tant que Coding" class="btn-copy"> </button>
                   </span>
                 </td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://interop.esante.gouv.fr/ig/fhir/[code]/CodeSystem/type-carte-code-system&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;CPS&quot;&gt;&lt;/coding&gt;" title="Cliquer pour copier en tant que Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://interop.esante.gouv.fr/ig/fhir/ruim/CodeSystem/type-carte-code-system&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;CPS&quot;&gt;&lt;/coding&gt;" title="Cliquer pour copier en tant que Coding" class="btn-copy"> </button>
                   </span>
                 </td>
               </tr>
             </table>
           </div>
         </text>
-        <url value="https://interop.esante.gouv.fr/ig/fhir/[code]/ValueSet/MeltingPotVS"/>
+        <url value="https://interop.esante.gouv.fr/ig/fhir/ruim/ValueSet/MeltingPotVS"/>
         <version value="0.1.0"/>
         <name value="MeltingPotVS"/>
         <title value="Melting Pot Value Set"/>
         <status value="draft"/>
-        <date value="2026-01-29T17:15:36+00:00"/>
+        <date value="2026-02-06T10:39:27+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -393,8 +393,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:895bfe0c-2e22-4ffb-baa0-511d2b1975bf"/>
-          <timestamp value="2026-01-29T17:16:57+00:00"/>
+          <identifier value="urn:uuid:8136c264-6ac7-4462-bb18-545a61f9a187"/>
+          <timestamp value="2026-02-06T10:40:28+00:00"/>
           <total value="7"/>
           <offset value="0"/>
           <parameter>
@@ -431,11 +431,11 @@
           </parameter>
           <parameter>
             <name value="used-codesystem"/>
-            <valueUri value="https://interop.esante.gouv.fr/ig/fhir/[code]/CodeSystem/competence-code-system|0.1.0"/>
+            <valueUri value="https://interop.esante.gouv.fr/ig/fhir/ruim/CodeSystem/competence-code-system|0.1.0"/>
           </parameter>
           <parameter>
             <name value="used-codesystem"/>
-            <valueUri value="https://interop.esante.gouv.fr/ig/fhir/[code]/CodeSystem/type-carte-code-system|0.1.0"/>
+            <valueUri value="https://interop.esante.gouv.fr/ig/fhir/ruim/CodeSystem/type-carte-code-system|0.1.0"/>
           </parameter>
           <contains>
             <system value="http://snomed.info/sct"/>
@@ -448,23 +448,23 @@
             <display value="Brown color"/>
           </contains>
           <contains>
-            <system value="https://interop.esante.gouv.fr/ig/fhir/[code]/CodeSystem/competence-code-system"/>
+            <system value="https://interop.esante.gouv.fr/ig/fhir/ruim/CodeSystem/competence-code-system"/>
             <code value="C01"/>
           </contains>
           <contains>
-            <system value="https://interop.esante.gouv.fr/ig/fhir/[code]/CodeSystem/type-carte-code-system"/>
+            <system value="https://interop.esante.gouv.fr/ig/fhir/ruim/CodeSystem/type-carte-code-system"/>
             <code value="CPA"/>
           </contains>
           <contains>
-            <system value="https://interop.esante.gouv.fr/ig/fhir/[code]/CodeSystem/type-carte-code-system"/>
+            <system value="https://interop.esante.gouv.fr/ig/fhir/ruim/CodeSystem/type-carte-code-system"/>
             <code value="CPE"/>
           </contains>
           <contains>
-            <system value="https://interop.esante.gouv.fr/ig/fhir/[code]/CodeSystem/type-carte-code-system"/>
+            <system value="https://interop.esante.gouv.fr/ig/fhir/ruim/CodeSystem/type-carte-code-system"/>
             <code value="CPF"/>
           </contains>
           <contains>
-            <system value="https://interop.esante.gouv.fr/ig/fhir/[code]/CodeSystem/type-carte-code-system"/>
+            <system value="https://interop.esante.gouv.fr/ig/fhir/ruim/CodeSystem/type-carte-code-system"/>
             <code value="CPS"/>
           </contains>
         </expansion>
@@ -472,7 +472,7 @@
     </resource>
   </entry>
   <entry>
-    <fullUrl value="https://interop.esante.gouv.fr/ig/fhir/[code]/ValueSet/ModifiedAdministrativeGender"/>
+    <fullUrl value="https://interop.esante.gouv.fr/ig/fhir/ruim/ValueSet/ModifiedAdministrativeGender"/>
     <resource>
       <ValueSet>
         <text>
@@ -482,7 +482,7 @@
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion effectuée en interne basée sur 
               <a href="http://hl7.org/fhir/R4/codesystem-administrative-gender.html">codesystem AdministrativeGender v4.0.1 (CodeSystem)</a>
               <span class="copy-text-inline">
-                <button data-clipboard-text="http://hl7.org/fhir/administrative-gender|4.0.1" title="Cliquer pour copier lURL" class="btn-copy"> </button>
+                <button data-clipboard-text="http://hl7.org/fhir/administrative-gender|4.0.1" title="Cliquer pour copier l'URL" class="btn-copy"> </button>
               </span>
             </p>
             <p>Ce jeu de valeur (ValueSet) contient 3 concepts</p>
@@ -573,12 +573,12 @@
             </table>
           </div>
         </text>
-        <url value="https://interop.esante.gouv.fr/ig/fhir/[code]/ValueSet/ModifiedAdministrativeGender"/>
+        <url value="https://interop.esante.gouv.fr/ig/fhir/ruim/ValueSet/ModifiedAdministrativeGender"/>
         <version value="0.1.0"/>
         <name value="ModifiedAdministrativeGender"/>
         <title value="ModifiedAdministrativeGender"/>
         <status value="draft"/>
-        <date value="2026-01-29T17:15:36+00:00"/>
+        <date value="2026-02-06T10:39:27+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -587,8 +587,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:1e899baf-48c0-433b-9435-a9cb5971b662"/>
-          <timestamp value="2026-01-29T17:16:52+00:00"/>
+          <identifier value="urn:uuid:e66c6c62-d1a2-4e7e-93d9-2029dd4d5d1a"/>
+          <timestamp value="2026-02-06T10:40:24+00:00"/>
           <total value="3"/>
           <offset value="0"/>
           <parameter>
@@ -628,7 +628,7 @@
     </resource>
   </entry>
   <entry>
-    <fullUrl value="https://interop.esante.gouv.fr/ig/fhir/[code]/ValueSet/TypeCarteVS"/>
+    <fullUrl value="https://interop.esante.gouv.fr/ig/fhir/ruim/ValueSet/TypeCarteVS"/>
     <resource>
       <ValueSet>
         <text>
@@ -638,7 +638,7 @@
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion effectuée en interne basée sur 
               <a href="CodeSystem-type-carte-code-system.html">codesystem Type de carte v0.1.0 (CodeSystem)</a>
               <span class="copy-text-inline">
-                <button data-clipboard-text="https://interop.esante.gouv.fr/ig/fhir/[code]/CodeSystem/type-carte-code-system|0.1.0" title="Cliquer pour copier lURL" class="btn-copy"> </button>
+                <button data-clipboard-text="https://interop.esante.gouv.fr/ig/fhir/ruim/CodeSystem/type-carte-code-system|0.1.0" title="Cliquer pour copier l'URL" class="btn-copy"> </button>
               </span>
             </p>
             <p>Ce jeu de valeur (ValueSet) contient 4 concepts</p>
@@ -665,8 +665,8 @@
               </tr>
               <tr>
                 <td>
-                  <a name="x-https://interop.esante.gouv.fr/ig/fhir/|5bcode|5d/CodeSystem/type-carte-code-system-CPA"> </a>
-                  <code>https://interop.esante.gouv.fr/ig/fhir/[code]/CodeSystem/type-carte-code-system</code>
+                  <a name="x-https://interop.esante.gouv.fr/ig/fhir/ruim/CodeSystem/type-carte-code-system-CPA"> </a>
+                  <code>https://interop.esante.gouv.fr/ig/fhir/ruim/CodeSystem/type-carte-code-system</code>
                 </td>
                 <td style="white-space:nowrap">  
                   <a href="CodeSystem-type-carte-code-system.html#type-carte-code-system-CPA">CPA</a>
@@ -675,19 +675,19 @@
                 <td>La carte d'un personnel autorisé (CDA/CPA)</td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://interop.esante.gouv.fr/ig/fhir/[code]/CodeSystem/type-carte-code-system&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;CPA&quot;}" title="Cliquer pour copier en tant que Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://interop.esante.gouv.fr/ig/fhir/ruim/CodeSystem/type-carte-code-system&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;CPA&quot;}" title="Cliquer pour copier en tant que Coding" class="btn-copy"> </button>
                   </span>
                 </td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://interop.esante.gouv.fr/ig/fhir/[code]/CodeSystem/type-carte-code-system&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;CPA&quot;&gt;&lt;/coding&gt;" title="Cliquer pour copier en tant que Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://interop.esante.gouv.fr/ig/fhir/ruim/CodeSystem/type-carte-code-system&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;CPA&quot;&gt;&lt;/coding&gt;" title="Cliquer pour copier en tant que Coding" class="btn-copy"> </button>
                   </span>
                 </td>
               </tr>
               <tr>
                 <td>
-                  <a name="x-https://interop.esante.gouv.fr/ig/fhir/|5bcode|5d/CodeSystem/type-carte-code-system-CPE"> </a>
-                  <code>https://interop.esante.gouv.fr/ig/fhir/[code]/CodeSystem/type-carte-code-system</code>
+                  <a name="x-https://interop.esante.gouv.fr/ig/fhir/ruim/CodeSystem/type-carte-code-system-CPE"> </a>
+                  <code>https://interop.esante.gouv.fr/ig/fhir/ruim/CodeSystem/type-carte-code-system</code>
                 </td>
                 <td style="white-space:nowrap">  
                   <a href="CodeSystem-type-carte-code-system.html#type-carte-code-system-CPE">CPE</a>
@@ -696,19 +696,19 @@
                 <td>La Carte de Personnel d'Etablissement de santé (CDE/CPE).</td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://interop.esante.gouv.fr/ig/fhir/[code]/CodeSystem/type-carte-code-system&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;CPE&quot;}" title="Cliquer pour copier en tant que Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://interop.esante.gouv.fr/ig/fhir/ruim/CodeSystem/type-carte-code-system&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;CPE&quot;}" title="Cliquer pour copier en tant que Coding" class="btn-copy"> </button>
                   </span>
                 </td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://interop.esante.gouv.fr/ig/fhir/[code]/CodeSystem/type-carte-code-system&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;CPE&quot;&gt;&lt;/coding&gt;" title="Cliquer pour copier en tant que Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://interop.esante.gouv.fr/ig/fhir/ruim/CodeSystem/type-carte-code-system&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;CPE&quot;&gt;&lt;/coding&gt;" title="Cliquer pour copier en tant que Coding" class="btn-copy"> </button>
                   </span>
                 </td>
               </tr>
               <tr>
                 <td>
-                  <a name="x-https://interop.esante.gouv.fr/ig/fhir/|5bcode|5d/CodeSystem/type-carte-code-system-CPF"> </a>
-                  <code>https://interop.esante.gouv.fr/ig/fhir/[code]/CodeSystem/type-carte-code-system</code>
+                  <a name="x-https://interop.esante.gouv.fr/ig/fhir/ruim/CodeSystem/type-carte-code-system-CPF"> </a>
+                  <code>https://interop.esante.gouv.fr/ig/fhir/ruim/CodeSystem/type-carte-code-system</code>
                 </td>
                 <td style="white-space:nowrap">  
                   <a href="CodeSystem-type-carte-code-system.html#type-carte-code-system-CPF">CPF</a>
@@ -717,19 +717,19 @@
                 <td>La Carte de Professionnel de Santé en Formation (CPF).</td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://interop.esante.gouv.fr/ig/fhir/[code]/CodeSystem/type-carte-code-system&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;CPF&quot;}" title="Cliquer pour copier en tant que Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://interop.esante.gouv.fr/ig/fhir/ruim/CodeSystem/type-carte-code-system&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;CPF&quot;}" title="Cliquer pour copier en tant que Coding" class="btn-copy"> </button>
                   </span>
                 </td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://interop.esante.gouv.fr/ig/fhir/[code]/CodeSystem/type-carte-code-system&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;CPF&quot;&gt;&lt;/coding&gt;" title="Cliquer pour copier en tant que Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://interop.esante.gouv.fr/ig/fhir/ruim/CodeSystem/type-carte-code-system&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;CPF&quot;&gt;&lt;/coding&gt;" title="Cliquer pour copier en tant que Coding" class="btn-copy"> </button>
                   </span>
                 </td>
               </tr>
               <tr>
                 <td>
-                  <a name="x-https://interop.esante.gouv.fr/ig/fhir/|5bcode|5d/CodeSystem/type-carte-code-system-CPS"> </a>
-                  <code>https://interop.esante.gouv.fr/ig/fhir/[code]/CodeSystem/type-carte-code-system</code>
+                  <a name="x-https://interop.esante.gouv.fr/ig/fhir/ruim/CodeSystem/type-carte-code-system-CPS"> </a>
+                  <code>https://interop.esante.gouv.fr/ig/fhir/ruim/CodeSystem/type-carte-code-system</code>
                 </td>
                 <td style="white-space:nowrap">  
                   <a href="CodeSystem-type-carte-code-system.html#type-carte-code-system-CPS">CPS</a>
@@ -738,24 +738,24 @@
                 <td>La Carte de Professionnel de Santé (CPS).</td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://interop.esante.gouv.fr/ig/fhir/[code]/CodeSystem/type-carte-code-system&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;CPS&quot;}" title="Cliquer pour copier en tant que Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://interop.esante.gouv.fr/ig/fhir/ruim/CodeSystem/type-carte-code-system&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;CPS&quot;}" title="Cliquer pour copier en tant que Coding" class="btn-copy"> </button>
                   </span>
                 </td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://interop.esante.gouv.fr/ig/fhir/[code]/CodeSystem/type-carte-code-system&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;CPS&quot;&gt;&lt;/coding&gt;" title="Cliquer pour copier en tant que Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://interop.esante.gouv.fr/ig/fhir/ruim/CodeSystem/type-carte-code-system&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;CPS&quot;&gt;&lt;/coding&gt;" title="Cliquer pour copier en tant que Coding" class="btn-copy"> </button>
                   </span>
                 </td>
               </tr>
             </table>
           </div>
         </text>
-        <url value="https://interop.esante.gouv.fr/ig/fhir/[code]/ValueSet/TypeCarteVS"/>
+        <url value="https://interop.esante.gouv.fr/ig/fhir/ruim/ValueSet/TypeCarteVS"/>
         <version value="0.1.0"/>
         <name value="TypeCarteVS"/>
         <title value="Type Carte Value Set"/>
         <status value="draft"/>
-        <date value="2026-01-29T17:15:36+00:00"/>
+        <date value="2026-02-06T10:39:27+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -764,8 +764,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:e2a0f5a3-d281-450f-8f2d-ba7f374819d9"/>
-          <timestamp value="2026-01-29T17:16:58+00:00"/>
+          <identifier value="urn:uuid:17e51619-a9b8-4bc1-a1b3-c4ca5f37e966"/>
+          <timestamp value="2026-02-06T10:40:29+00:00"/>
           <total value="4"/>
           <offset value="0"/>
           <parameter>
@@ -786,22 +786,22 @@
           </parameter>
           <parameter>
             <name value="used-codesystem"/>
-            <valueUri value="https://interop.esante.gouv.fr/ig/fhir/[code]/CodeSystem/type-carte-code-system|0.1.0"/>
+            <valueUri value="https://interop.esante.gouv.fr/ig/fhir/ruim/CodeSystem/type-carte-code-system|0.1.0"/>
           </parameter>
           <contains>
-            <system value="https://interop.esante.gouv.fr/ig/fhir/[code]/CodeSystem/type-carte-code-system"/>
+            <system value="https://interop.esante.gouv.fr/ig/fhir/ruim/CodeSystem/type-carte-code-system"/>
             <code value="CPA"/>
           </contains>
           <contains>
-            <system value="https://interop.esante.gouv.fr/ig/fhir/[code]/CodeSystem/type-carte-code-system"/>
+            <system value="https://interop.esante.gouv.fr/ig/fhir/ruim/CodeSystem/type-carte-code-system"/>
             <code value="CPE"/>
           </contains>
           <contains>
-            <system value="https://interop.esante.gouv.fr/ig/fhir/[code]/CodeSystem/type-carte-code-system"/>
+            <system value="https://interop.esante.gouv.fr/ig/fhir/ruim/CodeSystem/type-carte-code-system"/>
             <code value="CPF"/>
           </contains>
           <contains>
-            <system value="https://interop.esante.gouv.fr/ig/fhir/[code]/CodeSystem/type-carte-code-system"/>
+            <system value="https://interop.esante.gouv.fr/ig/fhir/ruim/CodeSystem/type-carte-code-system"/>
             <code value="CPS"/>
           </contains>
         </expansion>
