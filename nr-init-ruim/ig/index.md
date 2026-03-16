@@ -55,7 +55,7 @@ Pas d'usage de PI externe (autre que celles de la spécification FHIR)
   "name" : "RUIM",
   "title" : "Référentiel Unique de l'Interopérabilité du Médicament",
   "status" : "draft",
-  "date" : "2026-03-16T09:12:31+00:00",
+  "date" : "2026-03-16T15:56:46+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
