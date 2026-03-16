@@ -41,7 +41,7 @@ Other representations of profile: [CSV](StructureDefinition-profile-ruim-codesys
   "name" : "ProfileRuimCodeSystem",
   "title" : "Profil RUIM - CodeSystem médicament",
   "status" : "draft",
-  "date" : "2026-03-16T15:58:44+00:00",
+  "date" : "2026-03-16T16:04:23+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
