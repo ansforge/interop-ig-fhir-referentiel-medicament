@@ -81,8 +81,6 @@ Description: "CodeSystem minimal du RUIM spécifique pour usage de SESALI, utili
 * #3400935264350 ^property[=].valueString = "28"
 * #3400935264350 ^property[+].code = #doseForm
 * #3400935264350 ^property[=].valueString = "Comprimé pelliculé"
-* #3400935264350 ^property[+].code = #doseForm
-* #3400935264350 ^property[=].valueString = "Comprimé"
 * #3400935264350 ^property[+].code = #brandName
 * #3400935264350 ^property[=].valueString = "CLIMASTON"
 
