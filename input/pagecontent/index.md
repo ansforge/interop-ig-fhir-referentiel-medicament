@@ -1,12 +1,12 @@
 <p style="padding: 5px; border-radius: 5px; border: 2px solid maroon; background: #ffffe6; width: 65%">
 <b>Brief description of this Implementation Guide</b><br>
-[Add a brief description of this IG in English]
+The RUIM (Référentiel Unique de l'Interopérabilité du Médicament) defines FHIR terminology resources for medication data standardization in France, as a first step toward full medication resource modeling.
 </p>
 
 {% if site.data.info.releaselabel == 'ci-build' %}
 <div style="width: 65%">
     <blockquote class="stu-note">
-    <p>Cet Implementation Guide n'est pas la version courante, il s'agit de la version en intégration continue soumise à des changements fréquents uniquement destinée à suivre les travaux en cours. La version courante sera accessible via l'URL canonique suite à la première release : http://interop.esante.gouv.fr/ig/fhir/[code - ig]</p>
+    <p>Cet Implementation Guide n'est pas la version courante, il s'agit de la version en intégration continue soumise à des changements fréquents uniquement destinée à suivre les travaux en cours. La version courante sera accessible via l'URL canonique suite à la première release : http://interop.esante.gouv.fr/ig/fhir/ruim</p>
     </blockquote>
 </div>
 {% endif %}
@@ -18,7 +18,7 @@
 <p>
   <b>Attention !</b>
   <br>
- Cet Implementation Guide est actuellement en concertation. La version courante est accessible à l'adresse : http://interop.esante.gouv.fr/ig/fhir/[code - ig]
+ Cet Implementation Guide est actuellement en concertation. La version courante est accessible à l'adresse : http://interop.esante.gouv.fr/ig/fhir/ruim
 </p>
 </blockquote>
 </div>
@@ -33,25 +33,23 @@
 
 ### Introduction
 
-Définir ici de quoi parle l'IG (En termes non expert, compréhensible par un patient). Rajouter également les détails techniques sur le contexte et le besoin de cet IG
+Le **Référentiel Unique de l'Interopérabilité du Médicament (RUIM)** a pour objectif de fournir un référentiel commun des données médicament en FHIR, partagé entre les différents acteurs du système de santé français.
 
-Les principales sections de l'IG  sont :
+Ce guide d'implémentation adopte une approche progressive :
 
-* Le contexte de l'IG, quelle problématique il résout
-* Ce que les Implémenteurs doivent mettre en place
-* Un onglet "Ressources de conformité" pour s'assurer d'un schéma global entre tous les IGs
+1. **Première étape — Ressources terminologiques** : la modélisation s'appuie sur des ressources FHIR de type `CodeSystem` et `ValueSet` pour représenter les données du référentiel médicament (codes, libellés, classifications). Cette approche terminologique constitue le socle commun indispensable avant toute implémentation applicative.
+
+2. **Étape suivante — Ressources Medication dédiées** : une fois le référentiel terminologique stabilisé, les ressources FHIR spécifiques au médicament (`Medication`, `MedicationKnowledge`) seront utilisées pour une modélisation plus fine, en s'appuyant sur les `CodeSystem` définis dans cette première étape.
 
 ### Périmètre du projet
 
-Définir en quelques lignes quel est le périmètre du projet
+Ce guide couvre dans un premier temps la définition des ressources terminologiques (CodeSystem, ValueSet) représentant les données du référentiel médicament français. L'utilisation des ressources `Medication` et `MedicationKnowledge` sera traitée dans une version ultérieure.
 
-Toujours laisser l'onglet "Ressources de conformité" pour s'assurer d'une cohérence globales entre tous les IGs
-
-### Auteurs et contributeurs (optionnel)
+### Auteurs et contributeurs
 
 | Role  | Nom | Organisation | Contact |
 | --- | --- | --- | --- |
-| **Primary Editor** | Prenom Nom | Agence du Numérique en Santé | prenom.nom@address.email |
+| **Primary Editor** | | Agence du Numérique en Santé | |
 
 ### Dépendances
 
