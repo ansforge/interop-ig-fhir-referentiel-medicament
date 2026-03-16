@@ -1,8 +1,8 @@
 {
   "resourceType" : "Bundle",
-  "id" : "bce6c196-d4fb-4cd2-929f-7b8a58dcbd76",
+  "id" : "d0ff51c5-2b1d-4f50-a98a-014f10853262",
   "meta" : {
-    "lastUpdated" : "2026-03-16T15:56:46.714+00:00"
+    "lastUpdated" : "2026-03-16T15:58:44.615+00:00"
   },
   "type" : "collection",
   "entry" : [{
@@ -19,7 +19,7 @@
       "title" : "RUIM - ValueSet des codes de propriétés médicament",
       "status" : "active",
       "experimental" : false,
-      "date" : "2026-03-16T15:56:46+00:00",
+      "date" : "2026-03-16T15:58:44+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -28,8 +28,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:aa008829-f2ac-4a98-bf8a-4caf12ca3ab4",
-        "timestamp" : "2026-03-16T15:57:31+00:00",
+        "identifier" : "urn:uuid:60b1607a-46fa-4841-bc37-2b53cb2af215",
+        "timestamp" : "2026-03-16T15:59:30+00:00",
         "total" : 6,
         "offset" : 0,
         "parameter" : [{

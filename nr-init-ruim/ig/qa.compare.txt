@@ -1,12 +1,12 @@
 RUIM : Validation Results
 =========================================
 
-err = 6, warn = 12, info = 161
+err = 5, warn = 11, info = 162
 $--
 Generated $--. FHIR version $-- for ans.fhir.fr.ruim#$-- (canonical = https://interop.esante.gouv.fr/ig/fhir/ruim)
  Build Errors : 1 / 3 / 0
  /home/runner/work/interop-ig-fhir-referentiel-medicament/interop-ig-fhir-referentiel-medicament/igSource/fsh-generated/resources/CodeSystem-cs-ruim-property-codes : 2 / 0 / 2
- /home/runner/work/interop-ig-fhir-referentiel-medicament/interop-ig-fhir-referentiel-medicament/igSource/fsh-generated/resources/CodeSystem-terminologie-minimal-ruim : 3 / 9 / 14
+ /home/runner/work/interop-ig-fhir-referentiel-medicament/interop-ig-fhir-referentiel-medicament/igSource/fsh-generated/resources/CodeSystem-terminologie-minimal-ruim : 2 / 8 / 15
  /home/runner/work/interop-ig-fhir-referentiel-medicament/interop-ig-fhir-referentiel-medicament/igSource/fsh-generated/resources/ImplementationGuide-ans.fhir.fr.ruim : 1 / 0 / 2
  /home/runner/work/interop-ig-fhir-referentiel-medicament/interop-ig-fhir-referentiel-medicament/igSource/fsh-generated/resources/StructureDefinition-profile-ruim-codesystem : 0 / 0 / 148
  /home/runner/work/interop-ig-fhir-referentiel-medicament/interop-ig-fhir-referentiel-medicament/igSource/fsh-generated/resources/ValueSet-vs-ruim-property-codes : 0 / 0 / 3
@@ -31,8 +31,7 @@ WARNING: CodeSystem/terminologie-minimal-ruim: CodeSystem.property[2].uri: No de
 WARNING: CodeSystem/terminologie-minimal-ruim: CodeSystem.property[3].uri: No definition could be found for URL value 'http://data.esante.gouv.fr/ansm/medicament/brandName'
 WARNING: CodeSystem/terminologie-minimal-ruim: CodeSystem.property[4].uri: No definition could be found for URL value 'http://data.esante.gouv.fr/ansm/medicament/activeStrength'
 WARNING: CodeSystem/terminologie-minimal-ruim: CodeSystem.property[5].uri: No definition could be found for URL value 'http://data.esante.gouv.fr/ansm/medicament/activeIngredient'
-WARNING: CodeSystem/terminologie-minimal-ruim: CodeSystem: Constraint failed: csd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation (name.matches('[A-Z]([A-Za-z0-9_]){0,254}'))' (defined in http://hl7.org/fhir/StructureDefinition/CodeSystem)
-ERROR: CodeSystem/terminologie-minimal-ruim: CodeSystem.count: The code system is complete, but the number of concepts (4) does not match the stated total number (19,088)
+INFORMATION: CodeSystem/terminologie-minimal-ruim: CodeSystem: Review the All Codes Value Set - incomplete CodeSystems generally should not have an all codes value set specified
 INFORMATION: CodeSystem/terminologie-minimal-ruim: CodeSystem.property[0]: The property uri 'http://data.esante.gouv.fr/ansm/medicament/packageType' is not known, so the property values can not be validated fully
 INFORMATION: CodeSystem/terminologie-minimal-ruim: CodeSystem.property[1]: The property uri 'http://data.esante.gouv.fr/ansm/medicament/packageSize' is not known, so the property values can not be validated fully
 INFORMATION: CodeSystem/terminologie-minimal-ruim: CodeSystem.property[2]: The property uri 'http://data.esante.gouv.fr/ansm/medicament/doseForm' is not known, so the property values can not be validated fully

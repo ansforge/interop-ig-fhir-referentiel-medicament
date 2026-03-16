@@ -51,7 +51,7 @@ ValueSet regroupant les codes de propriétés définis pour le référentiel RUI
   "title" : "RUIM - ValueSet des codes de propriétés médicament",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-03-16T15:56:46+00:00",
+  "date" : "2026-03-16T15:58:44+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",

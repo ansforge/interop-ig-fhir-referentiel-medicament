@@ -16,7 +16,7 @@ Profil contraignant la ressource CodeSystem pour le référentiel RUIM. Définit
 
 **Utilisations:**
 
-* Exemples pour ce/t/te Profil: [minimal-ruim](CodeSystem-terminologie-minimal-ruim.md)
+* Exemples pour ce/t/te Profil: [MinimalRuim](CodeSystem-terminologie-minimal-ruim.md)
 
 Vous pouvez également vérifier [les usages dans le FHIR IG Statistics](https://packages2.fhir.org/xig/ans.fhir.fr.ruim|current/StructureDefinition/profile-ruim-codesystem)
 
@@ -41,7 +41,7 @@ Other representations of profile: [CSV](StructureDefinition-profile-ruim-codesys
   "name" : "ProfileRuimCodeSystem",
   "title" : "Profil RUIM - CodeSystem médicament",
   "status" : "draft",
-  "date" : "2026-03-16T15:56:46+00:00",
+  "date" : "2026-03-16T15:58:44+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",

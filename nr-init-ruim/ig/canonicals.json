@@ -31,5 +31,5 @@
   "type" : "CodeSystem",
   "url" : "https://smt-pprod.esante.gouv.fr/terminologie-esesali",
   "version" : "0.1.0",
-  "name" : "minimal-ruim"
+  "name" : "MinimalRuim"
 }]
