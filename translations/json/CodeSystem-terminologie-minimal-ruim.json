@@ -1,0 +1,85 @@
+{
+  "id" : "CodeSystem-terminologie-minimal-ruim",
+  "baseLang" : "en",
+  "languages" : [{
+    "targetLang" : "fr-FR",
+    "entries" : [{
+      "id" : "CodeSystem.name",
+      "context" : "CodeSystem.name",
+      "source" : "MinimalRuim",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.title",
+      "context" : "CodeSystem.title",
+      "source" : "Référentiel Unique d'Interopérabilité du Médicament (RUIM) Minimal - Pour usage de SESALI",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.publisher",
+      "context" : "CodeSystem.publisher",
+      "source" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
+      "target" : null
+    },
+    {
+      "id" : "ContactDetail.name",
+      "context" : "ContactDetail.name",
+      "source" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.description",
+      "context" : "CodeSystem.description",
+      "source" : "CodeSystem minimal du RUIM spécifique pour usage de SESALI, utilisée pour les concepts liés au référentiel des médicaments (ex. forme pharmaceutique, voie d'administration, etc.)",
+      "target" : null
+    },
+    {
+      "id" : "Coding.display",
+      "context" : "Coding.display",
+      "source" : "FRANCE",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.copyright",
+      "context" : "CodeSystem.copyright",
+      "source" : "[LOv2](https://github.com/etalab/licence-ouverte/blob/master/LO.md)",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.property.description",
+      "context" : "CodeSystem.property.description",
+      "source" : "Codes des parents du concept courant",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.property.description",
+      "context" : "CodeSystem.property.description",
+      "source" : "Codes des enfants du concept courant",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "CARBOPLATINE ARROW 10 mg/ml, solution pour perfusion",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "IVERMECTINE EG LABO 3 mg, comprimé",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "CLIMASTON 1 mg/10 mg, comprimé pelliculé",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "AMOXICILLINE SUN 1 g, comprimé dispersible",
+      "target" : null
+    }]
+  }]
+}

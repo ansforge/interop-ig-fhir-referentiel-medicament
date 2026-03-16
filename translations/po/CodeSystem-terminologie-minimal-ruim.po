@@ -1,0 +1,66 @@
+
+# CodeSystem.name
+#: CodeSystem.name
+msgid "MinimalRuim"
+msgstr ""
+
+# CodeSystem.title
+#: CodeSystem.title
+msgid "Référentiel Unique d'Interopérabilité du Médicament (RUIM) Minimal - Pour usage de SESALI"
+msgstr ""
+
+# CodeSystem.publisher
+#: CodeSystem.publisher
+msgid "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
+msgstr ""
+
+# ContactDetail.name
+#: ContactDetail.name
+msgid "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
+msgstr ""
+
+# CodeSystem.description
+#: CodeSystem.description
+msgid "CodeSystem minimal du RUIM spécifique pour usage de SESALI, utilisée pour les concepts liés au référentiel des médicaments (ex. forme pharmaceutique, voie d'administration, etc.)"
+msgstr ""
+
+# Coding.display
+#: Coding.display
+msgid "FRANCE"
+msgstr ""
+
+# CodeSystem.copyright
+#: CodeSystem.copyright
+msgid "[LOv2](https://github.com/etalab/licence-ouverte/blob/master/LO.md)"
+msgstr ""
+
+# CodeSystem.property.description
+#: CodeSystem.property.description
+msgid "Codes des parents du concept courant"
+msgstr ""
+
+# CodeSystem.property.description
+#: CodeSystem.property.description
+msgid "Codes des enfants du concept courant"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "CARBOPLATINE ARROW 10 mg/ml, solution pour perfusion"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "IVERMECTINE EG LABO 3 mg, comprimé"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "CLIMASTON 1 mg/10 mg, comprimé pelliculé"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "AMOXICILLINE SUN 1 g, comprimé dispersible"
+msgstr ""
+

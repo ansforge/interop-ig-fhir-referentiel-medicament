@@ -1,4 +1,4 @@
-CodeSystem: minimal-ruim
+CodeSystem: MinimalRuim
 Id: terminologie-minimal-ruim
 Title: "Référentiel Unique d'Interopérabilité du Médicament (RUIM) Minimal - Pour usage de SESALI"
 Description: "CodeSystem minimal du RUIM spécifique pour usage de SESALI, utilisée pour les concepts liés au référentiel des médicaments (ex. forme pharmaceutique, voie d'administration, etc.)"
@@ -14,8 +14,7 @@ Description: "CodeSystem minimal du RUIM spécifique pour usage de SESALI, utili
 * ^copyright = "[LOv2](https://github.com/etalab/licence-ouverte/blob/master/LO.md)"
 * ^caseSensitive = false
 * ^valueSet = "https://smt-pprod.esante.gouv.fr/terminologie-esesali?vs"
-* ^content = #complete
-* ^count = 19088
+* ^content = #fragment
 
 * ^property[0].code = #packageType
 * ^property[=].uri = "http://data.esante.gouv.fr/ansm/medicament/packageType"

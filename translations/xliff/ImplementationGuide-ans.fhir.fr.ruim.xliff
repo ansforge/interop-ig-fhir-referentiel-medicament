@@ -1,0 +1,155 @@
+<?xml version="1.0" ?>
+
+<xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0">
+  <file source-language="en" target-language="fr-FR" id="ImplementationGuide-ans.fhir.fr.ruim" original="Resource ImplementationGuide-ans.fhir.fr.ruim" datatype="KEYVALUEJSON">
+    <body>
+      <trans-unit id="ImplementationGuide-ans.fhir.fr.ruim" resname="ImplementationGuide.name">
+             <notes>
+               <note id="n1">ImplementationGuide.name</note>
+             </notes>
+        <source>RUIM</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-ans.fhir.fr.ruim" resname="ImplementationGuide.title">
+             <notes>
+               <note id="n1">ImplementationGuide.title</note>
+             </notes>
+        <source>Référentiel Unique de l'Interopérabilité du Médicament</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-ans.fhir.fr.ruim" resname="ImplementationGuide.publisher">
+             <notes>
+               <note id="n1">ImplementationGuide.publisher</note>
+             </notes>
+        <source>Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-ans.fhir.fr.ruim" resname="ContactDetail.name">
+             <notes>
+               <note id="n1">ContactDetail.name</note>
+             </notes>
+        <source>Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-ans.fhir.fr.ruim" resname="ImplementationGuide.description">
+             <notes>
+               <note id="n1">ImplementationGuide.description</note>
+             </notes>
+        <source>Référentiel Unique de l'Interopérabilité du Médicament (RUIM) - Guide d'implémentation FHIR pour la standardisation des données médicament en France</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-ans.fhir.fr.ruim" resname="Coding.display">
+             <notes>
+               <note id="n1">Coding.display</note>
+             </notes>
+        <source>FRANCE</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-ans.fhir.fr.ruim" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.name</note>
+             </notes>
+        <source>Profil RUIM - CodeSystem médicament</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-ans.fhir.fr.ruim" resname="ImplementationGuide.definition.resource.description">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.description</note>
+             </notes>
+        <source>Profil contraignant la ressource CodeSystem pour le référentiel RUIM. Définit les propriétés attendues pour décrire une spécialité pharmaceutique identifiée par son code CIP-13.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-ans.fhir.fr.ruim" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.name</note>
+             </notes>
+        <source>RUIM - Codes des propriétés médicament</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-ans.fhir.fr.ruim" resname="ImplementationGuide.definition.resource.description">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.description</note>
+             </notes>
+        <source>CodeSystem définissant les codes de propriétés utilisés dans le CodeSystem RUIM pour décrire les spécialités pharmaceutiques.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-ans.fhir.fr.ruim" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.name</note>
+             </notes>
+        <source>RUIM - ValueSet des codes de propriétés médicament</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-ans.fhir.fr.ruim" resname="ImplementationGuide.definition.resource.description">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.description</note>
+             </notes>
+        <source>ValueSet regroupant les codes de propriétés définis pour le référentiel RUIM. Utilisé pour contraindre l'élément `property.code` dans le profil du CodeSystem RUIM.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-ans.fhir.fr.ruim" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.name</note>
+             </notes>
+        <source>Référentiel Unique d'Interopérabilité du Médicament (RUIM) Minimal - Pour usage de SESALI</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-ans.fhir.fr.ruim" resname="ImplementationGuide.definition.resource.description">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.description</note>
+             </notes>
+        <source>CodeSystem minimal du RUIM spécifique pour usage de SESALI, utilisée pour les concepts liés au référentiel des médicaments (ex. forme pharmaceutique, voie d'administration, etc.)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-ans.fhir.fr.ruim" resname="ImplementationGuide.definition.page.title">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.page.title</note>
+             </notes>
+        <source>Table of Contents</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-ans.fhir.fr.ruim" resname="ImplementationGuide.definition.page.title">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.page.title</note>
+             </notes>
+        <source>Accueil</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-ans.fhir.fr.ruim" resname="ImplementationGuide.definition.page.title">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.page.title</note>
+             </notes>
+        <source>Vue d'ensemble</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-ans.fhir.fr.ruim" resname="ImplementationGuide.definition.page.title">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.page.title</note>
+             </notes>
+        <source>Historique des versions</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-ans.fhir.fr.ruim" resname="ImplementationGuide.definition.page.title">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.page.title</note>
+             </notes>
+        <source>Autres Ressources</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-ans.fhir.fr.ruim" resname="ImplementationGuide.definition.page.title">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.page.title</note>
+             </notes>
+        <source>Sécurité</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-ans.fhir.fr.ruim" resname="ImplementationGuide.definition.page.title">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.page.title</note>
+             </notes>
+        <source>Téléchargements et usages</source>
+        <target></target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
