@@ -8,7 +8,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://interop.esante.gouv.fr/ig/fhir/ruim/ImplementationGuide/ans.fhir.fr.ruim | *Version*:0.1.0 |
-| Draft as of 2026-03-16 | *Computable Name*:RUIM |
+| Draft as of 2026-03-24 | *Computable Name*:RUIM |
 
  **Brief description of this Implementation Guide**
  The RUIM (Référentiel Unique de l'Interopérabilité du Médicament) defines FHIR terminology resources for medication data standardization in France, as a first step toward full medication resource modeling. 
@@ -55,7 +55,7 @@ Pas d'usage de PI externe (autre que celles de la spécification FHIR)
   "name" : "RUIM",
   "title" : "Référentiel Unique de l'Interopérabilité du Médicament",
   "status" : "draft",
-  "date" : "2026-03-16T16:04:23+00:00",
+  "date" : "2026-03-24T16:06:29+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
@@ -478,7 +478,7 @@ Pas d'usage de PI externe (autre que celles de la spécification FHIR)
     },
     {
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-internal-dependency",
-      "valueCode" : "hl7.fhir.uv.tools.r4#0.9.0"
+      "valueCode" : "hl7.fhir.uv.tools.r4#1.1.0"
     },
     {
       "extension" : [{

@@ -11,7 +11,7 @@
   <name value="RUIM"/>
   <title value="Référentiel Unique de l'Interopérabilité du Médicament"/>
   <status value="draft"/>
-  <date value="2026-03-16T16:04:23+00:00"/>
+  <date value="2026-03-24T16:06:29+00:00"/>
   <publisher value="Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"/>
   <contact>
     <name value="Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"/>
@@ -326,7 +326,7 @@
       </valueReference>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-internal-dependency">
-      <valueCode value="hl7.fhir.uv.tools.r4#0.9.0"/>
+      <valueCode value="hl7.fhir.uv.tools.r4#1.1.0"/>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
       <extension url="code">

@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://smt-pprod.esante.gouv.fr/terminologie-esesali | *Version*:0.1.0 |
-| Active as of 2026-03-16 | *Computable Name*:MinimalRuim |
+| Active as of 2026-03-24 | *Computable Name*:MinimalRuim |
 | **Copyright/Legal**: [LOv2](https://github.com/etalab/licence-ouverte/blob/master/LO.md) | |
 
  
@@ -39,7 +39,7 @@ CodeSystem minimal du RUIM spécifique pour usage de SESALI, utilisée pour les 
   "title" : "Référentiel Unique d'Interopérabilité du Médicament (RUIM) Minimal - Pour usage de SESALI",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-03-16T16:04:23+00:00",
+  "date" : "2026-03-24T16:06:29+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
