@@ -39,7 +39,7 @@ CodeSystem minimal du RUIM spécifique pour usage de SESALI, utilisée pour les 
   "title" : "Référentiel Unique d'Interopérabilité du Médicament (RUIM) Minimal - Pour usage de SESALI",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-03-27T13:12:34+00:00",
+  "date" : "2026-03-27T13:20:16+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",

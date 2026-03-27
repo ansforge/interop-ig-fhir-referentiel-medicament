@@ -1,6 +1,6 @@
 <!DOCTYPE HTML>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
-<!-- broken links = 1, errors = 10, warn = 11, info = 151-->
+<!-- broken links = 1, errors = 12, warn = 11, info = 151-->
 <head>
   <title>RUIM : Validation Results</title>
   <link href="fhir.css" rel="stylesheet"/>
@@ -47,7 +47,7 @@
 </head>
 <body style="margin: 20px; background-color: #ffffff">
  <h1>Validation Results for RUIM</h1>
- <p>Generated Fri Mar 27 13:13:28 UTC 2026, FHIR version 4.0.1 for ans.fhir.fr.ruim#0.1.0 (canonical = <a href="https://interop.esante.gouv.fr/ig/fhir/ruim">https://interop.esante.gouv.fr/ig/fhir/ruim</a> (<a href="https://interop.esante.gouv.fr/ig/fhir/ruim/history.html">history</a>)). See <a href="qa.min.html">Errors Only</a> &amp; <a href="qa-ipreview.html">IP</a></p>
+ <p>Generated Fri Mar 27 13:21:10 UTC 2026, FHIR version 4.0.1 for ans.fhir.fr.ruim#0.1.0 (canonical = <a href="https://interop.esante.gouv.fr/ig/fhir/ruim">https://interop.esante.gouv.fr/ig/fhir/ruim</a> (<a href="https://interop.esante.gouv.fr/ig/fhir/ruim/history.html">history</a>)). See <a href="qa.min.html">Errors Only</a> &amp; <a href="qa-ipreview.html">IP</a></p>
 <table class="grid"> <tr><td colspan=2><b>Quality Checks</b></td></tr>
  <tr><td>Publisher Version:</td><td><span>IG Publisher Version: v2.2.4</span></td></tr>
  <tr><td>Publication Code:</td><td>n/a<span style="color: maroon; font-weight: bold"> </span>. PackageId = ans.fhir.fr.ruim, Canonical = https://interop.esante.gouv.fr/ig/fhir/ruim</td></tr>
@@ -86,7 +86,7 @@ hl7.fhir.r4.core#4.0.1:     <a href="http://hl7.org/fhir/R4/codesystem-guide-par
  <tr><td>IPA Comparison:</td><td> n/a</td></tr>
  <tr><td>IPS Comparison:</td><td> n/a</td></tr>
  <tr><td>Validation Flags:</td><td> On: autoLoad; Off: hintAboutNonMustSupport, anyExtensionsAllowed, checkAggregation, showReferenceMessages, noExperimentalContent, displayWarnings</td></tr>
- <tr><td>Summary:</td><td> errors = 10, warn = 11, info = 151, broken links = 1, pinned = 141 (all).  <button onclick="toggleCodes()">Show Message Ids</button></td></tr>
+ <tr><td>Summary:</td><td> errors = 12, warn = 11, info = 151, broken links = 1, pinned = 141 (all).  <button onclick="toggleCodes()">Show Message Ids</button></td></tr>
 </table>
  <table class="grid">
    <tr>
@@ -105,7 +105,7 @@ hl7.fhir.r4.core#4.0.1:     <a href="http://hl7.org/fhir/R4/codesystem-guide-par
      <td><a href="#_home_runner_work_interop-ig-fhir-referentiel-medicament_interop-ig-fhir-referentiel-medicament_igSource_fsh-generated_resources_CodeSystem-cs-ruim-property-codes"><b>/home/runner/work/interop-ig-fhir-referentiel-medicament/interop-ig-fhir-referentiel-medicament/igSource/fsh-generated/resources/CodeSystem-cs-ruim-property-codes</b></a></td><td><b>3</b></td><td><b>0</b></td><td><b>0</b></td>
    </tr>
    <tr style="background-color: #ffcccc">
-     <td><a href="#_home_runner_work_interop-ig-fhir-referentiel-medicament_interop-ig-fhir-referentiel-medicament_igSource_fsh-generated_resources_CodeSystem-terminologie-minimal-ruim"><b>/home/runner/work/interop-ig-fhir-referentiel-medicament/interop-ig-fhir-referentiel-medicament/igSource/fsh-generated/resources/CodeSystem-terminologie-minimal-ruim</b></a></td><td><b>4</b></td><td><b>8</b></td><td><b>10</b></td>
+     <td><a href="#_home_runner_work_interop-ig-fhir-referentiel-medicament_interop-ig-fhir-referentiel-medicament_igSource_fsh-generated_resources_CodeSystem-terminologie-minimal-ruim"><b>/home/runner/work/interop-ig-fhir-referentiel-medicament/interop-ig-fhir-referentiel-medicament/igSource/fsh-generated/resources/CodeSystem-terminologie-minimal-ruim</b></a></td><td><b>6</b></td><td><b>8</b></td><td><b>10</b></td>
    </tr>
    <tr style="background-color: #ffcccc">
      <td><a href="#_home_runner_work_interop-ig-fhir-referentiel-medicament_interop-ig-fhir-referentiel-medicament_igSource_fsh-generated_resources_ImplementationGuide-ans.fhir.fr.ruim"><b>/home/runner/work/interop-ig-fhir-referentiel-medicament/interop-ig-fhir-referentiel-medicament/igSource/fsh-generated/resources/ImplementationGuide-ans.fhir.fr.ruim</b></a></td><td><b>1</b></td><td><b>0</b></td><td><b>0</b></td>
@@ -297,6 +297,12 @@ hl7.fhir.r4.core#4.0.1:     <a href="http://hl7.org/fhir/R4/codesystem-guide-par
    </tr>
    <tr style="background-color: #ffcccc">
      <td><b>CodeSystem.url (l1/c4115)</b></td><td><b>error</b></td><td><b>Value is 'https://smt-pprod.esante.gouv.fr/terminologie-esesali' but is fixed to 'http://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-ruim-eprescription' in the profile https://interop.esante.gouv.fr/ig/fhir/ruim/StructureDefinition/profile-ruim-codesystem|0.1.0#CodeSystem.url</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">_DT_Fixed_Wrong</span></td><td><a href="StructureDefinition-profile-ruim-codesystem.html">Profil RUIM - CodeSystem médicament</a></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>CodeSystem.name (l1/c4154)</b></td><td><b>error</b></td><td><b>Value is 'MinimalRuim' but is fixed to 'RUIM eeprescription' in the profile https://interop.esante.gouv.fr/ig/fhir/ruim/StructureDefinition/profile-ruim-codesystem|0.1.0#CodeSystem.name</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">_DT_Fixed_Wrong</span></td><td><a href="StructureDefinition-profile-ruim-codesystem.html">Profil RUIM - CodeSystem médicament</a></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>CodeSystem.title (l1/c4254)</b></td><td><b>error</b></td><td><b>Value is 'Référentiel Unique d'Interopérabilité du Médicament (RUIM) Minimal - Pour usage de SESALI' but is fixed to 'RUIM - european eprescription' in the profile https://interop.esante.gouv.fr/ig/fhir/ruim/StructureDefinition/profile-ruim-codesystem|0.1.0#CodeSystem.title</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">_DT_Fixed_Wrong</span></td><td><a href="StructureDefinition-profile-ruim-codesystem.html">Profil RUIM - CodeSystem médicament</a></td>
    </tr>
    <tr style="background-color: #ffebcc">
      <td><b>Resource</b></td><td><b>warning</b></td><td><b>The resource CodeSystem/terminologie-minimal-ruim should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy"></span></td><td>--</td>
@@ -742,13 +748,13 @@ hl7.fhir.r4.core#4.0.1:     <a href="http://hl7.org/fhir/R4/codesystem-guide-par
      <td><b>StructureDefinition&#8203;.snapshot&#8203;.element[116]&#8203;.constraint[0]&#8203;.source</b></td><td><b>information</b></td><td><b>Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">PIN_VERSION</span></td><td>--</td>
    </tr>
    <tr style="background-color: #ffffe6">
-     <td><b>StructureDefinition&#8203;.differential&#8203;.element[4]&#8203;.binding&#8203;.valueSet</b></td><td><b>information</b></td><td><b>Pinned the version of https://interop.esante.gouv.fr/ig/fhir/ruim/ValueSet/vs-ruim-property-codes to 0.1.0</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">PIN_VERSION</span></td><td>--</td>
+     <td><b>StructureDefinition&#8203;.differential&#8203;.element[6]&#8203;.binding&#8203;.valueSet</b></td><td><b>information</b></td><td><b>Pinned the version of https://interop.esante.gouv.fr/ig/fhir/ruim/ValueSet/vs-ruim-property-codes to 0.1.0</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">PIN_VERSION</span></td><td>--</td>
    </tr>
    <tr style="background-color: #ffcccc">
-     <td><b>StructureDefinition&#8203;.jurisdiction[0]&#8203;.coding[0]&#8203;.display (l1&#8203;/c68573)</b></td><td><b>error</b></td><td><b>Wrong Display Name 'FRANCE' for urn:iso:std:iso:3166#FR. Valid display is 'France (la)' (fr) (for the language(s) 'fr')</b> (from <a href="qa-txservers.html#https://tx.fhir.org/r4">https://tx.fhir.org/r4</a>) <span class="code-value code-hidden" style="font-size: 8px; color: navy">Display_Name_for__should_be_one_of__instead_of</span></td><td><a href="http://hl7.org/fhir/R4/structuredefinition.html">StructureDefinition</a></td>
+     <td><b>StructureDefinition&#8203;.jurisdiction[0]&#8203;.coding[0]&#8203;.display (l1&#8203;/c72301)</b></td><td><b>error</b></td><td><b>Wrong Display Name 'FRANCE' for urn:iso:std:iso:3166#FR. Valid display is 'France (la)' (fr) (for the language(s) 'fr')</b> (from <a href="qa-txservers.html#https://tx.fhir.org/r4">https://tx.fhir.org/r4</a>) <span class="code-value code-hidden" style="font-size: 8px; color: navy">Display_Name_for__should_be_one_of__instead_of</span></td><td><a href="http://hl7.org/fhir/R4/structuredefinition.html">StructureDefinition</a></td>
    </tr>
    <tr style="background-color: #ffffe6">
-     <td><b>StructureDefinition&#8203;.snapshot&#8203;.element[4]&#8203;.binding&#8203;.extension[0] (l1&#8203;/c77723)</b></td><td><b>information</b></td><td><b>The extension http://hl7.org/fhir/StructureDefinition/elementdefinition-maxValueSet|5.2.0 is deprecated</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">MSG_DEPENDS_ON_DEPRECATED</span></td><td><a href="http://hl7.org/fhir/R4/structuredefinition.html">StructureDefinition</a></td>
+     <td><b>StructureDefinition&#8203;.snapshot&#8203;.element[4]&#8203;.binding&#8203;.extension[0] (l1&#8203;/c81451)</b></td><td><b>information</b></td><td><b>The extension http://hl7.org/fhir/StructureDefinition/elementdefinition-maxValueSet|5.2.0 is deprecated</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">MSG_DEPENDS_ON_DEPRECATED</span></td><td><a href="http://hl7.org/fhir/R4/structuredefinition.html">StructureDefinition</a></td>
    </tr>
 </table>
 <hr/>
@@ -1523,6 +1529,12 @@ hl7.fhir.r4.core#4.0.1:     <a href="http://hl7.org/fhir/R4/codesystem-guide-par
  <table class="grid">
    <tr style="background-color: #ffeeee">
      <td><a href="CodeSystem-terminologie-minimal-ruim.html">fsh-generated/resources/CodeSystem-terminologie-minimal-ruim.json</a></td><td><b>Value is 'https://smt-pprod.esante.gouv.fr/terminologie-esesali' but is fixed to 'http://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-ruim-eprescription' in the profile https://interop.esante.gouv.fr/ig/fhir/ruim/StructureDefinition/profile-ruim-codesystem|0.1.0#CodeSystem.url</b></td><td><a href="StructureDefinition-profile-ruim-codesystem.html">Profil RUIM - CodeSystem médicament</a></td>
+   </tr>
+   <tr style="background-color: #ffeeee">
+     <td><a href="CodeSystem-terminologie-minimal-ruim.html">fsh-generated/resources/CodeSystem-terminologie-minimal-ruim.json</a></td><td><b>Value is 'MinimalRuim' but is fixed to 'RUIM eeprescription' in the profile https://interop.esante.gouv.fr/ig/fhir/ruim/StructureDefinition/profile-ruim-codesystem|0.1.0#CodeSystem.name</b></td><td><a href="StructureDefinition-profile-ruim-codesystem.html">Profil RUIM - CodeSystem médicament</a></td>
+   </tr>
+   <tr style="background-color: #ffeeee">
+     <td><a href="CodeSystem-terminologie-minimal-ruim.html">fsh-generated/resources/CodeSystem-terminologie-minimal-ruim.json</a></td><td><b>Value is 'Référentiel Unique d'Interopérabilité du Médicament (RUIM) Minimal - Pour usage de SESALI' but is fixed to 'RUIM - european eprescription' in the profile https://interop.esante.gouv.fr/ig/fhir/ruim/StructureDefinition/profile-ruim-codesystem|0.1.0#CodeSystem.title</b></td><td><a href="StructureDefinition-profile-ruim-codesystem.html">Profil RUIM - CodeSystem médicament</a></td>
    </tr>
 </table>
 </body>

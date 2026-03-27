@@ -12,6 +12,7 @@
   <sch:pattern>
     <sch:title>f:CodeSystem</sch:title>
     <sch:rule context="f:CodeSystem">
+      <sch:assert test="count(f:title) &gt;= 1">title: minimum cardinality of 'title' is 1</sch:assert>
       <sch:assert test="count(f:caseSensitive) &gt;= 1">caseSensitive: minimum cardinality of 'caseSensitive' is 1</sch:assert>
     </sch:rule>
   </sch:pattern>

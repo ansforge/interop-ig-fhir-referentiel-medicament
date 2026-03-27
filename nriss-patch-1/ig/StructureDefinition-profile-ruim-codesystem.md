@@ -41,7 +41,7 @@ Other representations of profile: [CSV](StructureDefinition-profile-ruim-codesys
   "name" : "ProfileRuimCodeSystem",
   "title" : "Profil RUIM - CodeSystem médicament",
   "status" : "draft",
-  "date" : "2026-03-27T13:12:34+00:00",
+  "date" : "2026-03-27T13:20:16+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
@@ -93,6 +93,17 @@ Other representations of profile: [CSV](StructureDefinition-profile-ruim-codesys
       "id" : "CodeSystem.url",
       "path" : "CodeSystem.url",
       "patternUri" : "http://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-ruim-eprescription"
+    },
+    {
+      "id" : "CodeSystem.name",
+      "path" : "CodeSystem.name",
+      "patternString" : "RUIM eeprescription"
+    },
+    {
+      "id" : "CodeSystem.title",
+      "path" : "CodeSystem.title",
+      "min" : 1,
+      "patternString" : "RUIM - european eprescription"
     },
     {
       "id" : "CodeSystem.caseSensitive",
