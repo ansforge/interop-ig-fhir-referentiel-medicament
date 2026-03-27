@@ -1,0 +1,99 @@
+<?xml version="1.0" ?>
+
+<xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0">
+  <file source-language="en" target-language="fr-FR" id="CodeSystem-terminologie-minimal-ruim" original="Resource CodeSystem-terminologie-minimal-ruim" datatype="KEYVALUEJSON">
+    <body>
+      <trans-unit id="CodeSystem-terminologie-minimal-ruim" resname="CodeSystem.name">
+             <notes>
+               <note id="n1">CodeSystem.name</note>
+             </notes>
+        <source>MinimalRuim</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-terminologie-minimal-ruim" resname="CodeSystem.title">
+             <notes>
+               <note id="n1">CodeSystem.title</note>
+             </notes>
+        <source>Référentiel Unique d'Interopérabilité du Médicament (RUIM) Minimal - Pour usage de SESALI</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-terminologie-minimal-ruim" resname="CodeSystem.publisher">
+             <notes>
+               <note id="n1">CodeSystem.publisher</note>
+             </notes>
+        <source>Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-terminologie-minimal-ruim" resname="ContactDetail.name">
+             <notes>
+               <note id="n1">ContactDetail.name</note>
+             </notes>
+        <source>Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-terminologie-minimal-ruim" resname="CodeSystem.description">
+             <notes>
+               <note id="n1">CodeSystem.description</note>
+             </notes>
+        <source>CodeSystem minimal du RUIM spécifique pour usage de SESALI, utilisée pour les concepts liés au référentiel des médicaments (ex. forme pharmaceutique, voie d'administration, etc.)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-terminologie-minimal-ruim" resname="Coding.display">
+             <notes>
+               <note id="n1">Coding.display</note>
+             </notes>
+        <source>FRANCE</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-terminologie-minimal-ruim" resname="CodeSystem.copyright">
+             <notes>
+               <note id="n1">CodeSystem.copyright</note>
+             </notes>
+        <source>[LOv2](https://github.com/etalab/licence-ouverte/blob/master/LO.md)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-terminologie-minimal-ruim" resname="CodeSystem.property.description">
+             <notes>
+               <note id="n1">CodeSystem.property.description</note>
+             </notes>
+        <source>Codes des parents du concept courant</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-terminologie-minimal-ruim" resname="CodeSystem.property.description">
+             <notes>
+               <note id="n1">CodeSystem.property.description</note>
+             </notes>
+        <source>Codes des enfants du concept courant</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-terminologie-minimal-ruim" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>CARBOPLATINE ARROW 10 mg/ml, solution pour perfusion</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-terminologie-minimal-ruim" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>IVERMECTINE EG LABO 3 mg, comprimé</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-terminologie-minimal-ruim" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>CLIMASTON 1 mg/10 mg, comprimé pelliculé</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-terminologie-minimal-ruim" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>AMOXICILLINE SUN 1 g, comprimé dispersible</source>
+        <target></target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

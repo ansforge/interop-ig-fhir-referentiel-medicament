@@ -1,0 +1,134 @@
+<?xml version="1.0" ?>
+
+<xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0">
+  <file source-language="en" target-language="fr-FR" id="CodeSystem-cs-ruim-property-codes" original="Resource CodeSystem-cs-ruim-property-codes" datatype="KEYVALUEJSON">
+    <body>
+      <trans-unit id="CodeSystem-cs-ruim-property-codes" resname="CodeSystem.name">
+             <notes>
+               <note id="n1">CodeSystem.name</note>
+             </notes>
+        <source>CS_RuimPropertyCodes</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-cs-ruim-property-codes" resname="CodeSystem.title">
+             <notes>
+               <note id="n1">CodeSystem.title</note>
+             </notes>
+        <source>RUIM - Codes des propriétés médicament</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-cs-ruim-property-codes" resname="CodeSystem.publisher">
+             <notes>
+               <note id="n1">CodeSystem.publisher</note>
+             </notes>
+        <source>Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-cs-ruim-property-codes" resname="ContactDetail.name">
+             <notes>
+               <note id="n1">ContactDetail.name</note>
+             </notes>
+        <source>Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-cs-ruim-property-codes" resname="CodeSystem.description">
+             <notes>
+               <note id="n1">CodeSystem.description</note>
+             </notes>
+        <source>CodeSystem définissant les codes de propriétés utilisés dans le CodeSystem RUIM pour décrire les spécialités pharmaceutiques.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-cs-ruim-property-codes" resname="Coding.display">
+             <notes>
+               <note id="n1">Coding.display</note>
+             </notes>
+        <source>FRANCE</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-cs-ruim-property-codes" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Type de conditionnement</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-cs-ruim-property-codes" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>Type de contenant du médicament (ex : flacon, plaquette, ampoule).</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-cs-ruim-property-codes" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Taille du conditionnement</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-cs-ruim-property-codes" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>Nombre d'unités dans le conditionnement (ex : 1, 4, 28).</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-cs-ruim-property-codes" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Forme pharmaceutique</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-cs-ruim-property-codes" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>Forme galénique du médicament (ex : comprimé, solution pour perfusion).</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-cs-ruim-property-codes" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Nom de marque</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-cs-ruim-property-codes" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>Dénomination commerciale du médicament.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-cs-ruim-property-codes" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Dosage du principe actif</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-cs-ruim-property-codes" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>Quantité de principe actif par unité de prise (ex : 10 mg pour 1 ml).</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-cs-ruim-property-codes" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Principe actif</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-cs-ruim-property-codes" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>Dénomination commune internationale (DCI) du principe actif.</source>
+        <target></target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

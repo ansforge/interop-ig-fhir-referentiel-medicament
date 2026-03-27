@@ -1,0 +1,91 @@
+
+# CodeSystem.name
+#: CodeSystem.name
+msgid "CS_RuimPropertyCodes"
+msgstr ""
+
+# CodeSystem.title
+#: CodeSystem.title
+msgid "RUIM - Codes des propriétés médicament"
+msgstr ""
+
+# CodeSystem.publisher
+#: CodeSystem.publisher
+msgid "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
+msgstr ""
+
+# ContactDetail.name
+#: ContactDetail.name
+msgid "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
+msgstr ""
+
+# CodeSystem.description
+#: CodeSystem.description
+msgid "CodeSystem définissant les codes de propriétés utilisés dans le CodeSystem RUIM pour décrire les spécialités pharmaceutiques."
+msgstr ""
+
+# Coding.display
+#: Coding.display
+msgid "FRANCE"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "Type de conditionnement"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "Type de contenant du médicament (ex : flacon, plaquette, ampoule)."
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "Taille du conditionnement"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "Nombre d'unités dans le conditionnement (ex : 1, 4, 28)."
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "Forme pharmaceutique"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "Forme galénique du médicament (ex : comprimé, solution pour perfusion)."
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "Nom de marque"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "Dénomination commerciale du médicament."
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "Dosage du principe actif"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "Quantité de principe actif par unité de prise (ex : 10 mg pour 1 ml)."
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "Principe actif"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "Dénomination commune internationale (DCI) du principe actif."
+msgstr ""
+

@@ -1,0 +1,36 @@
+
+# ValueSet.name
+#: ValueSet.name
+msgid "VS_RuimPropertyCodes"
+msgstr ""
+
+# ValueSet.title
+#: ValueSet.title
+msgid "RUIM - ValueSet des codes de propriétés médicament"
+msgstr ""
+
+# ValueSet.publisher
+#: ValueSet.publisher
+msgid "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
+msgstr ""
+
+# ContactDetail.name
+#: ContactDetail.name
+msgid "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
+msgstr ""
+
+# ValueSet.description
+#: ValueSet.description
+msgid "ValueSet regroupant les codes de propriétés définis pour le référentiel RUIM. Utilisé pour contraindre l'élément `property.code` dans le profil du CodeSystem RUIM."
+msgstr ""
+
+# Coding.display
+#: Coding.display
+msgid "FRANCE"
+msgstr ""
+
+# ValueSet.compose.include.version
+#: ValueSet.compose.include.version
+msgid "0.1.0"
+msgstr ""
+
