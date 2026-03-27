@@ -1,4 +1,4 @@
-# Artifacts Summary - Référentiel Unique d'Interopérabilité du Médicament v0.1.0
+# Artifacts Summary - Référentiel Unique de l'Interopérabilité du Médicament v0.1.0
 
 * [**Table of Contents**](toc.md)
 * **Artifacts Summary**
@@ -13,15 +13,7 @@ These define constraints on FHIR resources for systems conforming to this implem
 
 | | |
 | :--- | :--- |
-| [Patient français](StructureDefinition-fr-patient.md) | Description du patient français |
-
-### Structures: Extension Definitions 
-
-These define constraints on FHIR data types for systems conforming to this implementation guide.
-
-| | |
-| :--- | :--- |
-| [EyeColor](StructureDefinition-EyeColor.md) | Eye color extension |
+| [Profil RUIM - CodeSystem médicament](StructureDefinition-profile-ruim-codesystem.md) | Profil contraignant la ressource CodeSystem pour le référentiel RUIM. Définit les propriétés attendues pour décrire une spécialité pharmaceutique identifiée par son code CIP-13. |
 
 ### Terminology: Value Sets 
 
@@ -29,10 +21,7 @@ These define sets of codes used by systems conforming to this implementation gui
 
 | | |
 | :--- | :--- |
-| [EyeColor Value Set](ValueSet-EyeColorVS.md) | Different eye colors. |
-| [Melting Pot Value Set](ValueSet-MeltingPotVS.md) | Melting Pot Value Set. |
-| [ModifiedAdministrativeGender](ValueSet-ModifiedAdministrativeGender.md) | AdministrativeGender without unknown code |
-| [Type Carte Value Set](ValueSet-TypeCarteVS.md) | Type Carte Value Set. |
+| [RUIM - ValueSet des codes de propriétés médicament](ValueSet-vs-ruim-property-codes.md) | ValueSet regroupant les codes de propriétés définis pour le référentiel RUIM. Utilisé pour contraindre l'élément `property.code` dans le profil du CodeSystem RUIM. |
 
 ### Terminology: Code Systems 
 
@@ -40,14 +29,6 @@ These define new code systems used by systems conforming to this implementation 
 
 | | |
 | :--- | :--- |
-| [Compétences CodeSystem](CodeSystem-competence-code-system.md) | Compétences des professionnels de santé. |
-| [Type de carte](CodeSystem-type-carte-code-system.md) | Type de carte professionnelle et personnelle. |
-
-### Example: Example Instances 
-
-These are example instances that show what data produced and consumed by systems conforming with this implementation guide might look like.
-
-| | |
-| :--- | :--- |
-| [frpatient-exemple](Patient-frpatient-exemple.md) | Exemple d'un patient français |
+| [RUIM - Codes des propriétés médicament](CodeSystem-cs-ruim-property-codes.md) | CodeSystem définissant les codes de propriétés utilisés dans le CodeSystem RUIM pour décrire les spécialités pharmaceutiques. |
+| [Référentiel Unique d'Interopérabilité du Médicament (RUIM) Minimal - Pour usage de SESALI](CodeSystem-terminologie-minimal-ruim.md) | CodeSystem minimal du RUIM spécifique pour usage de SESALI, utilisée pour les concepts liés au référentiel des médicaments (ex. forme pharmaceutique, voie d'administration, etc.) |
 

@@ -1,4 +1,4 @@
-# Téléchargements et usages - Référentiel Unique d'Interopérabilité du Médicament v0.1.0
+# Téléchargements et usages - Référentiel Unique de l'Interopérabilité du Médicament v0.1.0
 
 * [**Table of Contents**](toc.md)
 * [**Autres Ressources**](autres_ressources.md)

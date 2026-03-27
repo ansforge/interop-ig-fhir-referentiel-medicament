@@ -1,20 +1,18 @@
 {
-  "codeSystems" : [
-    {
-      "url" : "https://interop.esante.gouv.fr/ig/fhir/ruim/CodeSystem/competence-code-system",
-      "version" : "0.1.0",
-      "status" : "draft",
-      "name" : "CompetenceCS",
-      "title" : "Compétences CodeSystem",
-      "description" : "Compétences des professionnels de santé."
-    },
-    {
-      "url" : "https://interop.esante.gouv.fr/ig/fhir/ruim/CodeSystem/type-carte-code-system",
-      "version" : "0.1.0",
-      "status" : "draft",
-      "name" : "TypeCarteCS",
-      "title" : "Type de carte",
-      "description" : "Type de carte professionnelle et personnelle."
-    }
-  ]
+  "codeSystems" : [{
+    "url" : "http://data.esante.gouv.fr/ansm/medicament",
+    "version" : "0.1.0",
+    "status" : "active",
+    "name" : "CS_RuimPropertyCodes",
+    "title" : "RUIM - Codes des propriétés médicament",
+    "description" : "CodeSystem définissant les codes de propriétés utilisés dans le CodeSystem RUIM pour décrire les spécialités pharmaceutiques."
+  },
+  {
+    "url" : "https://smt-pprod.esante.gouv.fr/terminologie-esesali",
+    "version" : "0.1.0",
+    "status" : "active",
+    "name" : "MinimalRuim",
+    "title" : "Référentiel Unique d'Interopérabilité du Médicament (RUIM) Minimal - Pour usage de SESALI",
+    "description" : "CodeSystem minimal du RUIM spécifique pour usage de SESALI, utilisée pour les concepts liés au référentiel des médicaments (ex. forme pharmaceutique, voie d'administration, etc.)"
+  }]
 }

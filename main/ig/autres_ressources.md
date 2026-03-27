@@ -1,4 +1,4 @@
-# Autres Ressources - Référentiel Unique d'Interopérabilité du Médicament v0.1.0
+# Autres Ressources - Référentiel Unique de l'Interopérabilité du Médicament v0.1.0
 
 * [**Table of Contents**](toc.md)
 * **Autres Ressources**

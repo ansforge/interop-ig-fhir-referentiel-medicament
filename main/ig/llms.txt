@@ -1,46 +1,30 @@
-# ans.fhir.fr.ruim#0.1.0: Référentiel Unique d'Interopérabilité du Médicament
+# ans.fhir.fr.ruim#0.1.0: Référentiel Unique de l'Interopérabilité du Médicament
 
 ## Pages
 
 * [Accueil](index.md)
 * [Historique des versions](change-log.md)
-* [Vue d'ensemble](sf1.md)
-* [Flux 02](st_flux2.md)
-* [Flux 01](st_flux1.md)
 * [Artifacts Summary](artifacts.md)
-* [Specifications Techniques](specifications_techniques.md)
 * [Sécurité](securite.md)
 * [Autres Ressources](autres_ressources.md)
-* [Specifications Fonctionnelles](specifications_fonctionnelles.md)
-* [Vue d'ensemble](construction_des_flux.md)
 * [Téléchargements et usages](downloads.md)
+* [Vue d'ensemble](specifications_techniques.md)
 
 ## Resources
 
 ### CodeSystems
 
-* [Compétences CodeSystem](CodeSystem-competence-code-system.md)
-* [Type de carte](CodeSystem-type-carte-code-system.md)
+* [RUIM - Codes des propriétés médicament](CodeSystem-cs-ruim-property-codes.md)
+* [Référentiel Unique d'Interopérabilité du Médicament (RUIM) Minimal - Pour usage de SESALI](CodeSystem-terminologie-minimal-ruim.md)
 
 ### ValueSets
 
-* [EyeColor Value Set](ValueSet-EyeColorVS.md)
-* [Melting Pot Value Set](ValueSet-MeltingPotVS.md)
-* [ModifiedAdministrativeGender](ValueSet-ModifiedAdministrativeGender.md)
-* [Type Carte Value Set](ValueSet-TypeCarteVS.md)
+* [RUIM - ValueSet des codes de propriétés médicament](ValueSet-vs-ruim-property-codes.md)
 
 ### Resource Profiles
 
-* [Patient français](StructureDefinition-fr-patient.md)
-
-### Extensions
-
-* [EyeColor](StructureDefinition-EyeColor.md)
+* [Profil RUIM - CodeSystem médicament](StructureDefinition-profile-ruim-codesystem.md)
 
 ### ImplementationGuides
 
-* [Référentiel Unique d'Interopérabilité du Médicament](index.md)
-
-### Examples
-
-* [frpatient-exemple (Patient)](Patient-frpatient-exemple.md)
+* [Référentiel Unique de l'Interopérabilité du Médicament](index.md)

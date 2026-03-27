@@ -1,5 +1,2 @@
 URL,Version,Status,OIDs,Name,Title,Description,Uses,Used,Sources
-https://interop.esante.gouv.fr/ig/fhir/ruim/ValueSet/EyeColorVS,0.1.0,draft,,EyeColorVS,EyeColor Value Set,"Different eye colors.",,"SCT"
-https://interop.esante.gouv.fr/ig/fhir/ruim/ValueSet/MeltingPotVS,0.1.0,draft,,MeltingPotVS,Melting Pot Value Set,"Melting Pot Value Set.",,"SCT,Internal"
-https://interop.esante.gouv.fr/ig/fhir/ruim/ValueSet/ModifiedAdministrativeGender,0.1.0,draft,,ModifiedAdministrativeGender,ModifiedAdministrativeGender,"AdministrativeGender without unknown code",,"hl7.fhir.r4.core"
-https://interop.esante.gouv.fr/ig/fhir/ruim/ValueSet/TypeCarteVS,0.1.0,draft,,TypeCarteVS,Type Carte Value Set,"Type Carte Value Set.",,"Internal"
+https://interop.esante.gouv.fr/ig/fhir/ruim/ValueSet/vs-ruim-property-codes,0.1.0,active,,VS_RuimPropertyCodes,RUIM - ValueSet des codes de propriétés médicament,"ValueSet regroupant les codes de propriétés définis pour le référentiel RUIM. Utilisé pour contraindre l'élément `property.code` dans le profil du CodeSystem RUIM.",,"Internal"

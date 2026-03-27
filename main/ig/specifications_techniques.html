@@ -3,7 +3,7 @@
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
-    <title>Specifications Techniques - Référentiel Unique d&#39;Interopérabilité du Médicament v0.1.0</title>
+    <title>Vue d&#39;ensemble - Référentiel Unique de l&#39;Interopérabilité du Médicament v0.1.0</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
@@ -43,8 +43,8 @@
 	  <script src="assets/js/prism.js"></script>
     <script type="text/javascript" src="assets/js/mermaid.js"></script>
     <script type="text/javascript" src="assets/js/mermaid-init.js"></script>
-    <style type="text/css">h2{--heading-prefix:"3"}
-    h3,h4,h5,h6{--heading-prefix:"3.0"}</style>
+    <style type="text/css">h2{--heading-prefix:"2"}
+    h3,h4,h5,h6{--heading-prefix:"2"}</style>
     <div id="segment-header" class="segment">  <!-- segment-header -->
       <div class="container">  <!-- container -->
 
@@ -62,13 +62,13 @@
 
 
         <div id="ig-status">
-          <p><span style="font-size:12pt;font-weight:bold">Référentiel Unique d&#39;Interopérabilité du Médicament</span>
+          <p><span style="font-size:12pt;font-weight:bold">Référentiel Unique de l&#39;Interopérabilité du Médicament</span>
             <br/>
             <span style="display:inline-block;">0.1.0 - ci-build
 
 
 
-  <span title="">FR</span>
+  FRANCE
 
 
             </span>
@@ -99,23 +99,7 @@
     <a href="index.html">Accueil</a>
   </li>
   <li>
-    <a href="sf1.html">Volume 1 - Etude fonctionnelle</a>
-  </li>
-  <li class="dropdown">
-    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Volume 2 - Détail des transactions
-      <b class="caret"></b>
-    </a>
-    <ul class="dropdown-menu">
-      <li>
-        <a href="construction_des_flux.html">Construction des flux</a>
-      </li>
-      <li>
-        <a href="st_flux1.html">Flux 01</a>
-      </li>
-      <li>
-        <a href="st_flux2.html">Flux 02</a>
-      </li>
-    </ul>
+    <a href="specifications_techniques.html">Volume 2 - Détail des transactions</a>
   </li>
   <li class="dropdown">
     <a data-toggle="dropdown" href="#" class="dropdown-toggle">Volume 3 - Annexes
@@ -157,15 +141,15 @@
     <div id="segment-breadcrumb" class="segment">  <!-- segment-breadcrumb -->
       <div class="container">  <!-- container -->
         <ul class="breadcrumb">
-          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><b>Specifications Techniques</b></li>
+          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><b>Vue d'ensemble</b></li>
 
           <span style="float:right;">
 
-            <a href="sf1.html">&lt;prev</a> | 
+            <a href="index.html">&lt;prev</a> | 
 
             <a href="#bottom">bottom</a>
 
-          | <a href="construction_des_flux.html">next&gt;</a>
+          | <a href="change-log.html">next&gt;</a>
 
           </span>
 
@@ -186,8 +170,8 @@ h5:before{color:silver;counter-increment:detail;content:var(--heading-prefix) ".
 h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) "." counter(more-detail)" ";}
 </style>
 <div class="col-12">
-  <!--ReleaseHeader--><p id="publish-box">Référentiel Unique d'Interopérabilité du Médicament - version de développement local (intégration continue v0.1.0) construite par les outils de publication FHIR (HL7® FHIR® Standard). Voir le <a href='https://interop.esante.gouv.fr/ig/fhir/ruim/history.html'>répertoire des versions publiées</a></p><!--EndReleaseHeader-->
-  <h2>Specifications Techniques</h2>
+  <!--ReleaseHeader--><p id="publish-box">Référentiel Unique de l'Interopérabilité du Médicament - version de développement local (intégration continue v0.1.0) construite par les outils de publication FHIR (HL7® FHIR® Standard). Voir le <a href='https://interop.esante.gouv.fr/ig/fhir/ruim/history.html'>répertoire des versions publiées</a></p><!--EndReleaseHeader-->
+  <h2>Vue d&#39;ensemble</h2>
   
 
 
@@ -202,9 +186,194 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
 
     <p><!-- white space is critical inside of capture --></p>
-<div>
-<!-- do not remove - needed to prevent Jekyll from adding a p tag to any non block level element in the markdown.-->
+<div class="markdown-toc">
+<ul id="markdown-toc">
+  <li><a href="#spécifications-techniques" id="markdown-toc-spécifications-techniques">Spécifications techniques</a></li>
+  <li><a href="#codesystem-ruim-minimal" id="markdown-toc-codesystem-ruim-minimal">CodeSystem RUIM minimal</a></li>
+  <li><a href="#propriétés-des-concepts" id="markdown-toc-propriétés-des-concepts">Propriétés des concepts</a></li>
+  <li><a href="#structure-dun-concept" id="markdown-toc-structure-dun-concept">Structure d'un concept</a></li>
+</ul>
+
 </div>
+<h3 id="spécifications-techniques">Spécifications techniques</h3>
+
+<div style="background-color: #f0f0f0; border-left: 4px solid #666; padding: 15px; margin: 20px 0;">
+<strong>⚙️ Contenu technique</strong> – Cette page s'adresse aux développeurs et intégrateurs. Elle décrit la structure du CodeSystem RUIM et les propriétés utilisées pour caractériser chaque médicament.
+</div>
+
+<h3 id="codesystem-ruim-minimal">CodeSystem RUIM minimal</h3>
+
+<p>Le CodeSystem <code class="language-plaintext highlighter-rouge">terminologie-minimal-ruim</code> constitue la ressource terminologique centrale du RUIM. Chaque concept représente une spécialité pharmaceutique identifiée par son code CIP-13 (code-barres à 13 chiffres).</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Propriété</th>
+      <th>Valeur</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>URL</strong></td>
+      <td><code class="language-plaintext highlighter-rouge">https://smt-pprod.esante.gouv.fr/terminologie-esesali</code></td>
+    </tr>
+    <tr>
+      <td><strong>Version</strong></td>
+      <td><code class="language-plaintext highlighter-rouge">2026-02-V1</code></td>
+    </tr>
+    <tr>
+      <td><strong>Statut</strong></td>
+      <td><code class="language-plaintext highlighter-rouge">active</code></td>
+    </tr>
+    <tr>
+      <td><strong>Contenu</strong></td>
+      <td>Complet (<code class="language-plaintext highlighter-rouge">#complete</code>)</td>
+    </tr>
+    <tr>
+      <td><strong>Nombre de concepts</strong></td>
+      <td>19 088</td>
+    </tr>
+    <tr>
+      <td><strong>Sensible à la casse</strong></td>
+      <td>Non</td>
+    </tr>
+    <tr>
+      <td><strong>Licence</strong></td>
+      <td>Licence Ouverte v2 (LOv2)</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="propriétés-des-concepts">Propriétés des concepts</h3>
+
+<p>Chaque concept (spécialité pharmaceutique) peut être enrichi par les propriétés suivantes :</p>
+
+<h4 id="propriétés-spécifiques-ansm">Propriétés spécifiques ANSM</h4>
+
+<table>
+  <thead>
+    <tr>
+      <th>Code</th>
+      <th>URI</th>
+      <th>Type</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">packageType</code></td>
+      <td><code class="language-plaintext highlighter-rouge">http://data.esante.gouv.fr/ansm/medicament/packageType</code></td>
+      <td><code class="language-plaintext highlighter-rouge">string</code></td>
+      <td>Type de conditionnement (ex : flacon, plaquette)</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">packageSize</code></td>
+      <td><code class="language-plaintext highlighter-rouge">http://data.esante.gouv.fr/ansm/medicament/packageSize</code></td>
+      <td><code class="language-plaintext highlighter-rouge">string</code></td>
+      <td>Nombre d'unités dans le conditionnement</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">doseForm</code></td>
+      <td><code class="language-plaintext highlighter-rouge">http://data.esante.gouv.fr/ansm/medicament/doseForm</code></td>
+      <td><code class="language-plaintext highlighter-rouge">string</code></td>
+      <td>Forme pharmaceutique (ex : comprimé, solution pour perfusion)</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">brandName</code></td>
+      <td><code class="language-plaintext highlighter-rouge">http://data.esante.gouv.fr/ansm/medicament/brandName</code></td>
+      <td><code class="language-plaintext highlighter-rouge">string</code></td>
+      <td>Nom de marque / dénomination commerciale</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">activeStrength</code></td>
+      <td><code class="language-plaintext highlighter-rouge">http://data.esante.gouv.fr/ansm/medicament/activeStrength</code></td>
+      <td><code class="language-plaintext highlighter-rouge">string</code></td>
+      <td>Dosage du principe actif (ex : 10 mg pour 1 ml)</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">activeIngredient</code></td>
+      <td><code class="language-plaintext highlighter-rouge">http://data.esante.gouv.fr/ansm/medicament/activeIngredient</code></td>
+      <td><code class="language-plaintext highlighter-rouge">string</code></td>
+      <td>Principe actif (DCI)</td>
+    </tr>
+  </tbody>
+</table>
+
+<h4 id="propriétés-de-hiérarchie-hl7-standard">Propriétés de hiérarchie (HL7 standard)</h4>
+
+<table>
+  <thead>
+    <tr>
+      <th>Code</th>
+      <th>URI</th>
+      <th>Type</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">parent</code></td>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/concept-properties#parent</code></td>
+      <td><code class="language-plaintext highlighter-rouge">code</code></td>
+      <td>Codes des concepts parents du concept courant</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">child</code></td>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/concept-properties#child</code></td>
+      <td><code class="language-plaintext highlighter-rouge">code</code></td>
+      <td>Codes des concepts enfants du concept courant</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="structure-dun-concept">Structure d'un concept</h3>
+
+<p>Le code d'un concept correspond au <strong>CIP-13</strong> de la spécialité pharmaceutique. Exemple :</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Code    : 3400957255350
+Display : CARBOPLATINE ARROW 10 mg/ml, solution pour perfusion
+</code></pre></div></div>
+
+<p>Avec les propriétés associées :</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Propriété</th>
+      <th>Valeur</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">packageType</code></td>
+      <td><code class="language-plaintext highlighter-rouge">flacon(s)</code></td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">packageSize</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1</code></td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">doseForm</code></td>
+      <td><code class="language-plaintext highlighter-rouge">Solution pour perfusion</code></td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">brandName</code></td>
+      <td><code class="language-plaintext highlighter-rouge">CARBOPLATINE ARROW</code></td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">activeStrength</code></td>
+      <td><code class="language-plaintext highlighter-rouge">10 mg pour 1 ml</code></td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">activeIngredient</code></td>
+      <td><code class="language-plaintext highlighter-rouge">carboplatine</code></td>
+    </tr>
+  </tbody>
+</table>
+
+<blockquote>
+  <p><strong>Note</strong> : toutes les propriétés sont optionnelles. Un concept peut ne renseigner que les propriétés disponibles dans la source ANSM (ex. <code class="language-plaintext highlighter-rouge">activeStrength</code> et <code class="language-plaintext highlighter-rouge">activeIngredient</code> absents si non renseignés).</p>
+</blockquote>
 
 
 
@@ -229,7 +398,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
             <tr>
               <td style="text-align:left">&#xA0;
 
-                <a href="sf1.html">&lt;prev</a>
+                <a href="index.html">&lt;prev</a>
 
               </td>
               <td style="text-align:center">
@@ -237,7 +406,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
               </td>
               <td style="text-align:right">&#xA0;
 
-                <a href="construction_des_flux.html">next&gt;</a>
+                <a href="change-log.html">next&gt;</a>
 
               </td>
             </tr>
@@ -247,7 +416,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="https://esante.gouv.fr">Agence du Numérique en Santé (ANS) - 2-10 Rue d&#39;Oradour-sur-Glane, 75015 Paris</a>.  Package ans.fhir.fr.ruim#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Fri, Feb 6, 2026 10:42+0000">2026-02-06</span>
+          IG &#169; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="https://esante.gouv.fr">Agence du Numérique en Santé (ANS) - 2-10 Rue d&#39;Oradour-sur-Glane, 75015 Paris</a>.  Package ans.fhir.fr.ruim#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Fri, Mar 27, 2026 13:07+0000">2026-03-27</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)"></span>
             Liens : <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table des matières</a> |
