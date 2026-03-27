@@ -1,16 +1,17 @@
-Alias: $RuimPropertyCodes = http://data.esante.gouv.fr/ansm/medicament
-
 Profile: ProfileRuimCodeSystem
 Parent: http://hl7.org/fhir/StructureDefinition/shareablecodesystem
 Id: profile-ruim-codesystem
 Title: "Profil RUIM - CodeSystem médicament"
 Description: "Profil contraignant la ressource CodeSystem pour le référentiel RUIM. Définit les propriétés attendues pour décrire une spécialité pharmaceutique identifiée par son code CIP-13."
 * ^status = #draft
-* ^publisher = "Agence du Numérique en Santé (ANS)"
 
 // Métadonnées obligatoires
 * url 1..1
 * url = "http://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-ruim-eprescription"
+* name 1..1
+* name = "RUIM eeprescription"
+* title 1..1
+* title = "RUIM - european eprescription"
 * version 1..1
 * status 1..1
 * content 1..1
