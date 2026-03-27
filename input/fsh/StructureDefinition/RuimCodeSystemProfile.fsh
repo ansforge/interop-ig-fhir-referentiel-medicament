@@ -10,6 +10,7 @@ Description: "Profil contraignant la ressource CodeSystem pour le référentiel 
 
 // Métadonnées obligatoires
 * url 1..1
+* url = "http://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-ruim-eprescription"
 * version 1..1
 * status 1..1
 * content 1..1
