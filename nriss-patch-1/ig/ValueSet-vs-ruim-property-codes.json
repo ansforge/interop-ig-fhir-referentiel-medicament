@@ -1,0 +1,37 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "vs-ruim-property-codes",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Narratif généré : EnsembleValeurs vs-ruim-property-codes</b></p><a name=\"vs-ruim-property-codes\"> </a><a name=\"hcvs-ruim-property-codes\"> </a><ul><li>Include tous les codes définis dans <a href=\"CodeSystem-cs-ruim-property-codes.html\"><code>http://data.esante.gouv.fr/ansm/medicament</code></a><span title=\"La version est explicitement indiquée comme étant 0.1.0\"> version &#x1F4CD;0.1.0</span></li></ul></div>"
+  },
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/ruim/ValueSet/vs-ruim-property-codes",
+  "version" : "0.1.0",
+  "name" : "VS_RuimPropertyCodes",
+  "title" : "RUIM - ValueSet des codes de propriétés médicament",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2026-03-27T13:12:34+00:00",
+  "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
+  "contact" : [{
+    "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://esante.gouv.fr"
+    }]
+  }],
+  "description" : "ValueSet regroupant les codes de propriétés définis pour le référentiel RUIM. Utilisé pour contraindre l'élément `property.code` dans le profil du CodeSystem RUIM.",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR",
+      "display" : "FRANCE"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "system" : "http://data.esante.gouv.fr/ansm/medicament",
+      "version" : "0.1.0"
+    }]
+  }
+}
