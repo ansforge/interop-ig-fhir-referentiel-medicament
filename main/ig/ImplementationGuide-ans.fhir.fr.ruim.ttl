@@ -21,7 +21,7 @@
   fhir:name [ fhir:v "RUIM"] ; # 
   fhir:title [ fhir:v "Référentiel Unique de l'Interopérabilité du Médicament"] ; # 
   fhir:status [ fhir:v "active"] ; # 
-  fhir:date [ fhir:v "2026-03-30T14:14:17+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2026-03-30T14:14:21+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris" ] ;
