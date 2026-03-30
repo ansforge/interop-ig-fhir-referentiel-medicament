@@ -3,7 +3,7 @@
   "type" : "CodeSystem",
   "url" : "http://data.esante.gouv.fr/ansm/medicament",
   "version" : "0.1.0",
-  "name" : "CS_RuimPropertyCodes"
+  "name" : "CSRuimPropertyCodes"
 },
 {
   "id" : "ans.fhir.fr.ruim",
@@ -24,12 +24,11 @@
   "type" : "ValueSet",
   "url" : "https://interop.esante.gouv.fr/ig/fhir/ruim/ValueSet/vs-ruim-property-codes",
   "version" : "0.1.0",
-  "name" : "VS_RuimPropertyCodes"
+  "name" : "VSRuimPropertyCodes"
 },
 {
-  "id" : "terminologie-minimal-ruim",
+  "id" : "MinimalRuim",
   "type" : "CodeSystem",
   "url" : "https://smt-pprod.esante.gouv.fr/terminologie-esesali",
-  "version" : "0.1.0",
-  "name" : "MinimalRuim"
+  "version" : "0.1.0"
 }]

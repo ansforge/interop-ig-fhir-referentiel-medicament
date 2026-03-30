@@ -9,14 +9,14 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://data.esante.gouv.fr/ansm/medicament | *Version*:0.1.0 |
-| Active as of 2026-03-30 | *Computable Name*:CS_RuimPropertyCodes |
+| Active as of 2026-03-30 | *Computable Name*:CSRuimPropertyCodes |
 
  
 CodeSystem définissant les codes de propriétés utilisés dans le CodeSystem RUIM pour décrire les spécialités pharmaceutiques. 
 
  Cette terminologie de référence (CodeSystem) est référencé dans la définition de contenu des jeux de valeurs (ValueSet) suivants : 
 
-* [VS_RuimPropertyCodes](ValueSet-vs-ruim-property-codes.md)
+* [VSRuimPropertyCodes](ValueSet-vs-ruim-property-codes.md)
 
 
 
@@ -28,11 +28,11 @@ CodeSystem définissant les codes de propriétés utilisés dans le CodeSystem R
   "id" : "cs-ruim-property-codes",
   "url" : "http://data.esante.gouv.fr/ansm/medicament",
   "version" : "0.1.0",
-  "name" : "CS_RuimPropertyCodes",
+  "name" : "CSRuimPropertyCodes",
   "title" : "RUIM - Codes des propriétés médicament",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-03-30T07:19:25+00:00",
+  "date" : "2026-03-30T13:31:48+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",

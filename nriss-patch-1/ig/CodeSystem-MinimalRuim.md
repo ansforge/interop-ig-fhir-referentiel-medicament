@@ -9,11 +9,8 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://smt-pprod.esante.gouv.fr/terminologie-esesali | *Version*:0.1.0 |
-| Active as of 2026-03-30 | *Computable Name*:MinimalRuim |
+| Active as of 2026-03-30 | *Computable Name*: |
 | **Copyright/Legal**: [LOv2](https://github.com/etalab/licence-ouverte/blob/master/LO.md) | |
-
- 
-CodeSystem minimal du RUIM spécifique pour usage de SESALI, utilisée pour les concepts liés au référentiel des médicaments (ex. forme pharmaceutique, voie d'administration, etc.) 
 
  Cette terminologie de référence (CodeSystem) est référencé dans la définition de contenu des jeux de valeurs (ValueSet) suivants : 
 
@@ -26,20 +23,16 @@ CodeSystem minimal du RUIM spécifique pour usage de SESALI, utilisée pour les 
 ```json
 {
   "resourceType" : "CodeSystem",
-  "id" : "terminologie-minimal-ruim",
+  "id" : "MinimalRuim",
   "meta" : {
-    "versionId" : "4",
-    "lastUpdated" : "2026-02-13T19:33:11.039+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1",
     "https://interop.esante.gouv.fr/ig/fhir/ruim/StructureDefinition/profile-ruim-codesystem"]
   },
   "url" : "https://smt-pprod.esante.gouv.fr/terminologie-esesali",
   "version" : "0.1.0",
-  "name" : "MinimalRuim",
-  "title" : "Référentiel Unique d'Interopérabilité du Médicament (RUIM) Minimal - Pour usage de SESALI",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-03-30T07:19:25+00:00",
+  "date" : "2026-03-30T13:31:48+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
@@ -48,7 +41,6 @@ CodeSystem minimal du RUIM spécifique pour usage de SESALI, utilisée pour les 
       "value" : "https://esante.gouv.fr"
     }]
   }],
-  "description" : "CodeSystem minimal du RUIM spécifique pour usage de SESALI, utilisée pour les concepts liés au référentiel des médicaments (ex. forme pharmaceutique, voie d'administration, etc.)",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",

@@ -28,12 +28,6 @@ Ce guide d'implémentation adopte une approche progressive :
 
 Ce guide couvre dans un premier temps la définition des ressources terminologiques (CodeSystem, ValueSet) représentant les données du référentiel médicament français. L'utilisation des ressources `Medication` et `MedicationKnowledge` sera traitée dans une version ultérieure.
 
-### Auteurs et contributeurs
-
-| | | | |
-| :--- | :--- | :--- | :--- |
-| **Primary Editor** |   | Agence du Numérique en Santé |   |
-
 ### Dépendances
 
 
@@ -55,7 +49,7 @@ Pas d'usage de PI externe (autre que celles de la spécification FHIR)
   "name" : "RUIM",
   "title" : "Référentiel Unique de l'Interopérabilité du Médicament",
   "status" : "draft",
-  "date" : "2026-03-30T07:19:25+00:00",
+  "date" : "2026-03-30T13:31:48+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
@@ -896,11 +890,11 @@ Pas d'usage de PI externe (autre que celles de la spécification FHIR)
         "valueString" : "CodeSystem"
       }],
       "reference" : {
-        "reference" : "CodeSystem/terminologie-minimal-ruim"
+        "reference" : "CodeSystem/MinimalRuim"
       },
       "name" : "Référentiel Unique d'Interopérabilité du Médicament (RUIM) Minimal - Pour usage de SESALI",
       "description" : "CodeSystem minimal du RUIM spécifique pour usage de SESALI, utilisée pour les concepts liés au référentiel des médicaments (ex. forme pharmaceutique, voie d'administration, etc.)",
-      "exampleBoolean" : false
+      "exampleCanonical" : "https://interop.esante.gouv.fr/ig/fhir/ruim/StructureDefinition/profile-ruim-codesystem|0.1.0"
     }],
     "page" : {
       "extension" : [{

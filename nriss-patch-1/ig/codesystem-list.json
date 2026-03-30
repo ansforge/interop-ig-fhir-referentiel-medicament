@@ -3,7 +3,7 @@
     "url" : "http://data.esante.gouv.fr/ansm/medicament",
     "version" : "0.1.0",
     "status" : "active",
-    "name" : "CS_RuimPropertyCodes",
+    "name" : "CSRuimPropertyCodes",
     "title" : "RUIM - Codes des propriétés médicament",
     "description" : "CodeSystem définissant les codes de propriétés utilisés dans le CodeSystem RUIM pour décrire les spécialités pharmaceutiques."
   },
@@ -11,8 +11,8 @@
     "url" : "https://smt-pprod.esante.gouv.fr/terminologie-esesali",
     "version" : "0.1.0",
     "status" : "active",
-    "name" : "MinimalRuim",
-    "title" : "Référentiel Unique d'Interopérabilité du Médicament (RUIM) Minimal - Pour usage de SESALI",
-    "description" : "CodeSystem minimal du RUIM spécifique pour usage de SESALI, utilisée pour les concepts liés au référentiel des médicaments (ex. forme pharmaceutique, voie d'administration, etc.)"
+    "name" : null,
+    "title" : null,
+    "description" : ""
   }]
 }

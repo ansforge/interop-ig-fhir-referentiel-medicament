@@ -14,8 +14,8 @@
 
 ### CodeSystems
 
+* [MinimalRuim](CodeSystem-MinimalRuim.md)
 * [RUIM - Codes des propriétés médicament](CodeSystem-cs-ruim-property-codes.md)
-* [Référentiel Unique d'Interopérabilité du Médicament (RUIM) Minimal - Pour usage de SESALI](CodeSystem-terminologie-minimal-ruim.md)
 
 ### ValueSets
 

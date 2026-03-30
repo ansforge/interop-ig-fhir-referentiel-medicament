@@ -1,5 +1,5 @@
 URL,Version,Status,OIDs,Name,Title,Description,Used
-http://data.esante.gouv.fr/ansm/medicament,0.1.0,active,,CS_RuimPropertyCodes,RUIM - Codes des propriétés médicament,"CodeSystem définissant les codes de propriétés utilisés dans le CodeSystem RUIM pour décrire les spécialités pharmaceutiques.","ValueSet/vs-ruim-property-codes"
+http://data.esante.gouv.fr/ansm/medicament,0.1.0,active,,CSRuimPropertyCodes,RUIM - Codes des propriétés médicament,"CodeSystem définissant les codes de propriétés utilisés dans le CodeSystem RUIM pour décrire les spécialités pharmaceutiques.","ValueSet/vs-ruim-property-codes"
 http://hl7.org/fhir/codesystem-content-mode,4.0.1,active,"2.16.840.1.113883.4.642.4.783",CodeSystemContentMode,CodeSystemContentMode,"The extent of the content of the code system (the concepts and codes it defines) are represented in a code system resource.","ValueSet/codesystem-content-mode"
 http://hl7.org/fhir/codesystem-hierarchy-meaning,4.0.1,active,"2.16.840.1.113883.4.642.4.785",CodeSystemHierarchyMeaning,CodeSystemHierarchyMeaning,"The meaning of the hierarchy of concepts in a code system.","ValueSet/codesystem-hierarchy-meaning"
 http://hl7.org/fhir/concept-property-type,4.0.1,active,"2.16.840.1.113883.4.642.4.781",PropertyType,PropertyType,"The type of a property value.","ValueSet/concept-property-type"
