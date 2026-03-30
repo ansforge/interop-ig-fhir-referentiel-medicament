@@ -8,5 +8,7 @@
   "desc": "Première release du guide d'implémentation FHIR du Référentiel Unique de l'Interopérabilité du Médicament (RUIM)",
   "first": true,
   "title": "Référentiel Unique de l'Interopérabilité du Médicament",
-  "ci-build": "https://interop.esante.gouv.fr/ig/fhir/ruim/"
+  "ci-build": "https://ansforge.github.io/interop-ig-fhir-referentiel-medicament/main/ig",
+  "category": "Medication",
+  "introduction": "Le Référentiel Unique de l'Interopérabilité du Médicament (RUIM) est un guide d'implémentation FHIR définissant les profils et ressources nécessaires à la standardisation des données médicament en France. Il spécifie la structure des CodeSystems de spécialités pharmaceutiques identifiées par leur code CIP-13, en alignement avec les travaux de l'ANS, de l'ANSM et des standards européens."
 }
