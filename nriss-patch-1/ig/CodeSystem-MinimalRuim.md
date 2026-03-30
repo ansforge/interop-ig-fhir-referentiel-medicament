@@ -32,7 +32,7 @@
   "version" : "0.0.1",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-03-30T13:39:05+00:00",
+  "date" : "2026-03-30T13:43:40+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",

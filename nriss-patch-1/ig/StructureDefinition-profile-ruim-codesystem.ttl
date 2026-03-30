@@ -21,7 +21,7 @@
   fhir:name [ fhir:v "ProfileRuimCodeSystem"] ; # 
   fhir:title [ fhir:v "Profil RUIM - CodeSystem médicament"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2026-03-30T13:39:05+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2026-03-30T13:43:40+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris" ] ;

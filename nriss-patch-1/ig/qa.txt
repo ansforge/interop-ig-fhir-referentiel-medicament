@@ -3,7 +3,7 @@ RUIM : Validation Results
 
 err = 13, warn = 14, info = 153
 IG Publisher Version: 2.2.4
-Generated Mon Mar 30 13:40:09 UTC 2026. FHIR version 4.0.1 for ans.fhir.fr.ruim#0.0.1 (canonical = https://interop.esante.gouv.fr/ig/fhir/ruim)
+Generated Mon Mar 30 13:44:46 UTC 2026. FHIR version 4.0.1 for ans.fhir.fr.ruim#0.0.1 (canonical = https://interop.esante.gouv.fr/ig/fhir/ruim)
  Build Errors : 2 / 3 / 0
  /home/runner/work/interop-ig-fhir-referentiel-medicament/interop-ig-fhir-referentiel-medicament/igSource/fsh-generated/resources/CodeSystem-MinimalRuim : 7 / 11 / 14
  /home/runner/work/interop-ig-fhir-referentiel-medicament/interop-ig-fhir-referentiel-medicament/igSource/fsh-generated/resources/CodeSystem-cs-ruim-property-codes : 3 / 0 / 1
