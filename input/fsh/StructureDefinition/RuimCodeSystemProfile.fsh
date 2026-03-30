@@ -72,7 +72,6 @@ Description: "Profil contraignant la ressource CodeSystem pour le référentiel 
 * property[activeStrength] ^definition = "Quantité de principe actif par unité de prise (ex : 10 mg pour 1 ml)."
 * property[activeStrength].description = "Quantité de principe actif par unité de prise (ex : 10 mg pour 1 ml)."
 
-
 * property[activeIngredient].code = #activeIngredient
 * property[activeIngredient].uri = "http://data.esante.gouv.fr/ansm/medicament/activeIngredient"
 * property[activeIngredient].type = #string
