@@ -1,4 +1,4 @@
-# ans.fhir.fr.ruim#0.1.0: Référentiel Unique de l'Interopérabilité du Médicament
+# ans.fhir.fr.ruim#0.0.1: Référentiel Unique de l'Interopérabilité du Médicament
 
 ## Pages
 

@@ -17,11 +17,11 @@
      fhir:v "https://interop.esante.gouv.fr/ig/fhir/ruim/ImplementationGuide/ans.fhir.fr.ruim"^^xsd:anyURI ;
      fhir:l <https://interop.esante.gouv.fr/ig/fhir/ruim/ImplementationGuide/ans.fhir.fr.ruim>
   ] ; # 
-  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:version [ fhir:v "0.0.1"] ; # 
   fhir:name [ fhir:v "RUIM"] ; # 
   fhir:title [ fhir:v "Référentiel Unique de l'Interopérabilité du Médicament"] ; # 
-  fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2026-03-30T13:31:48+00:00"^^xsd:dateTime] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:date [ fhir:v "2026-03-30T13:39:05+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris" ] ;
@@ -123,7 +123,7 @@
          ] ;
          fhir:value [
            a fhir:String ;
-           fhir:v "ci-build"
+           fhir:v "release"
          ]
        ] ) ;
        fhir:url [
@@ -958,7 +958,7 @@
          ] ;
          fhir:value [
            a fhir:String ;
-           fhir:v "ci-build"
+           fhir:v "release"
          ]
        ] ) ;
        fhir:url [
@@ -1816,8 +1816,8 @@
        fhir:description [ fhir:v "CodeSystem minimal du RUIM spécifique pour usage de SESALI, utilisée pour les concepts liés au référentiel des médicaments (ex. forme pharmaceutique, voie d'administration, etc.)" ] ;
        fhir:example [
          a fhir:Canonical ;
-         fhir:v "https://interop.esante.gouv.fr/ig/fhir/ruim/StructureDefinition/profile-ruim-codesystem|0.1.0"^^xsd:anyURI ;
-         fhir:l <https://interop.esante.gouv.fr/ig/fhir/ruim/StructureDefinition/profile-ruim-codesystem?version=0.1.0>
+         fhir:v "https://interop.esante.gouv.fr/ig/fhir/ruim/StructureDefinition/profile-ruim-codesystem|0.0.1"^^xsd:anyURI ;
+         fhir:l <https://interop.esante.gouv.fr/ig/fhir/ruim/StructureDefinition/profile-ruim-codesystem?version=0.0.1>
        ]
      ] ) ;
      fhir:page [

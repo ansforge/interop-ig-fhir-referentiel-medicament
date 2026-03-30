@@ -4,7 +4,7 @@ RUIM : Validation Results
 err = 13, warn = 14, info = 153
 $--
 Generated $--. FHIR version $-- for ans.fhir.fr.ruim#$-- (canonical = https://interop.esante.gouv.fr/ig/fhir/ruim)
- Build Errors : 1 / 3 / 0
+ Build Errors : 2 / 3 / 0
  /home/runner/work/interop-ig-fhir-referentiel-medicament/interop-ig-fhir-referentiel-medicament/igSource/fsh-generated/resources/CodeSystem-MinimalRuim : 7 / 11 / 14
  /home/runner/work/interop-ig-fhir-referentiel-medicament/interop-ig-fhir-referentiel-medicament/igSource/fsh-generated/resources/CodeSystem-cs-ruim-property-codes : 3 / 0 / 1
  /home/runner/work/interop-ig-fhir-referentiel-medicament/interop-ig-fhir-referentiel-medicament/igSource/fsh-generated/resources/ImplementationGuide-ans.fhir.fr.ruim : 1 / 0 / 2
@@ -12,18 +12,19 @@ Generated $--. FHIR version $-- for ans.fhir.fr.ruim#$-- (canonical = https://in
  /home/runner/work/interop-ig-fhir-referentiel-medicament/interop-ig-fhir-referentiel-medicament/igSource/fsh-generated/resources/ValueSet-vs-ruim-property-codes : 1 / 0 / 4
 </table>
 == n/a ==
+ERROR: change-log.html#/html/body/div/div/div/div/div/p/a at Line 196, column 11: The link 'https://interop.esante.gouv.fr/ig/fhir/ruim/0.0.1' for "https://interop.esante.gouv.fr/ig/fhir/ruim/0.0.1" cannot be resolved
 ERROR: searchform.html#/html/body/div/div/div/a/img/div/a/img/div/p/img at Line 57, column 3: The image source 'assets/images/fra.svg' cannot be resolved
 WARNING: 2: An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide
 WARNING: 4: The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide
 WARNING: 5: The HTML fragment 'expansion-params.xhtml' is not included anywhere in the produced implementation guide
 == fsh-generated/resources/CodeSystem-MinimalRuim.json ==
 INFORMATION: CodeSystem.meta.profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/shareablecodesystem to 4.0.1
-INFORMATION: CodeSystem/MinimalRuim: CodeSystem.property[6]: This element does not match any known slice defined in the profile https://interop.esante.gouv.fr/ig/fhir/ruim/StructureDefinition/profile-ruim-codesystem|0.1.0 (this may not be a problem, but you should check that it's not intended to match a slice)
-INFORMATION: CodeSystem/MinimalRuim: CodeSystem.property[7]: This element does not match any known slice defined in the profile https://interop.esante.gouv.fr/ig/fhir/ruim/StructureDefinition/profile-ruim-codesystem|0.1.0 (this may not be a problem, but you should check that it's not intended to match a slice)
-ERROR: CodeSystem/MinimalRuim: CodeSystem: CodeSystem.name: minimum required = 1, but only found 0 (from https://interop.esante.gouv.fr/ig/fhir/ruim/StructureDefinition/profile-ruim-codesystem|0.1.0)
-ERROR: CodeSystem/MinimalRuim: CodeSystem: CodeSystem.title: minimum required = 1, but only found 0 (from https://interop.esante.gouv.fr/ig/fhir/ruim/StructureDefinition/profile-ruim-codesystem|0.1.0)
-ERROR: CodeSystem/MinimalRuim: CodeSystem: CodeSystem.description: minimum required = 1, but only found 0 (from https://interop.esante.gouv.fr/ig/fhir/ruim/StructureDefinition/profile-ruim-codesystem|0.1.0)
-ERROR: CodeSystem/MinimalRuim: CodeSystem.url: Value is 'https://smt-pprod.esante.gouv.fr/terminologie-esesali' but is fixed to 'http://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-ruim-eprescription' in the profile https://interop.esante.gouv.fr/ig/fhir/ruim/StructureDefinition/profile-ruim-codesystem|0.1.0#CodeSystem.url
+INFORMATION: CodeSystem/MinimalRuim: CodeSystem.property[6]: This element does not match any known slice defined in the profile https://interop.esante.gouv.fr/ig/fhir/ruim/StructureDefinition/profile-ruim-codesystem|0.0.1 (this may not be a problem, but you should check that it's not intended to match a slice)
+INFORMATION: CodeSystem/MinimalRuim: CodeSystem.property[7]: This element does not match any known slice defined in the profile https://interop.esante.gouv.fr/ig/fhir/ruim/StructureDefinition/profile-ruim-codesystem|0.0.1 (this may not be a problem, but you should check that it's not intended to match a slice)
+ERROR: CodeSystem/MinimalRuim: CodeSystem: CodeSystem.name: minimum required = 1, but only found 0 (from https://interop.esante.gouv.fr/ig/fhir/ruim/StructureDefinition/profile-ruim-codesystem|0.0.1)
+ERROR: CodeSystem/MinimalRuim: CodeSystem: CodeSystem.title: minimum required = 1, but only found 0 (from https://interop.esante.gouv.fr/ig/fhir/ruim/StructureDefinition/profile-ruim-codesystem|0.0.1)
+ERROR: CodeSystem/MinimalRuim: CodeSystem: CodeSystem.description: minimum required = 1, but only found 0 (from https://interop.esante.gouv.fr/ig/fhir/ruim/StructureDefinition/profile-ruim-codesystem|0.0.1)
+ERROR: CodeSystem/MinimalRuim: CodeSystem.url: Value is 'https://smt-pprod.esante.gouv.fr/terminologie-esesali' but is fixed to 'http://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-ruim-eprescription' in the profile https://interop.esante.gouv.fr/ig/fhir/ruim/StructureDefinition/profile-ruim-codesystem|0.0.1#CodeSystem.url
 ERROR: CodeSystem/MinimalRuim: CodeSystem.jurisdiction[0].coding[0].display: Wrong Display Name 'FRANCE' for urn:iso:std:iso:3166#FR. Valid display is 'France (la)' (fr) (for the language(s) 'fr')
 WARNING: CodeSystem/MinimalRuim: CodeSystem.valueSet: A definition could not be found for Canonical URL 'https://smt-pprod.esante.gouv.fr/terminologie-esesali?vs'
 WARNING: CodeSystem/MinimalRuim: CodeSystem.property[0].uri: No definition could be found for URL value 'http://data.esante.gouv.fr/ansm/medicament/packageType'
@@ -50,7 +51,7 @@ ERROR: CodeSystem.where(url = 'http://data.esante.gouv.fr/ansm/medicament'): Con
 ERROR: CodeSystem/cs-ruim-property-codes: CodeSystem.jurisdiction[0].coding[0].display: Wrong Display Name 'FRANCE' for urn:iso:std:iso:3166#FR. Valid display is 'France (la)' (fr) (for the language(s) 'fr')
 ERROR: /home/runner/work/interop-ig-fhir-referentiel-medicament/interop-ig-fhir-referentiel-medicament/igSource/fsh-generated/resources/CodeSystem-cs-ruim-property-codes: URL Mismatch https://interop.esante.gouv.fr/ig/fhir/ruim/CodeSystem/cs-ruim-property-codes vs http://data.esante.gouv.fr/ansm/medicament
 == fsh-generated/resources/ImplementationGuide-ans.fhir.fr.ruim.json ==
-INFORMATION: ImplementationGuide.definition.resource[3].profile[0]: Pinned the version of https://interop.esante.gouv.fr/ig/fhir/ruim/StructureDefinition/profile-ruim-codesystem to 0.1.0
+INFORMATION: ImplementationGuide.definition.resource[3].profile[0]: Pinned the version of https://interop.esante.gouv.fr/ig/fhir/ruim/StructureDefinition/profile-ruim-codesystem to 0.0.1
 ERROR: ImplementationGuide/ans.fhir.fr.ruim: ImplementationGuide.jurisdiction[0].coding[0].display: Wrong Display Name 'FRANCE' for urn:iso:std:iso:3166#FR. Valid display is 'France (la)' (fr) (for the language(s) 'fr')
 == fsh-generated/resources/StructureDefinition-profile-ruim-codesystem.json ==
 INFORMATION: StructureDefinition.baseDefinition: Pinned the version of http://hl7.org/fhir/StructureDefinition/shareablecodesystem to 4.0.1
@@ -108,7 +109,7 @@ INFORMATION: StructureDefinition.snapshot.element[42].constraint[1].source: Pinn
 INFORMATION: StructureDefinition.snapshot.element[43].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[43].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[44].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
-INFORMATION: StructureDefinition.snapshot.element[44].binding.valueSet: Pinned the version of https://interop.esante.gouv.fr/ig/fhir/ruim/ValueSet/vs-ruim-property-codes to 0.1.0
+INFORMATION: StructureDefinition.snapshot.element[44].binding.valueSet: Pinned the version of https://interop.esante.gouv.fr/ig/fhir/ruim/ValueSet/vs-ruim-property-codes to 0.0.1
 INFORMATION: StructureDefinition.snapshot.element[45].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[46].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[47].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
@@ -191,10 +192,10 @@ INFORMATION: StructureDefinition.snapshot.element[113].constraint[1].source: Pin
 INFORMATION: StructureDefinition.snapshot.element[114].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[115].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[116].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
-INFORMATION: StructureDefinition.differential.element[6].binding.valueSet: Pinned the version of https://interop.esante.gouv.fr/ig/fhir/ruim/ValueSet/vs-ruim-property-codes to 0.1.0
+INFORMATION: StructureDefinition.differential.element[6].binding.valueSet: Pinned the version of https://interop.esante.gouv.fr/ig/fhir/ruim/ValueSet/vs-ruim-property-codes to 0.0.1
 ERROR: StructureDefinition/profile-ruim-codesystem: StructureDefinition.jurisdiction[0].coding[0].display: Wrong Display Name 'FRANCE' for urn:iso:std:iso:3166#FR. Valid display is 'France (la)' (fr) (for the language(s) 'fr')
 INFORMATION: StructureDefinition/profile-ruim-codesystem: StructureDefinition.snapshot.element[4].binding.extension[0]: The extension http://hl7.org/fhir/StructureDefinition/elementdefinition-maxValueSet|5.2.0 is deprecated
 == fsh-generated/resources/ValueSet-vs-ruim-property-codes.json ==
-INFORMATION: ValueSet.compose.include[0]: Pinned the version of http://data.esante.gouv.fr/ansm/medicament to 0.1.0
+INFORMATION: ValueSet.compose.include[0]: Pinned the version of http://data.esante.gouv.fr/ansm/medicament to 0.0.1
 INFORMATION: ValueSet.meta.profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/shareablevalueset to 4.0.1
 ERROR: ValueSet/vs-ruim-property-codes: ValueSet.jurisdiction[0].coding[0].display: Wrong Display Name 'FRANCE' for urn:iso:std:iso:3166#FR. Valid display is 'France (la)' (fr) (for the language(s) 'fr')

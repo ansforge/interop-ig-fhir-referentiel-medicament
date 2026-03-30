@@ -1,4 +1,4 @@
-# Profil RUIM - CodeSystem médicament - Référentiel Unique de l'Interopérabilité du Médicament v0.1.0
+# Profil RUIM - CodeSystem médicament - Référentiel Unique de l'Interopérabilité du Médicament v0.0.1
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:https://interop.esante.gouv.fr/ig/fhir/ruim/StructureDefinition/profile-ruim-codesystem | *Version*:0.1.0 |
+| *Official URL*:https://interop.esante.gouv.fr/ig/fhir/ruim/StructureDefinition/profile-ruim-codesystem | *Version*:0.0.1 |
 | Draft as of 2026-03-30 | *Computable Name*:ProfileRuimCodeSystem |
 
  
@@ -37,11 +37,11 @@ Other representations of profile: [CSV](StructureDefinition-profile-ruim-codesys
   "resourceType" : "StructureDefinition",
   "id" : "profile-ruim-codesystem",
   "url" : "https://interop.esante.gouv.fr/ig/fhir/ruim/StructureDefinition/profile-ruim-codesystem",
-  "version" : "0.1.0",
+  "version" : "0.0.1",
   "name" : "ProfileRuimCodeSystem",
   "title" : "Profil RUIM - CodeSystem médicament",
   "status" : "draft",
-  "date" : "2026-03-30T13:31:48+00:00",
+  "date" : "2026-03-30T13:39:05+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
@@ -128,7 +128,7 @@ Other representations of profile: [CSV](StructureDefinition-profile-ruim-codesys
       "path" : "CodeSystem.property.code",
       "binding" : {
         "strength" : "extensible",
-        "valueSet" : "https://interop.esante.gouv.fr/ig/fhir/ruim/ValueSet/vs-ruim-property-codes|0.1.0"
+        "valueSet" : "https://interop.esante.gouv.fr/ig/fhir/ruim/ValueSet/vs-ruim-property-codes|0.0.1"
       }
     },
     {

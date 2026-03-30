@@ -1,4 +1,4 @@
-# Artifacts Summary - Référentiel Unique de l'Interopérabilité du Médicament v0.1.0
+# Artifacts Summary - Référentiel Unique de l'Interopérabilité du Médicament v0.0.1
 
 * [**Table of Contents**](toc.md)
 * **Artifacts Summary**

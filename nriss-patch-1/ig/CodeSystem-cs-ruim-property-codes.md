@@ -1,4 +1,4 @@
-# RUIM - Codes des propriétés médicament - Référentiel Unique de l'Interopérabilité du Médicament v0.1.0
+# RUIM - Codes des propriétés médicament - Référentiel Unique de l'Interopérabilité du Médicament v0.0.1
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://data.esante.gouv.fr/ansm/medicament | *Version*:0.1.0 |
+| *Official URL*:http://data.esante.gouv.fr/ansm/medicament | *Version*:0.0.1 |
 | Active as of 2026-03-30 | *Computable Name*:CSRuimPropertyCodes |
 
  
@@ -27,12 +27,12 @@ CodeSystem définissant les codes de propriétés utilisés dans le CodeSystem R
   "resourceType" : "CodeSystem",
   "id" : "cs-ruim-property-codes",
   "url" : "http://data.esante.gouv.fr/ansm/medicament",
-  "version" : "0.1.0",
+  "version" : "0.0.1",
   "name" : "CSRuimPropertyCodes",
   "title" : "RUIM - Codes des propriétés médicament",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-03-30T13:31:48+00:00",
+  "date" : "2026-03-30T13:39:05+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",

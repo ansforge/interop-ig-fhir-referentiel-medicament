@@ -1,7 +1,7 @@
 {
   "codeSystems" : [{
     "url" : "http://data.esante.gouv.fr/ansm/medicament",
-    "version" : "0.1.0",
+    "version" : "0.0.1",
     "status" : "active",
     "name" : "CSRuimPropertyCodes",
     "title" : "RUIM - Codes des propriétés médicament",
@@ -9,7 +9,7 @@
   },
   {
     "url" : "https://smt-pprod.esante.gouv.fr/terminologie-esesali",
-    "version" : "0.1.0",
+    "version" : "0.0.1",
     "status" : "active",
     "name" : null,
     "title" : null,

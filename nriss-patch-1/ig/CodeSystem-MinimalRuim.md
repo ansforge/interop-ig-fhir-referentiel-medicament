@@ -1,4 +1,4 @@
-# Référentiel Unique d'Interopérabilité du Médicament (RUIM) Minimal - Pour usage de SESALI - Référentiel Unique de l'Interopérabilité du Médicament v0.1.0
+# Référentiel Unique d'Interopérabilité du Médicament (RUIM) Minimal - Pour usage de SESALI - Référentiel Unique de l'Interopérabilité du Médicament v0.0.1
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:https://smt-pprod.esante.gouv.fr/terminologie-esesali | *Version*:0.1.0 |
+| *Official URL*:https://smt-pprod.esante.gouv.fr/terminologie-esesali | *Version*:0.0.1 |
 | Active as of 2026-03-30 | *Computable Name*: |
 | **Copyright/Legal**: [LOv2](https://github.com/etalab/licence-ouverte/blob/master/LO.md) | |
 
@@ -29,10 +29,10 @@
     "https://interop.esante.gouv.fr/ig/fhir/ruim/StructureDefinition/profile-ruim-codesystem"]
   },
   "url" : "https://smt-pprod.esante.gouv.fr/terminologie-esesali",
-  "version" : "0.1.0",
+  "version" : "0.0.1",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-03-30T13:31:48+00:00",
+  "date" : "2026-03-30T13:39:05+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",

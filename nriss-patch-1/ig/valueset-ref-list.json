@@ -1,7 +1,7 @@
 {
   "codeSystems" : [{
     "url" : "https://interop.esante.gouv.fr/ig/fhir/ruim/ValueSet/vs-ruim-property-codes",
-    "version" : "0.1.0",
+    "version" : "0.0.1",
     "status" : "active",
     "name" : "VSRuimPropertyCodes",
     "title" : "RUIM - ValueSet des codes de propriétés médicament",
