@@ -1,4 +1,4 @@
-# Profil RUIM - CodeSystem médicament - Référentiel Unique de l'Interopérabilité du Médicament v0.1.0
+# Profil RUIM - CodeSystem médicament - Référentiel Unique de l'Interopérabilité du Médicament v0.0.1
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,15 +8,15 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:https://interop.esante.gouv.fr/ig/fhir/ruim/StructureDefinition/profile-ruim-codesystem | *Version*:0.1.0 |
-| Draft as of 2026-03-27 | *Computable Name*:ProfileRuimCodeSystem |
+| *Official URL*:https://interop.esante.gouv.fr/ig/fhir/ruim/StructureDefinition/profile-ruim-codesystem | *Version*:0.0.1 |
+| Draft as of 2026-03-30 | *Computable Name*:ProfileRuimCodeSystem |
 
  
 Profil contraignant la ressource CodeSystem pour le référentiel RUIM. Définit les propriétés attendues pour décrire une spécialité pharmaceutique identifiée par son code CIP-13. 
 
 **Utilisations:**
 
-* Exemples pour ce/t/te Profil: [MinimalRuim](CodeSystem-terminologie-minimal-ruim.md)
+* Exemples pour ce/t/te Profil: [CodeSystem/MinimalRuim](CodeSystem-MinimalRuim.md)
 
 Vous pouvez également vérifier [les usages dans le FHIR IG Statistics](https://packages2.fhir.org/xig/ans.fhir.fr.ruim|current/StructureDefinition/profile-ruim-codesystem)
 
@@ -37,11 +37,11 @@ Other representations of profile: [CSV](StructureDefinition-profile-ruim-codesys
   "resourceType" : "StructureDefinition",
   "id" : "profile-ruim-codesystem",
   "url" : "https://interop.esante.gouv.fr/ig/fhir/ruim/StructureDefinition/profile-ruim-codesystem",
-  "version" : "0.1.0",
+  "version" : "0.0.1",
   "name" : "ProfileRuimCodeSystem",
   "title" : "Profil RUIM - CodeSystem médicament",
   "status" : "draft",
-  "date" : "2026-03-27T13:07:32+00:00",
+  "date" : "2026-03-30T14:08:45+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
@@ -90,6 +90,22 @@ Other representations of profile: [CSV](StructureDefinition-profile-ruim-codesys
       "path" : "CodeSystem"
     },
     {
+      "id" : "CodeSystem.url",
+      "path" : "CodeSystem.url",
+      "patternUri" : "http://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-ruim-eprescription"
+    },
+    {
+      "id" : "CodeSystem.name",
+      "path" : "CodeSystem.name",
+      "patternString" : "RUIM eeprescription"
+    },
+    {
+      "id" : "CodeSystem.title",
+      "path" : "CodeSystem.title",
+      "min" : 1,
+      "patternString" : "RUIM - european eprescription"
+    },
+    {
       "id" : "CodeSystem.caseSensitive",
       "path" : "CodeSystem.caseSensitive",
       "min" : 1
@@ -112,7 +128,7 @@ Other representations of profile: [CSV](StructureDefinition-profile-ruim-codesys
       "path" : "CodeSystem.property.code",
       "binding" : {
         "strength" : "extensible",
-        "valueSet" : "https://interop.esante.gouv.fr/ig/fhir/ruim/ValueSet/vs-ruim-property-codes|0.1.0"
+        "valueSet" : "https://interop.esante.gouv.fr/ig/fhir/ruim/ValueSet/vs-ruim-property-codes|0.0.1"
       }
     },
     {
@@ -134,6 +150,11 @@ Other representations of profile: [CSV](StructureDefinition-profile-ruim-codesys
       "id" : "CodeSystem.property:packageType.uri",
       "path" : "CodeSystem.property.uri",
       "patternUri" : "http://data.esante.gouv.fr/ansm/medicament/packageType"
+    },
+    {
+      "id" : "CodeSystem.property:packageType.description",
+      "path" : "CodeSystem.property.description",
+      "patternString" : "Type de contenant du médicament (ex : flacon, plaquette, ampoule)."
     },
     {
       "id" : "CodeSystem.property:packageType.type",
@@ -161,6 +182,11 @@ Other representations of profile: [CSV](StructureDefinition-profile-ruim-codesys
       "patternUri" : "http://data.esante.gouv.fr/ansm/medicament/packageSize"
     },
     {
+      "id" : "CodeSystem.property:packageSize.description",
+      "path" : "CodeSystem.property.description",
+      "patternString" : "Nombre d'unités dans le conditionnement (ex : 1, 4, 28)."
+    },
+    {
       "id" : "CodeSystem.property:packageSize.type",
       "path" : "CodeSystem.property.type",
       "patternCode" : "string"
@@ -184,6 +210,11 @@ Other representations of profile: [CSV](StructureDefinition-profile-ruim-codesys
       "id" : "CodeSystem.property:doseForm.uri",
       "path" : "CodeSystem.property.uri",
       "patternUri" : "http://data.esante.gouv.fr/ansm/medicament/doseForm"
+    },
+    {
+      "id" : "CodeSystem.property:doseForm.description",
+      "path" : "CodeSystem.property.description",
+      "patternString" : "Forme galénique du médicament (ex : comprimé, solution pour perfusion)."
     },
     {
       "id" : "CodeSystem.property:doseForm.type",
@@ -211,6 +242,11 @@ Other representations of profile: [CSV](StructureDefinition-profile-ruim-codesys
       "patternUri" : "http://data.esante.gouv.fr/ansm/medicament/brandName"
     },
     {
+      "id" : "CodeSystem.property:brandName.description",
+      "path" : "CodeSystem.property.description",
+      "patternString" : "Dénomination commerciale du médicament. Actuellement, le brandname est enrichi par les libellés de spécialité. Le partage du nom de marque est en cours de validation."
+    },
+    {
       "id" : "CodeSystem.property:brandName.type",
       "path" : "CodeSystem.property.type",
       "patternCode" : "string"
@@ -236,6 +272,11 @@ Other representations of profile: [CSV](StructureDefinition-profile-ruim-codesys
       "patternUri" : "http://data.esante.gouv.fr/ansm/medicament/activeStrength"
     },
     {
+      "id" : "CodeSystem.property:activeStrength.description",
+      "path" : "CodeSystem.property.description",
+      "patternString" : "Quantité de principe actif par unité de prise (ex : 10 mg pour 1 ml)."
+    },
+    {
       "id" : "CodeSystem.property:activeStrength.type",
       "path" : "CodeSystem.property.type",
       "patternCode" : "string"
@@ -259,6 +300,11 @@ Other representations of profile: [CSV](StructureDefinition-profile-ruim-codesys
       "id" : "CodeSystem.property:activeIngredient.uri",
       "path" : "CodeSystem.property.uri",
       "patternUri" : "http://data.esante.gouv.fr/ansm/medicament/activeIngredient"
+    },
+    {
+      "id" : "CodeSystem.property:activeIngredient.description",
+      "path" : "CodeSystem.property.description",
+      "patternString" : "Dénomination commune internationale du principe actif."
     },
     {
       "id" : "CodeSystem.property:activeIngredient.type",

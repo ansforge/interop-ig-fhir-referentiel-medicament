@@ -1,4 +1,4 @@
-# RUIM - ValueSet des codes de propriétés médicament - Référentiel Unique de l'Interopérabilité du Médicament v0.1.0
+# RUIM - ValueSet des codes de propriétés médicament - Référentiel Unique de l'Interopérabilité du Médicament v0.0.1
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,8 +8,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:https://interop.esante.gouv.fr/ig/fhir/ruim/ValueSet/vs-ruim-property-codes | *Version*:0.1.0 |
-| Active as of 2026-03-27 | *Computable Name*:VS_RuimPropertyCodes |
+| *Official URL*:https://interop.esante.gouv.fr/ig/fhir/ruim/ValueSet/vs-ruim-property-codes | *Version*:0.0.1 |
+| Active as of 2026-03-30 | *Computable Name*:VSRuimPropertyCodes |
 
  
 ValueSet regroupant les codes de propriétés définis pour le référentiel RUIM. Utilisé pour contraindre l'élément `property.code` dans le profil du CodeSystem RUIM. 
@@ -45,13 +45,16 @@ ValueSet regroupant les codes de propriétés définis pour le référentiel RUI
 {
   "resourceType" : "ValueSet",
   "id" : "vs-ruim-property-codes",
+  "meta" : {
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
+  },
   "url" : "https://interop.esante.gouv.fr/ig/fhir/ruim/ValueSet/vs-ruim-property-codes",
-  "version" : "0.1.0",
-  "name" : "VS_RuimPropertyCodes",
+  "version" : "0.0.1",
+  "name" : "VSRuimPropertyCodes",
   "title" : "RUIM - ValueSet des codes de propriétés médicament",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-03-27T13:07:32+00:00",
+  "date" : "2026-03-30T14:08:45+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
@@ -71,7 +74,7 @@ ValueSet regroupant les codes de propriétés définis pour le référentiel RUI
   "compose" : {
     "include" : [{
       "system" : "http://data.esante.gouv.fr/ansm/medicament",
-      "version" : "0.1.0"
+      "version" : "0.0.1"
     }]
   }
 }

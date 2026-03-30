@@ -1,23 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="1a14ebaa-9c32-4bfd-9184-cc668bb43b3f"/>
+  <id value="8c661f27-d02b-4b25-8752-af10cba069dc"/>
   <meta>
-    <lastUpdated value="2026-03-27T13:07:32.990+00:00"/>
+    <lastUpdated value="2026-03-30T14:08:45.407+00:00"/>
   </meta>
   <type value="collection"/>
   <entry>
     <fullUrl value="https://interop.esante.gouv.fr/ig/fhir/ruim/ValueSet/vs-ruim-property-codes"/>
     <resource>
       <ValueSet>
+        <meta>
+          <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"/>
+        </meta>
         <text>
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml" data-fhir="generated">
             <p class="res-header-id"/>
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion effectuée en interne basée sur 
-              <a href="CodeSystem-cs-ruim-property-codes.html">codesystem RUIM - Codes des propriétés médicament v0.1.0 (CodeSystem)</a>
+              <a href="CodeSystem-cs-ruim-property-codes.html">codesystem RUIM - Codes des propriétés médicament v0.0.1 (CodeSystem)</a>
               <span class="copy-text-inline">
-                <button data-clipboard-text="http://data.esante.gouv.fr/ansm/medicament|0.1.0" title="Cliquer pour copier l'URL" class="btn-copy"> </button>
+                <button data-clipboard-text="http://data.esante.gouv.fr/ansm/medicament|0.0.1" title="Cliquer pour copier l'URL" class="btn-copy"> </button>
               </span>
             </p>
             <p>Ce jeu de valeur (ValueSet) contient 6 concepts</p>
@@ -54,12 +57,12 @@
                 <td>Type de contenant du médicament (ex : flacon, plaquette, ampoule).</td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://data.esante.gouv.fr/ansm/medicament&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;packageType&quot;}" title="Cliquer pour copier en tant que Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://data.esante.gouv.fr/ansm/medicament&quot;, &quot;version&quot;: &quot;0.0.1&quot;, &quot;code&quot;: &quot;packageType&quot;}" title="Cliquer pour copier en tant que Coding" class="btn-copy"> </button>
                   </span>
                 </td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://data.esante.gouv.fr/ansm/medicament&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;packageType&quot;&gt;&lt;/coding&gt;" title="Cliquer pour copier en tant que Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://data.esante.gouv.fr/ansm/medicament&quot;&gt;&lt;version value=&quot;0.0.1&quot;&gt;&lt;code value=&quot;packageType&quot;&gt;&lt;/coding&gt;" title="Cliquer pour copier en tant que Coding" class="btn-copy"> </button>
                   </span>
                 </td>
               </tr>
@@ -75,12 +78,12 @@
                 <td>Nombre d'unités dans le conditionnement (ex : 1, 4, 28).</td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://data.esante.gouv.fr/ansm/medicament&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;packageSize&quot;}" title="Cliquer pour copier en tant que Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://data.esante.gouv.fr/ansm/medicament&quot;, &quot;version&quot;: &quot;0.0.1&quot;, &quot;code&quot;: &quot;packageSize&quot;}" title="Cliquer pour copier en tant que Coding" class="btn-copy"> </button>
                   </span>
                 </td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://data.esante.gouv.fr/ansm/medicament&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;packageSize&quot;&gt;&lt;/coding&gt;" title="Cliquer pour copier en tant que Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://data.esante.gouv.fr/ansm/medicament&quot;&gt;&lt;version value=&quot;0.0.1&quot;&gt;&lt;code value=&quot;packageSize&quot;&gt;&lt;/coding&gt;" title="Cliquer pour copier en tant que Coding" class="btn-copy"> </button>
                   </span>
                 </td>
               </tr>
@@ -96,12 +99,12 @@
                 <td>Forme galénique du médicament (ex : comprimé, solution pour perfusion).</td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://data.esante.gouv.fr/ansm/medicament&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;doseForm&quot;}" title="Cliquer pour copier en tant que Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://data.esante.gouv.fr/ansm/medicament&quot;, &quot;version&quot;: &quot;0.0.1&quot;, &quot;code&quot;: &quot;doseForm&quot;}" title="Cliquer pour copier en tant que Coding" class="btn-copy"> </button>
                   </span>
                 </td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://data.esante.gouv.fr/ansm/medicament&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;doseForm&quot;&gt;&lt;/coding&gt;" title="Cliquer pour copier en tant que Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://data.esante.gouv.fr/ansm/medicament&quot;&gt;&lt;version value=&quot;0.0.1&quot;&gt;&lt;code value=&quot;doseForm&quot;&gt;&lt;/coding&gt;" title="Cliquer pour copier en tant que Coding" class="btn-copy"> </button>
                   </span>
                 </td>
               </tr>
@@ -117,12 +120,12 @@
                 <td>Dénomination commerciale du médicament.</td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://data.esante.gouv.fr/ansm/medicament&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;brandName&quot;}" title="Cliquer pour copier en tant que Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://data.esante.gouv.fr/ansm/medicament&quot;, &quot;version&quot;: &quot;0.0.1&quot;, &quot;code&quot;: &quot;brandName&quot;}" title="Cliquer pour copier en tant que Coding" class="btn-copy"> </button>
                   </span>
                 </td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://data.esante.gouv.fr/ansm/medicament&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;brandName&quot;&gt;&lt;/coding&gt;" title="Cliquer pour copier en tant que Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://data.esante.gouv.fr/ansm/medicament&quot;&gt;&lt;version value=&quot;0.0.1&quot;&gt;&lt;code value=&quot;brandName&quot;&gt;&lt;/coding&gt;" title="Cliquer pour copier en tant que Coding" class="btn-copy"> </button>
                   </span>
                 </td>
               </tr>
@@ -138,12 +141,12 @@
                 <td>Quantité de principe actif par unité de prise (ex : 10 mg pour 1 ml).</td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://data.esante.gouv.fr/ansm/medicament&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;activeStrength&quot;}" title="Cliquer pour copier en tant que Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://data.esante.gouv.fr/ansm/medicament&quot;, &quot;version&quot;: &quot;0.0.1&quot;, &quot;code&quot;: &quot;activeStrength&quot;}" title="Cliquer pour copier en tant que Coding" class="btn-copy"> </button>
                   </span>
                 </td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://data.esante.gouv.fr/ansm/medicament&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;activeStrength&quot;&gt;&lt;/coding&gt;" title="Cliquer pour copier en tant que Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://data.esante.gouv.fr/ansm/medicament&quot;&gt;&lt;version value=&quot;0.0.1&quot;&gt;&lt;code value=&quot;activeStrength&quot;&gt;&lt;/coding&gt;" title="Cliquer pour copier en tant que Coding" class="btn-copy"> </button>
                   </span>
                 </td>
               </tr>
@@ -159,12 +162,12 @@
                 <td>Dénomination commune internationale (DCI) du principe actif.</td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://data.esante.gouv.fr/ansm/medicament&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;activeIngredient&quot;}" title="Cliquer pour copier en tant que Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://data.esante.gouv.fr/ansm/medicament&quot;, &quot;version&quot;: &quot;0.0.1&quot;, &quot;code&quot;: &quot;activeIngredient&quot;}" title="Cliquer pour copier en tant que Coding" class="btn-copy"> </button>
                   </span>
                 </td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://data.esante.gouv.fr/ansm/medicament&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;activeIngredient&quot;&gt;&lt;/coding&gt;" title="Cliquer pour copier en tant que Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://data.esante.gouv.fr/ansm/medicament&quot;&gt;&lt;version value=&quot;0.0.1&quot;&gt;&lt;code value=&quot;activeIngredient&quot;&gt;&lt;/coding&gt;" title="Cliquer pour copier en tant que Coding" class="btn-copy"> </button>
                   </span>
                 </td>
               </tr>
@@ -172,12 +175,12 @@
           </div>
         </text>
         <url value="https://interop.esante.gouv.fr/ig/fhir/ruim/ValueSet/vs-ruim-property-codes"/>
-        <version value="0.1.0"/>
-        <name value="VS_RuimPropertyCodes"/>
+        <version value="0.0.1"/>
+        <name value="VSRuimPropertyCodes"/>
         <title value="RUIM - ValueSet des codes de propriétés médicament"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2026-03-27T13:07:32+00:00"/>
+        <date value="2026-03-30T14:08:45+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -186,8 +189,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:74cfff38-9a84-43e5-91f5-6d9b0725db90"/>
-          <timestamp value="2026-03-27T13:08:15+00:00"/>
+          <identifier value="urn:uuid:4e6e5f33-9bdf-45f2-978d-5ff302a3acd2"/>
+          <timestamp value="2026-03-30T14:09:28+00:00"/>
           <total value="6"/>
           <offset value="0"/>
           <parameter>
@@ -208,7 +211,7 @@
           </parameter>
           <parameter>
             <name value="used-codesystem"/>
-            <valueUri value="http://data.esante.gouv.fr/ansm/medicament|0.1.0"/>
+            <valueUri value="http://data.esante.gouv.fr/ansm/medicament|0.0.1"/>
           </parameter>
           <contains>
             <system value="http://data.esante.gouv.fr/ansm/medicament"/>

@@ -1,9 +1,9 @@
 {
   "codeSystems" : [{
     "url" : "http://data.esante.gouv.fr/ansm/medicament",
-    "version" : "0.1.0",
+    "version" : "0.0.1",
     "status" : "active",
-    "name" : "CS_RuimPropertyCodes",
+    "name" : "CSRuimPropertyCodes",
     "title" : "RUIM - Codes des propriétés médicament",
     "description" : "CodeSystem définissant les codes de propriétés utilisés dans le CodeSystem RUIM pour décrire les spécialités pharmaceutiques.",
     "uses" : {

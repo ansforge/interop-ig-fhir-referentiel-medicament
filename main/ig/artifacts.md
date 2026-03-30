@@ -1,4 +1,4 @@
-# Artifacts Summary - Référentiel Unique de l'Interopérabilité du Médicament v0.1.0
+# Artifacts Summary - Référentiel Unique de l'Interopérabilité du Médicament v0.0.1
 
 * [**Table of Contents**](toc.md)
 * **Artifacts Summary**
@@ -30,5 +30,12 @@ These define new code systems used by systems conforming to this implementation 
 | | |
 | :--- | :--- |
 | [RUIM - Codes des propriétés médicament](CodeSystem-cs-ruim-property-codes.md) | CodeSystem définissant les codes de propriétés utilisés dans le CodeSystem RUIM pour décrire les spécialités pharmaceutiques. |
-| [Référentiel Unique d'Interopérabilité du Médicament (RUIM) Minimal - Pour usage de SESALI](CodeSystem-terminologie-minimal-ruim.md) | CodeSystem minimal du RUIM spécifique pour usage de SESALI, utilisée pour les concepts liés au référentiel des médicaments (ex. forme pharmaceutique, voie d'administration, etc.) |
+
+### Example: Example Instances 
+
+These are example instances that show what data produced and consumed by systems conforming with this implementation guide might look like.
+
+| | |
+| :--- | :--- |
+| [Référentiel Unique d'Interopérabilité du Médicament (RUIM) Minimal - Pour usage de SESALI](CodeSystem-MinimalRuim.md) | CodeSystem minimal du RUIM spécifique pour usage de SESALI, utilisée pour les concepts liés au référentiel des médicaments (ex. forme pharmaceutique, voie d'administration, etc.) |
 

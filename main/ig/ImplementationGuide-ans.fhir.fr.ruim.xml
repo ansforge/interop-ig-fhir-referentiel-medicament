@@ -7,11 +7,11 @@
 </div></div>
   </text>
   <url value="https://interop.esante.gouv.fr/ig/fhir/ruim/ImplementationGuide/ans.fhir.fr.ruim"/>
-  <version value="0.1.0"/>
+  <version value="0.0.1"/>
   <name value="RUIM"/>
   <title value="Référentiel Unique de l'Interopérabilité du Médicament"/>
-  <status value="draft"/>
-  <date value="2026-03-27T13:07:32+00:00"/>
+  <status value="active"/>
+  <date value="2026-03-30T14:08:45+00:00"/>
   <publisher value="Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"/>
   <contact>
     <name value="Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"/>
@@ -61,7 +61,7 @@
         <valueString value="releaselabel"/>
       </extension>
       <extension url="value">
-        <valueString value="ci-build"/>
+        <valueString value="release"/>
       </extension>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
@@ -341,7 +341,7 @@
         <valueCode value="releaselabel"/>
       </extension>
       <extension url="value">
-        <valueString value="ci-build"/>
+        <valueString value="release"/>
       </extension>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
@@ -638,11 +638,11 @@
         <valueString value="CodeSystem"/>
       </extension>
       <reference>
-        <reference value="CodeSystem/terminologie-minimal-ruim"/>
+        <reference value="CodeSystem/MinimalRuim"/>
       </reference>
       <name value="Référentiel Unique d'Interopérabilité du Médicament (RUIM) Minimal - Pour usage de SESALI"/>
       <description value="CodeSystem minimal du RUIM spécifique pour usage de SESALI, utilisée pour les concepts liés au référentiel des médicaments (ex. forme pharmaceutique, voie d'administration, etc.)"/>
-      <exampleBoolean value="false"/>
+      <exampleCanonical value="https://interop.esante.gouv.fr/ig/fhir/ruim/StructureDefinition/profile-ruim-codesystem|0.0.1"/>
     </resource>
     <page>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">

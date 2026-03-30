@@ -1,4 +1,4 @@
-# Accueil - Référentiel Unique de l'Interopérabilité du Médicament v0.1.0
+# Accueil - Référentiel Unique de l'Interopérabilité du Médicament v0.0.1
 
 * [**Table of Contents**](toc.md)
 * **Accueil**
@@ -7,13 +7,11 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:https://interop.esante.gouv.fr/ig/fhir/ruim/ImplementationGuide/ans.fhir.fr.ruim | *Version*:0.1.0 |
-| Draft as of 2026-03-27 | *Computable Name*:RUIM |
+| *Official URL*:https://interop.esante.gouv.fr/ig/fhir/ruim/ImplementationGuide/ans.fhir.fr.ruim | *Version*:0.0.1 |
+| Active as of 2026-03-30 | *Computable Name*:RUIM |
 
  **Brief description of this Implementation Guide**
  The RUIM (Référentiel Unique de l'Interopérabilité du Médicament) defines FHIR terminology resources for medication data standardization in France, as a first step toward full medication resource modeling. 
-
-> Cet Implementation Guide n'est pas la version courante, il s'agit de la version en intégration continue soumise à des changements fréquents uniquement destinée à suivre les travaux en cours. La version courante sera accessible via l'URL canonique suite à la première release : http://interop.esante.gouv.fr/ig/fhir/ruim
 
 ### Introduction
 
@@ -27,12 +25,6 @@ Ce guide d'implémentation adopte une approche progressive :
 ### Périmètre du projet
 
 Ce guide couvre dans un premier temps la définition des ressources terminologiques (CodeSystem, ValueSet) représentant les données du référentiel médicament français. L'utilisation des ressources `Medication` et `MedicationKnowledge` sera traitée dans une version ultérieure.
-
-### Auteurs et contributeurs
-
-| | | | |
-| :--- | :--- | :--- | :--- |
-| **Primary Editor** |   | Agence du Numérique en Santé |   |
 
 ### Dépendances
 
@@ -51,11 +43,11 @@ Pas d'usage de PI externe (autre que celles de la spécification FHIR)
   "resourceType" : "ImplementationGuide",
   "id" : "ans.fhir.fr.ruim",
   "url" : "https://interop.esante.gouv.fr/ig/fhir/ruim/ImplementationGuide/ans.fhir.fr.ruim",
-  "version" : "0.1.0",
+  "version" : "0.0.1",
   "name" : "RUIM",
   "title" : "Référentiel Unique de l'Interopérabilité du Médicament",
-  "status" : "draft",
-  "date" : "2026-03-27T13:07:32+00:00",
+  "status" : "active",
+  "date" : "2026-03-30T14:08:45+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
@@ -114,7 +106,7 @@ Pas d'usage de PI externe (autre que celles de la spécification FHIR)
       },
       {
         "url" : "value",
-        "valueString" : "ci-build"
+        "valueString" : "release"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },
@@ -498,7 +490,7 @@ Pas d'usage de PI externe (autre que celles de la spécification FHIR)
       },
       {
         "url" : "value",
-        "valueString" : "ci-build"
+        "valueString" : "release"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },
@@ -896,11 +888,11 @@ Pas d'usage de PI externe (autre que celles de la spécification FHIR)
         "valueString" : "CodeSystem"
       }],
       "reference" : {
-        "reference" : "CodeSystem/terminologie-minimal-ruim"
+        "reference" : "CodeSystem/MinimalRuim"
       },
       "name" : "Référentiel Unique d'Interopérabilité du Médicament (RUIM) Minimal - Pour usage de SESALI",
       "description" : "CodeSystem minimal du RUIM spécifique pour usage de SESALI, utilisée pour les concepts liés au référentiel des médicaments (ex. forme pharmaceutique, voie d'administration, etc.)",
-      "exampleBoolean" : false
+      "exampleCanonical" : "https://interop.esante.gouv.fr/ig/fhir/ruim/StructureDefinition/profile-ruim-codesystem|0.0.1"
     }],
     "page" : {
       "extension" : [{
