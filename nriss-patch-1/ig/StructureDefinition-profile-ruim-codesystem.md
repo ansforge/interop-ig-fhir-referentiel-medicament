@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://interop.esante.gouv.fr/ig/fhir/ruim/StructureDefinition/profile-ruim-codesystem | *Version*:0.1.0 |
-| Draft as of 2026-03-27 | *Computable Name*:ProfileRuimCodeSystem |
+| Draft as of 2026-03-30 | *Computable Name*:ProfileRuimCodeSystem |
 
  
 Profil contraignant la ressource CodeSystem pour le référentiel RUIM. Définit les propriétés attendues pour décrire une spécialité pharmaceutique identifiée par son code CIP-13. 
@@ -41,7 +41,7 @@ Other representations of profile: [CSV](StructureDefinition-profile-ruim-codesys
   "name" : "ProfileRuimCodeSystem",
   "title" : "Profil RUIM - CodeSystem médicament",
   "status" : "draft",
-  "date" : "2026-03-27T13:20:16+00:00",
+  "date" : "2026-03-30T07:06:10+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",

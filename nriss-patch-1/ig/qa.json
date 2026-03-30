@@ -6,8 +6,8 @@
   "status" : "draft",
   "package-id" : "ans.fhir.fr.ruim",
   "ig-ver" : "0.1.0",
-  "date" : "Fri, 27 Mar, 2026 13:20:16 +0000",
-  "dateISO8601" : "2026-03-27T13:20:16+00:00",
+  "date" : "Mon, 30 Mar, 2026 07:06:10 +0000",
+  "dateISO8601" : "2026-03-30T07:06:10+00:00",
   "errs" : 12,
   "warnings" : 11,
   "hints" : 151,
@@ -15,5 +15,5 @@
   "suppressed-warnings" : 0,
   "version" : "4.0.1",
   "tool" : "5.0.0 (3)",
-  "maxMemory" : 771153504
+  "maxMemory" : 1327783536
 }

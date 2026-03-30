@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://interop.esante.gouv.fr/ig/fhir/ruim/ValueSet/vs-ruim-property-codes | *Version*:0.1.0 |
-| Active as of 2026-03-27 | *Computable Name*:VS_RuimPropertyCodes |
+| Active as of 2026-03-30 | *Computable Name*:VS_RuimPropertyCodes |
 
  
 ValueSet regroupant les codes de propriétés définis pour le référentiel RUIM. Utilisé pour contraindre l'élément `property.code` dans le profil du CodeSystem RUIM. 
@@ -51,7 +51,7 @@ ValueSet regroupant les codes de propriétés définis pour le référentiel RUI
   "title" : "RUIM - ValueSet des codes de propriétés médicament",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-03-27T13:20:16+00:00",
+  "date" : "2026-03-30T07:06:10+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
