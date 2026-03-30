@@ -32,7 +32,7 @@ CodeSystem définissant les codes de propriétés utilisés dans le CodeSystem R
   "title" : "RUIM - Codes des propriétés médicament",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-03-30T14:14:21+00:00",
+  "date" : "2026-03-30T14:30:44+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
