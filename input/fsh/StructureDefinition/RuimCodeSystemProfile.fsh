@@ -2,7 +2,7 @@ Profile: ProfileRuimCodeSystem
 Parent: http://hl7.org/fhir/StructureDefinition/shareablecodesystem
 Id: profile-ruim-codesystem
 Title: "Profil RUIM - CodeSystem médicament"
-Description: "Profil contraignant la ressource CodeSystem pour le référentiel RUIM. Définit les propriétés attendues pour décrire une spécialité pharmaceutique identifiée par son code CIP-13."
+Description: "Profil contraignant la ressource CodeSystem pour le référentiel RUIM. Définit les propriétés attendues pour décrire une spécialité pharmaceutique identifiée par son code CIP-13."J
 * ^status = #draft
 
 // Métadonnées obligatoires
