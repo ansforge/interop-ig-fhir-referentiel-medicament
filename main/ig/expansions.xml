@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="f2ef0a12-7a53-451c-8e53-2d7da8225fdc"/>
+  <id value="349730f9-6d7e-4dea-9538-9f71ee7a75e9"/>
   <meta>
-    <lastUpdated value="2026-03-30T14:30:53.546+00:00"/>
+    <lastUpdated value="2026-03-30T15:16:42.972+00:00"/>
   </meta>
   <type value="collection"/>
   <entry>
@@ -180,7 +180,7 @@
         <title value="RUIM - ValueSet des codes de propriétés médicament"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2026-03-30T14:30:53+00:00"/>
+        <date value="2026-03-30T15:16:42+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -189,8 +189,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:c2995645-ab79-4d9e-9a8e-2eec060c9378"/>
-          <timestamp value="2026-03-30T14:31:43+00:00"/>
+          <identifier value="urn:uuid:dd17adc4-78bf-4c42-9d0e-351ba2e922dc"/>
+          <timestamp value="2026-03-30T15:17:23+00:00"/>
           <total value="6"/>
           <offset value="0"/>
           <parameter>
