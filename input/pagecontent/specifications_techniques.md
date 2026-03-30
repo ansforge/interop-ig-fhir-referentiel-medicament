@@ -6,17 +6,7 @@
 
 ### CodeSystem RUIM minimal
 
-Le CodeSystem `terminologie-minimal-ruim` constitue la ressource terminologique centrale du RUIM. Chaque concept représente une spécialité pharmaceutique identifiée par son code CIP-13 (code-barres à 13 chiffres).
-
-| Propriété | Valeur |
-| --- | --- |
-| **URL** | `https://smt-pprod.esante.gouv.fr/terminologie-esesali` |
-| **Version** | `2026-02-V1` |
-| **Statut** | `active` |
-| **Contenu** | Complet (`#complete`) |
-| **Nombre de concepts** | 19 088 |
-| **Sensible à la casse** | Non |
-| **Licence** | Licence Ouverte v2 (LOv2) |
+Le CodeSystem `terminologie-minimal-ruim` (**URL** : `http://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-ruim-eprescription`) constitue la ressource terminologique centrale du RUIM. Chaque concept représente une spécialité pharmaceutique identifiée par son code CIP-13 (code-barres à 13 chiffres).
 
 ### Propriétés des concepts
 

@@ -1,0 +1,12 @@
+{
+  "package-id": "ans.fhir.fr.ruim",
+  "version": "0.0.1",
+  "path": "https://interop.esante.gouv.fr/ig/fhir/ruim/0.0.1",
+  "mode": "milestone",
+  "status": "trial-use",
+  "sequence": "STU 1",
+  "desc": "Première release du guide d'implémentation FHIR du Référentiel Unique de l'Interopérabilité du Médicament (RUIM)",
+  "first": true,
+  "title": "Référentiel Unique de l'Interopérabilité du Médicament",
+  "ci-build": "https://interop.esante.gouv.fr/ig/fhir/ruim/"
+}
