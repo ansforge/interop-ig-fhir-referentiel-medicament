@@ -18,7 +18,7 @@ Description: "Profil contraignant la ressource CodeSystem pour le référentiel 
 * caseSensitive 1..1
 
 // Binding des codes de propriétés
-* property.code from VS_RuimPropertyCodes (extensible)
+* property.code from VSRuimPropertyCodes (extensible)
 
 // Slicing des propriétés
 * property ^slicing.discriminator.type = #value

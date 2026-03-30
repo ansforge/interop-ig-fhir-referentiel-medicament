@@ -1,4 +1,4 @@
-CodeSystem: CS_RuimPropertyCodes
+CodeSystem: CSRuimPropertyCodes
 Id: cs-ruim-property-codes
 Title: "RUIM - Codes des propriétés médicament"
 Description: "CodeSystem définissant les codes de propriétés utilisés dans le CodeSystem RUIM pour décrire les spécialités pharmaceutiques."

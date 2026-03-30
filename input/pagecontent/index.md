@@ -45,12 +45,6 @@ Ce guide d'implémentation adopte une approche progressive :
 
 Ce guide couvre dans un premier temps la définition des ressources terminologiques (CodeSystem, ValueSet) représentant les données du référentiel médicament français. L'utilisation des ressources `Medication` et `MedicationKnowledge` sera traitée dans une version ultérieure.
 
-### Auteurs et contributeurs
-
-| Role  | Nom | Organisation | Contact |
-| --- | --- | --- | --- |
-| **Primary Editor** | | Agence du Numérique en Santé | |
-
 ### Dépendances
 
 {% lang-fragment dependency-table.xhtml %}
