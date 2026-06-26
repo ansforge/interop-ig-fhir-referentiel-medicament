@@ -1,0 +1,209 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://interop.esante.gouv.fr/ig/fhir/ruim/CodeSystem/MinimalRuim> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:Resource.id [ fhir:value "MinimalRuim"] ;
+  fhir:Resource.meta [
+     fhir:Meta.profile [
+       fhir:value "http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1" ;
+       fhir:index -1 ;
+       fhir:link <http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1>
+     ], [
+       fhir:value "https://interop.esante.gouv.fr/ig/fhir/ruim/StructureDefinition/profile-ruim-codesystem" ;
+       fhir:index -1 ;
+       fhir:link <https://interop.esante.gouv.fr/ig/fhir/ruim/StructureDefinition/profile-ruim-codesystem>
+     ]
+  ] ;
+  fhir:Resource.language [ fhir:value "fr-FR"] ;
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ] ;
+     fhir:Narrative.div "<div xml:lang=\"fr-FR\" lang=\"fr-FR\"><hr/><p><b>French (France)</b></p><hr/><p class=\"res-header-id\"><b>Narratif généré : CodeSystem MinimalRuim</b></p><a name=\"MinimalRuim\"> </a><a name=\"hcMinimalRuim\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profils: <a href=\"http://hl7.org/fhir/R4/shareablecodesystem.html\">Shareable CodeSystem</a> version : 4.0.1, <a href=\"StructureDefinition-profile-ruim-codesystem.html\">Profil RUIM - CodeSystem médicament</a></p></div><p><b>Propriétés</b></p><p><b>Cette terminologie de référence (CodeSystem) définit les propriétés suivantes pour ses concepts</b></p><table class=\"grid\"><tr><td><b>Nom</b></td><td><b>Code</b></td><td><b>URI</b></td><td><b>Type</b></td><td><b>Description</b></td></tr><tr><td>packageType</td><td>packageType</td><td>http://data.esante.gouv.fr/ansm/medicament/packageType</td><td>string</td><td/></tr><tr><td>packageSize</td><td>packageSize</td><td>http://data.esante.gouv.fr/ansm/medicament/packageSize</td><td>string</td><td/></tr><tr><td>doseForm</td><td>doseForm</td><td>http://data.esante.gouv.fr/ansm/medicament/doseForm</td><td>string</td><td/></tr><tr><td>brandName</td><td>brandName</td><td>http://data.esante.gouv.fr/ansm/medicament/brandName</td><td>string</td><td/></tr><tr><td>activeStrength</td><td>activeStrength</td><td>http://data.esante.gouv.fr/ansm/medicament/activeStrength</td><td>string</td><td/></tr><tr><td>activeIngredient</td><td>activeIngredient</td><td>http://data.esante.gouv.fr/ansm/medicament/activeIngredient</td><td>string</td><td/></tr><tr><td>Parent</td><td>parent</td><td>http://hl7.org/fhir/concept-properties#parent</td><td>code</td><td>Codes des parents du concept courant</td></tr><tr><td>Child</td><td>child</td><td>http://hl7.org/fhir/concept-properties#child</td><td>code</td><td>Codes des enfants du concept courant</td></tr></table><p><b>Concepts</b></p><p>This case-insensitive code system <code>https://smt-pprod.esante.gouv.fr/terminologie-esesali</code> provides <b>a fragment</b> that includes following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Affichage</b></td><td><b>packageType</b></td><td><b>packageSize</b></td><td><b>doseForm</b></td><td><b>brandName</b></td><td><b>activeStrength</b></td><td><b>activeIngredient</b></td></tr><tr><td style=\"white-space:nowrap\">3400957255350<a name=\"MinimalRuim-3400957255350\"> </a></td><td>CARBOPLATINE ARROW 10 mg/ml, solution pour perfusion</td><td>flacon(s)</td><td>1</td><td>Solution pour perfusion</td><td>CARBOPLATINE ARROW</td><td>10 mg pour 1 ml</td><td>carboplatine</td></tr><tr><td style=\"white-space:nowrap\">3400930277829<a name=\"MinimalRuim-3400930277829\"> </a></td><td>IVERMECTINE EG LABO 3 mg, comprimé</td><td>plaquette(s)</td><td>4</td><td>Comprimé</td><td>IVERMECTINE EG LABO</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">3400935264350<a name=\"MinimalRuim-3400935264350\"> </a></td><td>CLIMASTON 1 mg/10 mg, comprimé pelliculé</td><td>plaquette(s) thermoformée(s)</td><td>28</td><td>Comprimé pelliculé</td><td>CLIMASTON</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">3400938443424<a name=\"MinimalRuim-3400938443424\"> </a></td><td>AMOXICILLINE SUN 1 g, comprimé dispersible</td><td>plaquette(s)</td><td>14</td><td>Comprimé dispersible</td><td>AMOXICILLINE SUN</td><td>1 g pour un comprimé</td><td>amoxicilline</td></tr></table></div>"
+  ] ;
+  fhir:CodeSystem.url [ fhir:value "https://smt-pprod.esante.gouv.fr/terminologie-esesali"] ;
+  fhir:CodeSystem.version [ fhir:value "0.0.1"] ;
+  fhir:CodeSystem.status [ fhir:value "active"] ;
+  fhir:CodeSystem.experimental [ fhir:value "false"^^xsd:boolean] ;
+  fhir:CodeSystem.date [ fhir:value "2026-06-26T11:47:56+00:00"^^xsd:dateTime] ;
+  fhir:CodeSystem.publisher [ fhir:value "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"] ;
+  fhir:CodeSystem.contact [
+     fhir:index -1 ;
+     fhir:ContactDetail.name [ fhir:value "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris" ] ;
+     fhir:ContactDetail.telecom [
+       fhir:index -1 ;
+       fhir:ContactPoint.system [ fhir:value "url" ] ;
+       fhir:ContactPoint.value [ fhir:value "https://esante.gouv.fr" ]
+     ]
+  ] ;
+  fhir:CodeSystem.jurisdiction [
+     fhir:index -1 ;
+     fhir:CodeableConcept.coding [
+       fhir:index -1 ;
+       fhir:Coding.system [ fhir:value "urn:iso:std:iso:3166" ] ;
+       fhir:Coding.code [ fhir:value "FR" ] ;
+       fhir:Coding.display [ fhir:value "FRANCE" ]
+     ]
+  ] ;
+  fhir:CodeSystem.copyright [ fhir:value "[LOv2](https://github.com/etalab/licence-ouverte/blob/master/LO.md)"] ;
+  fhir:CodeSystem.caseSensitive [ fhir:value "false"^^xsd:boolean] ;
+  fhir:CodeSystem.valueSet [
+     fhir:value "https://smt-pprod.esante.gouv.fr/terminologie-esesali?vs" ;
+     fhir:link <https://smt-pprod.esante.gouv.fr/terminologie-esesali?vs>
+  ] ;
+  fhir:CodeSystem.content [ fhir:value "fragment"] ;
+  fhir:CodeSystem.property [
+     fhir:index -1 ;
+     fhir:CodeSystem.property.code [ fhir:value "packageType" ] ;
+     fhir:CodeSystem.property.uri [ fhir:value "http://data.esante.gouv.fr/ansm/medicament/packageType" ] ;
+     fhir:CodeSystem.property.type [ fhir:value "string" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.property.code [ fhir:value "packageSize" ] ;
+     fhir:CodeSystem.property.uri [ fhir:value "http://data.esante.gouv.fr/ansm/medicament/packageSize" ] ;
+     fhir:CodeSystem.property.type [ fhir:value "string" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.property.code [ fhir:value "doseForm" ] ;
+     fhir:CodeSystem.property.uri [ fhir:value "http://data.esante.gouv.fr/ansm/medicament/doseForm" ] ;
+     fhir:CodeSystem.property.type [ fhir:value "string" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.property.code [ fhir:value "brandName" ] ;
+     fhir:CodeSystem.property.uri [ fhir:value "http://data.esante.gouv.fr/ansm/medicament/brandName" ] ;
+     fhir:CodeSystem.property.type [ fhir:value "string" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.property.code [ fhir:value "activeStrength" ] ;
+     fhir:CodeSystem.property.uri [ fhir:value "http://data.esante.gouv.fr/ansm/medicament/activeStrength" ] ;
+     fhir:CodeSystem.property.type [ fhir:value "string" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.property.code [ fhir:value "activeIngredient" ] ;
+     fhir:CodeSystem.property.uri [ fhir:value "http://data.esante.gouv.fr/ansm/medicament/activeIngredient" ] ;
+     fhir:CodeSystem.property.type [ fhir:value "string" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.property.code [ fhir:value "parent" ] ;
+     fhir:CodeSystem.property.uri [ fhir:value "http://hl7.org/fhir/concept-properties#parent" ] ;
+     fhir:CodeSystem.property.description [ fhir:value "Codes des parents du concept courant" ] ;
+     fhir:CodeSystem.property.type [ fhir:value "code" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.property.code [ fhir:value "child" ] ;
+     fhir:CodeSystem.property.uri [ fhir:value "http://hl7.org/fhir/concept-properties#child" ] ;
+     fhir:CodeSystem.property.description [ fhir:value "Codes des enfants du concept courant" ] ;
+     fhir:CodeSystem.property.type [ fhir:value "code" ]
+  ] ;
+  fhir:CodeSystem.concept [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "3400957255350" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "CARBOPLATINE ARROW 10 mg/ml, solution pour perfusion" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "packageType" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "flacon(s)" ]
+     ], [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "packageSize" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "1" ]
+     ], [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "doseForm" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "Solution pour perfusion" ]
+     ], [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "brandName" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "CARBOPLATINE ARROW" ]
+     ], [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "activeStrength" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "10 mg pour 1 ml" ]
+     ], [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "activeIngredient" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "carboplatine" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "3400930277829" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "IVERMECTINE EG LABO 3 mg, comprimé" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "packageType" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "plaquette(s)" ]
+     ], [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "packageSize" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "4" ]
+     ], [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "doseForm" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "Comprimé" ]
+     ], [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "brandName" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "IVERMECTINE EG LABO" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "3400935264350" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "CLIMASTON 1 mg/10 mg, comprimé pelliculé" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "packageType" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "plaquette(s) thermoformée(s)" ]
+     ], [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "packageSize" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "28" ]
+     ], [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "doseForm" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "Comprimé pelliculé" ]
+     ], [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "brandName" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "CLIMASTON" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "3400938443424" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "AMOXICILLINE SUN 1 g, comprimé dispersible" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "packageType" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "plaquette(s)" ]
+     ], [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "packageSize" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "14" ]
+     ], [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "doseForm" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "Comprimé dispersible" ]
+     ], [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "brandName" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "AMOXICILLINE SUN" ]
+     ], [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "activeStrength" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "1 g pour un comprimé" ]
+     ], [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "activeIngredient" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "amoxicilline" ]
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://interop.esante.gouv.fr/ig/fhir/ruim/CodeSystem/MinimalRuim.ttl> a owl:Ontology ;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

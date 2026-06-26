@@ -83,9 +83,20 @@
     "http://hl7.org/fhir/R4/valueset-designation-use.html" : "Designation Use"
   },
   {
+    "url" : "urn:iso:std:iso:3166",
+    "version" : "2018",
+    "status" : "active",
+    "name" : "Country Codes",
+    "title" : null,
+    "description" : "This is a place holder for the code system which is fully supported through internal means (not by this code system)",
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R4/valueset-jurisdiction.html" : "Jurisdiction"
+  },
+  {
     "url" : "urn:iso:std:iso:3166:-2",
     "version" : "2021",
-    "status" : "draft",
+    "status" : "active",
     "name" : "ISO3166_2",
     "title" : "Codes for the representation of names of countries and their subdivisions – Part 2: Country subdivision code",
     "description" : "",

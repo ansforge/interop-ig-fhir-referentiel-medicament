@@ -1,0 +1,84 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://interop.esante.gouv.fr/ig/fhir/ruim/CodeSystem/cs-ruim-property-codes> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:Resource.id [ fhir:value "cs-ruim-property-codes"] ;
+  fhir:Resource.language [ fhir:value "en"] ;
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ] ;
+     fhir:Narrative.div "<div xml:lang=\"en\" lang=\"en\"><hr/><p><b>English</b></p><hr/><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem cs-ruim-property-codes</b></p><a name=\"en-cs-ruim-property-codes\"> </a><a name=\"en-hccs-ruim-property-codes\"> </a><p>This case-sensitive code system <code>http://data.esante.gouv.fr/ansm/medicament</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">packageType<a name=\"en-cs-ruim-property-codes-packageType\"> </a></td><td>Type de conditionnement</td><td>Type de contenant du médicament (ex : flacon, plaquette, ampoule).</td></tr><tr><td style=\"white-space:nowrap\">packageSize<a name=\"en-cs-ruim-property-codes-packageSize\"> </a></td><td>Taille du conditionnement</td><td>Nombre d'unités dans le conditionnement (ex : 1, 4, 28).</td></tr><tr><td style=\"white-space:nowrap\">doseForm<a name=\"en-cs-ruim-property-codes-doseForm\"> </a></td><td>Forme pharmaceutique</td><td>Forme galénique du médicament (ex : comprimé, solution pour perfusion).</td></tr><tr><td style=\"white-space:nowrap\">brandName<a name=\"en-cs-ruim-property-codes-brandName\"> </a></td><td>Nom de marque</td><td>Dénomination commerciale du médicament.</td></tr><tr><td style=\"white-space:nowrap\">activeStrength<a name=\"en-cs-ruim-property-codes-activeStrength\"> </a></td><td>Dosage du principe actif</td><td>Quantité de principe actif par unité de prise (ex : 10 mg pour 1 ml).</td></tr><tr><td style=\"white-space:nowrap\">activeIngredient<a name=\"en-cs-ruim-property-codes-activeIngredient\"> </a></td><td>Principe actif</td><td>Dénomination commune internationale (DCI) du principe actif.</td></tr></table></div>"
+  ] ;
+  fhir:CodeSystem.url [ fhir:value "http://data.esante.gouv.fr/ansm/medicament"] ;
+  fhir:CodeSystem.version [ fhir:value "0.0.1"] ;
+  fhir:CodeSystem.name [ fhir:value "CSRuimPropertyCodes"] ;
+  fhir:CodeSystem.title [ fhir:value "RUIM - Codes des propriétés médicament"] ;
+  fhir:CodeSystem.status [ fhir:value "active"] ;
+  fhir:CodeSystem.experimental [ fhir:value "false"^^xsd:boolean] ;
+  fhir:CodeSystem.date [ fhir:value "2026-06-26T11:47:56+00:00"^^xsd:dateTime] ;
+  fhir:CodeSystem.publisher [ fhir:value "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"] ;
+  fhir:CodeSystem.contact [
+     fhir:index -1 ;
+     fhir:ContactDetail.name [ fhir:value "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris" ] ;
+     fhir:ContactDetail.telecom [
+       fhir:index -1 ;
+       fhir:ContactPoint.system [ fhir:value "url" ] ;
+       fhir:ContactPoint.value [ fhir:value "https://esante.gouv.fr" ]
+     ]
+  ] ;
+  fhir:CodeSystem.description [ fhir:value "CodeSystem définissant les codes de propriétés utilisés dans le CodeSystem RUIM pour décrire les spécialités pharmaceutiques."] ;
+  fhir:CodeSystem.jurisdiction [
+     fhir:index -1 ;
+     fhir:CodeableConcept.coding [
+       fhir:index -1 ;
+       fhir:Coding.system [ fhir:value "urn:iso:std:iso:3166" ] ;
+       fhir:Coding.code [ fhir:value "FR" ] ;
+       fhir:Coding.display [ fhir:value "FRANCE" ]
+     ]
+  ] ;
+  fhir:CodeSystem.caseSensitive [ fhir:value "true"^^xsd:boolean] ;
+  fhir:CodeSystem.content [ fhir:value "complete"] ;
+  fhir:CodeSystem.count [ fhir:value "6"^^xsd:nonNegativeInteger] ;
+  fhir:CodeSystem.concept [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "packageType" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Type de conditionnement" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Type de contenant du médicament (ex : flacon, plaquette, ampoule)." ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "packageSize" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Taille du conditionnement" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Nombre d'unités dans le conditionnement (ex : 1, 4, 28)." ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "doseForm" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Forme pharmaceutique" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Forme galénique du médicament (ex : comprimé, solution pour perfusion)." ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "brandName" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Nom de marque" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Dénomination commerciale du médicament." ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "activeStrength" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Dosage du principe actif" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Quantité de principe actif par unité de prise (ex : 10 mg pour 1 ml)." ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "activeIngredient" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Principe actif" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Dénomination commune internationale (DCI) du principe actif." ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://interop.esante.gouv.fr/ig/fhir/ruim/CodeSystem/cs-ruim-property-codes.ttl> a owl:Ontology ;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

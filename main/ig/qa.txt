@@ -1,22 +1,131 @@
 RUIM : Validation Results
 =========================================
 
-err = 13, warn = 14, info = 153
-IG Publisher Version: 2.2.4
-Generated Mon Mar 30 15:17:34 UTC 2026. FHIR version 4.0.1 for ans.fhir.fr.ruim#0.0.1 (canonical = https://interop.esante.gouv.fr/ig/fhir/ruim)
- Build Errors : 2 / 3 / 0
- /home/runner/work/interop-ig-fhir-referentiel-medicament/interop-ig-fhir-referentiel-medicament/igSource/fsh-generated/resources/CodeSystem-MinimalRuim : 7 / 11 / 14
- /home/runner/work/interop-ig-fhir-referentiel-medicament/interop-ig-fhir-referentiel-medicament/igSource/fsh-generated/resources/CodeSystem-cs-ruim-property-codes : 3 / 0 / 1
- /home/runner/work/interop-ig-fhir-referentiel-medicament/interop-ig-fhir-referentiel-medicament/igSource/fsh-generated/resources/ImplementationGuide-ans.fhir.fr.ruim : 1 / 0 / 2
- /home/runner/work/interop-ig-fhir-referentiel-medicament/interop-ig-fhir-referentiel-medicament/igSource/fsh-generated/resources/StructureDefinition-profile-ruim-codesystem : 1 / 0 / 141
- /home/runner/work/interop-ig-fhir-referentiel-medicament/interop-ig-fhir-referentiel-medicament/igSource/fsh-generated/resources/ValueSet-vs-ruim-property-codes : 1 / 0 / 4
+err = 13, warn = 15, info = 155
+IG Publisher Version: 2.2.10
+Generated Fri Jun 26 11:49:06 UTC 2026. FHIR version 4.0.1 for ans.fhir.fr.ruim#0.0.1 (canonical = https://interop.esante.gouv.fr/ig/fhir/ruim)
+ Build Errors : 111 / 3 / 0
+ /__w/interop-ig-fhir-referentiel-medicament/interop-ig-fhir-referentiel-medicament/igSource/fsh-generated/resources/CodeSystem-MinimalRuim : 7 / 10 / 14
+ /__w/interop-ig-fhir-referentiel-medicament/interop-ig-fhir-referentiel-medicament/igSource/fsh-generated/resources/CodeSystem-cs-ruim-property-codes : 3 / 1 / 1
+ /__w/interop-ig-fhir-referentiel-medicament/interop-ig-fhir-referentiel-medicament/igSource/fsh-generated/resources/ImplementationGuide-ans.fhir.fr.ruim : 1 / 0 / 3
+ /__w/interop-ig-fhir-referentiel-medicament/interop-ig-fhir-referentiel-medicament/igSource/fsh-generated/resources/StructureDefinition-profile-ruim-codesystem : 1 / 0 / 142
+ /__w/interop-ig-fhir-referentiel-medicament/interop-ig-fhir-referentiel-medicament/igSource/fsh-generated/resources/ValueSet-vs-ruim-property-codes : 1 / 1 / 4
 </table>
 == n/a ==
-ERROR: change-log.html#/html/body/div/div/div/div/div/p/a at Line 196, column 11: The link 'https://interop.esante.gouv.fr/ig/fhir/ruim/0.0.1' for "https://interop.esante.gouv.fr/ig/fhir/ruim/0.0.1" cannot be resolved
-ERROR: searchform.html#/html/body/div/div/div/a/img/div/a/img/div/p/img at Line 57, column 3: The image source 'assets/images/fra.svg' cannot be resolved
-WARNING: 2: An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide
-WARNING: 4: The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide
-WARNING: 5: The HTML fragment 'expansion-params.xhtml' is not included anywhere in the produced implementation guide
+ERROR: en/CodeSystem-MinimalRuim-testing.html#/html/body/div/div/nav/div/div/div/div/a/img at Line 156, column 66: The image source 'assets/images/lang-fr-FR.png' cannot be resolved
+ERROR: en/CodeSystem-MinimalRuim.change.history.html#/html/body/div/div/nav/div/div/div/div/a/img at Line 155, column 73: The image source 'assets/images/lang-fr-FR.png' cannot be resolved
+ERROR: en/CodeSystem-MinimalRuim.html#/html/body/div/div/nav/div/div/div/div/a/img at Line 156, column 58: The image source 'assets/images/lang-fr-FR.png' cannot be resolved
+ERROR: en/CodeSystem-MinimalRuim.json.html#/html/body/div/div/nav/div/div/div/div/a/img at Line 158, column 63: The image source 'assets/images/lang-fr-FR.png' cannot be resolved
+ERROR: en/CodeSystem-MinimalRuim.ttl.html#/html/body/div/div/nav/div/div/div/div/a/img at Line 158, column 62: The image source 'assets/images/lang-fr-FR.png' cannot be resolved
+ERROR: en/CodeSystem-MinimalRuim.xml.html#/html/body/div/div/nav/div/div/div/div/a/img at Line 158, column 62: The image source 'assets/images/lang-fr-FR.png' cannot be resolved
+ERROR: en/CodeSystem-cs-ruim-property-codes-testing.html#/html/body/div/div/nav/div/div/div/div/a/img at Line 156, column 77: The image source 'assets/images/lang-fr-FR.png' cannot be resolved
+ERROR: en/CodeSystem-cs-ruim-property-codes.change.history.html#/html/body/div/div/nav/div/div/div/div/a/img at Line 155, column 84: The image source 'assets/images/lang-fr-FR.png' cannot be resolved
+ERROR: en/CodeSystem-cs-ruim-property-codes.html#/html/body/div/div/nav/div/div/div/div/a/img at Line 156, column 69: The image source 'assets/images/lang-fr-FR.png' cannot be resolved
+ERROR: en/CodeSystem-cs-ruim-property-codes.json.html#/html/body/div/div/nav/div/div/div/div/a/img at Line 158, column 74: The image source 'assets/images/lang-fr-FR.png' cannot be resolved
+ERROR: en/CodeSystem-cs-ruim-property-codes.ttl.html#/html/body/div/div/nav/div/div/div/div/a/img at Line 158, column 73: The image source 'assets/images/lang-fr-FR.png' cannot be resolved
+ERROR: en/CodeSystem-cs-ruim-property-codes.xml.html#/html/body/div/div/nav/div/div/div/div/a/img at Line 158, column 73: The image source 'assets/images/lang-fr-FR.png' cannot be resolved
+ERROR: en/StructureDefinition-profile-ruim-codesystem-definitions.html#/html/body/div/div/nav/div/div/div/div/a/img at Line 156, column 91: The image source 'assets/images/lang-fr-FR.png' cannot be resolved
+ERROR: en/StructureDefinition-profile-ruim-codesystem-examples.html#/html/body/div/div/nav/div/div/div/div/a/img at Line 156, column 88: The image source 'assets/images/lang-fr-FR.png' cannot be resolved
+ERROR: en/StructureDefinition-profile-ruim-codesystem-mappings.html#/html/body/div/div/nav/div/div/div/div/a/img at Line 156, column 88: The image source 'assets/images/lang-fr-FR.png' cannot be resolved
+ERROR: en/StructureDefinition-profile-ruim-codesystem-testing.html#/html/body/div/div/nav/div/div/div/div/a/img at Line 156, column 87: The image source 'assets/images/lang-fr-FR.png' cannot be resolved
+ERROR: en/StructureDefinition-profile-ruim-codesystem.html#/html/body/div/div/nav/div/div/div/div/a/img at Line 156, column 79: The image source 'assets/images/lang-fr-FR.png' cannot be resolved
+ERROR: en/StructureDefinition-profile-ruim-codesystem.profile.history.html#/html/div/div/nav/div/div/div/div/a/img at Line 156, column 95: The image source 'assets/images/lang-fr-FR.png' cannot be resolved
+ERROR: en/StructureDefinition-profile-ruim-codesystem.profile.json.html#/html/body/div/div/nav/div/div/div/div/a/img at Line 160, column 92: The image source 'assets/images/lang-fr-FR.png' cannot be resolved
+ERROR: en/StructureDefinition-profile-ruim-codesystem.profile.ttl.html#/html/body/div/div/nav/div/div/div/div/a/img at Line 160, column 91: The image source 'assets/images/lang-fr-FR.png' cannot be resolved
+ERROR: en/StructureDefinition-profile-ruim-codesystem.profile.xml.html#/html/body/div/div/nav/div/div/div/div/a/img at Line 160, column 91: The image source 'assets/images/lang-fr-FR.png' cannot be resolved
+ERROR: en/ValueSet-vs-ruim-property-codes-testing.html#/html/body/div/div/nav/div/div/div/div/a/img at Line 156, column 75: The image source 'assets/images/lang-fr-FR.png' cannot be resolved
+ERROR: en/ValueSet-vs-ruim-property-codes.change.history.html#/html/body/div/div/nav/div/div/div/div/a/img at Line 155, column 82: The image source 'assets/images/lang-fr-FR.png' cannot be resolved
+ERROR: en/ValueSet-vs-ruim-property-codes.html#/html/body/div/div/nav/div/div/div/div/a/img at Line 155, column 67: The image source 'assets/images/lang-fr-FR.png' cannot be resolved
+ERROR: en/ValueSet-vs-ruim-property-codes.json.html#/html/body/div/div/nav/div/div/div/div/a/img at Line 158, column 72: The image source 'assets/images/lang-fr-FR.png' cannot be resolved
+ERROR: en/ValueSet-vs-ruim-property-codes.ttl.html#/html/body/div/div/nav/div/div/div/div/a/img at Line 158, column 71: The image source 'assets/images/lang-fr-FR.png' cannot be resolved
+ERROR: en/ValueSet-vs-ruim-property-codes.xml.html#/html/body/div/div/nav/div/div/div/div/a/img at Line 158, column 71: The image source 'assets/images/lang-fr-FR.png' cannot be resolved
+ERROR: en/artifacts.html#/html/body/div/div/nav/div/div/div/div/a/img at Line 154, column 45: The image source 'assets/images/lang-fr-FR.png' cannot be resolved
+ERROR: en/autres_ressources.html#/html/body/div/div/nav/div/div/div/div/a/img at Line 154, column 53: The image source 'assets/images/lang-fr-FR.png' cannot be resolved
+ERROR: en/change-log.html#/html/body/div/div/nav/div/div/div/div/a/img at Line 154, column 46: The image source 'assets/images/lang-fr-FR.png' cannot be resolved
+ERROR: en/change-log.html#/html/body/div/div/div/div/div/p/a at Line 231, column 11: The link 'https://interop.esante.gouv.fr/ig/fhir/ruim/0.0.1' for "https://interop.esante.gouv.fr/ig/fhir/ruim/0.0.1" cannot be resolved
+ERROR: en/downloads.html#/html/body/div/div/nav/div/div/div/div/a/img at Line 154, column 45: The image source 'assets/images/lang-fr-FR.png' cannot be resolved
+ERROR: en/index.html#/html/body/div/div/nav/div/div/div/div/a/img at Line 154, column 41: The image source 'assets/images/lang-fr-FR.png' cannot be resolved
+ERROR: en/securite.html#/html/body/div/div/nav/div/div/div/div/a/img at Line 154, column 44: The image source 'assets/images/lang-fr-FR.png' cannot be resolved
+ERROR: en/specifications_techniques.html#/html/body/div/div/nav/div/div/div/div/a/img at Line 154, column 61: The image source 'assets/images/lang-fr-FR.png' cannot be resolved
+ERROR: en/toc.html#/html/body/div/div/nav/div/div/div/div/a/img at Line 154, column 39: The image source 'assets/images/lang-fr-FR.png' cannot be resolved
+ERROR: en/translationinfo.html#/html/body/div/div/nav/div/div/div/div/a/img at Line 154, column 51: The image source 'assets/images/lang-fr-FR.png' cannot be resolved
+ERROR: fr-FR/CodeSystem-MinimalRuim-testing.html#/html/body/div/div/nav/div/div/div/div/img at Line 150, column 11: The image source 'assets/images/lang-fr-FR.png' cannot be resolved
+ERROR: fr-FR/CodeSystem-MinimalRuim-testing.html#/html/body/div/div/nav/div/div/div/div/img at Line 154, column 11: The image source 'assets/images/lang-fr-FR.png' cannot be resolved
+ERROR: fr-FR/CodeSystem-MinimalRuim.change.history.html#/html/body/div/div/nav/div/div/div/div/img at Line 149, column 11: The image source 'assets/images/lang-fr-FR.png' cannot be resolved
+ERROR: fr-FR/CodeSystem-MinimalRuim.change.history.html#/html/body/div/div/nav/div/div/div/div/img at Line 153, column 11: The image source 'assets/images/lang-fr-FR.png' cannot be resolved
+ERROR: fr-FR/CodeSystem-MinimalRuim.html#/html/body/div/div/nav/div/div/div/div/img at Line 150, column 11: The image source 'assets/images/lang-fr-FR.png' cannot be resolved
+ERROR: fr-FR/CodeSystem-MinimalRuim.html#/html/body/div/div/nav/div/div/div/div/img at Line 154, column 11: The image source 'assets/images/lang-fr-FR.png' cannot be resolved
+ERROR: fr-FR/CodeSystem-MinimalRuim.json.html#/html/body/div/div/nav/div/div/div/div/img at Line 152, column 11: The image source 'assets/images/lang-fr-FR.png' cannot be resolved
+ERROR: fr-FR/CodeSystem-MinimalRuim.json.html#/html/body/div/div/nav/div/div/div/div/img at Line 156, column 11: The image source 'assets/images/lang-fr-FR.png' cannot be resolved
+ERROR: fr-FR/CodeSystem-MinimalRuim.ttl.html#/html/body/div/div/nav/div/div/div/div/img at Line 152, column 11: The image source 'assets/images/lang-fr-FR.png' cannot be resolved
+ERROR: fr-FR/CodeSystem-MinimalRuim.ttl.html#/html/body/div/div/nav/div/div/div/div/img at Line 156, column 11: The image source 'assets/images/lang-fr-FR.png' cannot be resolved
+ERROR: fr-FR/CodeSystem-MinimalRuim.xml.html#/html/body/div/div/nav/div/div/div/div/img at Line 152, column 11: The image source 'assets/images/lang-fr-FR.png' cannot be resolved
+ERROR: fr-FR/CodeSystem-MinimalRuim.xml.html#/html/body/div/div/nav/div/div/div/div/img at Line 156, column 11: The image source 'assets/images/lang-fr-FR.png' cannot be resolved
+ERROR: fr-FR/CodeSystem-cs-ruim-property-codes-testing.html#/html/body/div/div/nav/div/div/div/div/img at Line 150, column 11: The image source 'assets/images/lang-fr-FR.png' cannot be resolved
+ERROR: fr-FR/CodeSystem-cs-ruim-property-codes-testing.html#/html/body/div/div/nav/div/div/div/div/img at Line 154, column 11: The image source 'assets/images/lang-fr-FR.png' cannot be resolved
+ERROR: fr-FR/CodeSystem-cs-ruim-property-codes.change.history.html#/html/body/div/div/nav/div/div/div/div/img at Line 149, column 11: The image source 'assets/images/lang-fr-FR.png' cannot be resolved
+ERROR: fr-FR/CodeSystem-cs-ruim-property-codes.change.history.html#/html/body/div/div/nav/div/div/div/div/img at Line 153, column 11: The image source 'assets/images/lang-fr-FR.png' cannot be resolved
+ERROR: fr-FR/CodeSystem-cs-ruim-property-codes.html#/html/body/div/div/nav/div/div/div/div/img at Line 150, column 11: The image source 'assets/images/lang-fr-FR.png' cannot be resolved
+ERROR: fr-FR/CodeSystem-cs-ruim-property-codes.html#/html/body/div/div/nav/div/div/div/div/img at Line 154, column 11: The image source 'assets/images/lang-fr-FR.png' cannot be resolved
+ERROR: fr-FR/CodeSystem-cs-ruim-property-codes.json.html#/html/body/div/div/nav/div/div/div/div/img at Line 152, column 11: The image source 'assets/images/lang-fr-FR.png' cannot be resolved
+ERROR: fr-FR/CodeSystem-cs-ruim-property-codes.json.html#/html/body/div/div/nav/div/div/div/div/img at Line 156, column 11: The image source 'assets/images/lang-fr-FR.png' cannot be resolved
+ERROR: fr-FR/CodeSystem-cs-ruim-property-codes.ttl.html#/html/body/div/div/nav/div/div/div/div/img at Line 152, column 11: The image source 'assets/images/lang-fr-FR.png' cannot be resolved
+ERROR: fr-FR/CodeSystem-cs-ruim-property-codes.ttl.html#/html/body/div/div/nav/div/div/div/div/img at Line 156, column 11: The image source 'assets/images/lang-fr-FR.png' cannot be resolved
+ERROR: fr-FR/CodeSystem-cs-ruim-property-codes.xml.html#/html/body/div/div/nav/div/div/div/div/img at Line 152, column 11: The image source 'assets/images/lang-fr-FR.png' cannot be resolved
+ERROR: fr-FR/CodeSystem-cs-ruim-property-codes.xml.html#/html/body/div/div/nav/div/div/div/div/img at Line 156, column 11: The image source 'assets/images/lang-fr-FR.png' cannot be resolved
+ERROR: fr-FR/StructureDefinition-profile-ruim-codesystem-definitions.html#/html/body/div/div/nav/div/div/div/div/img at Line 150, column 11: The image source 'assets/images/lang-fr-FR.png' cannot be resolved
+ERROR: fr-FR/StructureDefinition-profile-ruim-codesystem-definitions.html#/html/body/div/div/nav/div/div/div/div/img at Line 154, column 11: The image source 'assets/images/lang-fr-FR.png' cannot be resolved
+ERROR: fr-FR/StructureDefinition-profile-ruim-codesystem-definitions.html#/html/body/div/div/div/div/div/div/ul/li/a at Line 304, column 10: The link '#tabs-diff' for "" cannot be resolved (valid targets: 218 targets)
+ERROR: fr-FR/StructureDefinition-profile-ruim-codesystem-examples.html#/html/body/div/div/nav/div/div/div/div/img at Line 150, column 11: The image source 'assets/images/lang-fr-FR.png' cannot be resolved
+ERROR: fr-FR/StructureDefinition-profile-ruim-codesystem-examples.html#/html/body/div/div/nav/div/div/div/div/img at Line 154, column 11: The image source 'assets/images/lang-fr-FR.png' cannot be resolved
+ERROR: fr-FR/StructureDefinition-profile-ruim-codesystem-mappings.html#/html/body/div/div/nav/div/div/div/div/img at Line 150, column 11: The image source 'assets/images/lang-fr-FR.png' cannot be resolved
+ERROR: fr-FR/StructureDefinition-profile-ruim-codesystem-mappings.html#/html/body/div/div/nav/div/div/div/div/img at Line 154, column 11: The image source 'assets/images/lang-fr-FR.png' cannot be resolved
+ERROR: fr-FR/StructureDefinition-profile-ruim-codesystem-testing.html#/html/body/div/div/nav/div/div/div/div/img at Line 150, column 11: The image source 'assets/images/lang-fr-FR.png' cannot be resolved
+ERROR: fr-FR/StructureDefinition-profile-ruim-codesystem-testing.html#/html/body/div/div/nav/div/div/div/div/img at Line 154, column 11: The image source 'assets/images/lang-fr-FR.png' cannot be resolved
+ERROR: fr-FR/StructureDefinition-profile-ruim-codesystem.html#/html/body/div/div/nav/div/div/div/div/img at Line 150, column 11: The image source 'assets/images/lang-fr-FR.png' cannot be resolved
+ERROR: fr-FR/StructureDefinition-profile-ruim-codesystem.html#/html/body/div/div/nav/div/div/div/div/img at Line 154, column 11: The image source 'assets/images/lang-fr-FR.png' cannot be resolved
+ERROR: fr-FR/StructureDefinition-profile-ruim-codesystem.profile.history.html#/html/div/div/nav/div/div/div/div/img at Line 150, column 11: The image source 'assets/images/lang-fr-FR.png' cannot be resolved
+ERROR: fr-FR/StructureDefinition-profile-ruim-codesystem.profile.history.html#/html/div/div/nav/div/div/div/div/img at Line 154, column 11: The image source 'assets/images/lang-fr-FR.png' cannot be resolved
+ERROR: fr-FR/StructureDefinition-profile-ruim-codesystem.profile.json.html#/html/body/div/div/nav/div/div/div/div/img at Line 154, column 11: The image source 'assets/images/lang-fr-FR.png' cannot be resolved
+ERROR: fr-FR/StructureDefinition-profile-ruim-codesystem.profile.json.html#/html/body/div/div/nav/div/div/div/div/img at Line 158, column 11: The image source 'assets/images/lang-fr-FR.png' cannot be resolved
+ERROR: fr-FR/StructureDefinition-profile-ruim-codesystem.profile.ttl.html#/html/body/div/div/nav/div/div/div/div/img at Line 154, column 11: The image source 'assets/images/lang-fr-FR.png' cannot be resolved
+ERROR: fr-FR/StructureDefinition-profile-ruim-codesystem.profile.ttl.html#/html/body/div/div/nav/div/div/div/div/img at Line 158, column 11: The image source 'assets/images/lang-fr-FR.png' cannot be resolved
+ERROR: fr-FR/StructureDefinition-profile-ruim-codesystem.profile.xml.html#/html/body/div/div/nav/div/div/div/div/img at Line 154, column 11: The image source 'assets/images/lang-fr-FR.png' cannot be resolved
+ERROR: fr-FR/StructureDefinition-profile-ruim-codesystem.profile.xml.html#/html/body/div/div/nav/div/div/div/div/img at Line 158, column 11: The image source 'assets/images/lang-fr-FR.png' cannot be resolved
+ERROR: fr-FR/ValueSet-vs-ruim-property-codes-testing.html#/html/body/div/div/nav/div/div/div/div/img at Line 150, column 11: The image source 'assets/images/lang-fr-FR.png' cannot be resolved
+ERROR: fr-FR/ValueSet-vs-ruim-property-codes-testing.html#/html/body/div/div/nav/div/div/div/div/img at Line 154, column 11: The image source 'assets/images/lang-fr-FR.png' cannot be resolved
+ERROR: fr-FR/ValueSet-vs-ruim-property-codes.change.history.html#/html/body/div/div/nav/div/div/div/div/img at Line 149, column 11: The image source 'assets/images/lang-fr-FR.png' cannot be resolved
+ERROR: fr-FR/ValueSet-vs-ruim-property-codes.change.history.html#/html/body/div/div/nav/div/div/div/div/img at Line 153, column 11: The image source 'assets/images/lang-fr-FR.png' cannot be resolved
+ERROR: fr-FR/ValueSet-vs-ruim-property-codes.html#/html/body/div/div/nav/div/div/div/div/img at Line 149, column 11: The image source 'assets/images/lang-fr-FR.png' cannot be resolved
+ERROR: fr-FR/ValueSet-vs-ruim-property-codes.html#/html/body/div/div/nav/div/div/div/div/img at Line 153, column 11: The image source 'assets/images/lang-fr-FR.png' cannot be resolved
+ERROR: fr-FR/ValueSet-vs-ruim-property-codes.json.html#/html/body/div/div/nav/div/div/div/div/img at Line 152, column 11: The image source 'assets/images/lang-fr-FR.png' cannot be resolved
+ERROR: fr-FR/ValueSet-vs-ruim-property-codes.json.html#/html/body/div/div/nav/div/div/div/div/img at Line 156, column 11: The image source 'assets/images/lang-fr-FR.png' cannot be resolved
+ERROR: fr-FR/ValueSet-vs-ruim-property-codes.ttl.html#/html/body/div/div/nav/div/div/div/div/img at Line 152, column 11: The image source 'assets/images/lang-fr-FR.png' cannot be resolved
+ERROR: fr-FR/ValueSet-vs-ruim-property-codes.ttl.html#/html/body/div/div/nav/div/div/div/div/img at Line 156, column 11: The image source 'assets/images/lang-fr-FR.png' cannot be resolved
+ERROR: fr-FR/ValueSet-vs-ruim-property-codes.xml.html#/html/body/div/div/nav/div/div/div/div/img at Line 152, column 11: The image source 'assets/images/lang-fr-FR.png' cannot be resolved
+ERROR: fr-FR/ValueSet-vs-ruim-property-codes.xml.html#/html/body/div/div/nav/div/div/div/div/img at Line 156, column 11: The image source 'assets/images/lang-fr-FR.png' cannot be resolved
+ERROR: fr-FR/artifacts.html#/html/body/div/div/nav/div/div/div/div/img at Line 148, column 11: The image source 'assets/images/lang-fr-FR.png' cannot be resolved
+ERROR: fr-FR/artifacts.html#/html/body/div/div/nav/div/div/div/div/img at Line 152, column 11: The image source 'assets/images/lang-fr-FR.png' cannot be resolved
+ERROR: fr-FR/autres_ressources.html#/html/body/div/div/nav/div/div/div/div/img at Line 148, column 11: The image source 'assets/images/lang-fr-FR.png' cannot be resolved
+ERROR: fr-FR/autres_ressources.html#/html/body/div/div/nav/div/div/div/div/img at Line 152, column 11: The image source 'assets/images/lang-fr-FR.png' cannot be resolved
+ERROR: fr-FR/change-log.html#/html/body/div/div/nav/div/div/div/div/img at Line 148, column 11: The image source 'assets/images/lang-fr-FR.png' cannot be resolved
+ERROR: fr-FR/change-log.html#/html/body/div/div/nav/div/div/div/div/img at Line 152, column 11: The image source 'assets/images/lang-fr-FR.png' cannot be resolved
+ERROR: fr-FR/change-log.html#/html/body/div/div/div/div/div/p/a at Line 224, column 11: The link 'https://interop.esante.gouv.fr/ig/fhir/ruim/0.0.1' for "https://interop.esante.gouv.fr/ig/fhir/ruim/0.0.1" cannot be resolved
+ERROR: fr-FR/downloads.html#/html/body/div/div/nav/div/div/div/div/img at Line 148, column 11: The image source 'assets/images/lang-fr-FR.png' cannot be resolved
+ERROR: fr-FR/downloads.html#/html/body/div/div/nav/div/div/div/div/img at Line 152, column 11: The image source 'assets/images/lang-fr-FR.png' cannot be resolved
+ERROR: fr-FR/index.html#/html/body/div/div/nav/div/div/div/div/img at Line 148, column 11: The image source 'assets/images/lang-fr-FR.png' cannot be resolved
+ERROR: fr-FR/index.html#/html/body/div/div/nav/div/div/div/div/img at Line 152, column 11: The image source 'assets/images/lang-fr-FR.png' cannot be resolved
+ERROR: fr-FR/securite.html#/html/body/div/div/nav/div/div/div/div/img at Line 148, column 11: The image source 'assets/images/lang-fr-FR.png' cannot be resolved
+ERROR: fr-FR/securite.html#/html/body/div/div/nav/div/div/div/div/img at Line 152, column 11: The image source 'assets/images/lang-fr-FR.png' cannot be resolved
+ERROR: fr-FR/specifications_techniques.html#/html/body/div/div/nav/div/div/div/div/img at Line 148, column 11: The image source 'assets/images/lang-fr-FR.png' cannot be resolved
+ERROR: fr-FR/specifications_techniques.html#/html/body/div/div/nav/div/div/div/div/img at Line 152, column 11: The image source 'assets/images/lang-fr-FR.png' cannot be resolved
+ERROR: fr-FR/toc.html#/html/body/div/div/nav/div/div/div/div/img at Line 148, column 11: The image source 'assets/images/lang-fr-FR.png' cannot be resolved
+ERROR: fr-FR/toc.html#/html/body/div/div/nav/div/div/div/div/img at Line 152, column 11: The image source 'assets/images/lang-fr-FR.png' cannot be resolved
+ERROR: fr-FR/translationinfo.html#/html/body/div/div/nav/div/div/div/div/img at Line 148, column 11: The image source 'assets/images/lang-fr-FR.png' cannot be resolved
+ERROR: fr-FR/translationinfo.html#/html/body/div/div/nav/div/div/div/div/img at Line 152, column 11: The image source 'assets/images/lang-fr-FR.png' cannot be resolved
+WARNING: 2: An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml, cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide
+WARNING: 4: An HTML fragment from the set [globals-table.xhtml, globals-table.xhtml] is not included anywhere in the produced implementation guide
+WARNING: 5: An HTML fragment from the set [expansion-params.xhtml, expansion-params.xhtml] is not included anywhere in the produced implementation guide
 == fsh-generated/resources/CodeSystem-MinimalRuim.json ==
 INFORMATION: CodeSystem.meta.profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/shareablecodesystem to 4.0.1
 INFORMATION: CodeSystem/MinimalRuim: CodeSystem.property[6]: This element does not match any known slice defined in the profile https://interop.esante.gouv.fr/ig/fhir/ruim/StructureDefinition/profile-ruim-codesystem|0.0.1 (this may not be a problem, but you should check that it's not intended to match a slice)
@@ -45,14 +154,15 @@ INFORMATION: CodeSystem/MinimalRuim: CodeSystem.property[4]: The property uri 'h
 INFORMATION: CodeSystem/MinimalRuim: CodeSystem.property[5]: The property uri 'http://data.esante.gouv.fr/ansm/medicament/activeIngredient' is not known, so the property values can not be validated fully
 ERROR: CodeSystem/MinimalRuim: CodeSystem: CodeSystem.name: minimum required = 1, but only found 0 (from http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1)
 ERROR: CodeSystem/MinimalRuim: CodeSystem: CodeSystem.description: minimum required = 1, but only found 0 (from http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1)
-WARNING: Resource: The resource CodeSystem/MinimalRuim should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 == fsh-generated/resources/CodeSystem-cs-ruim-property-codes.json ==
-ERROR: CodeSystem.where(url = 'http://data.esante.gouv.fr/ansm/medicament'): Conformance resource /home/runner/work/interop-ig-fhir-referentiel-medicament/interop-ig-fhir-referentiel-medicament/igSource/fsh-generated/resources/CodeSystem-cs-ruim-property-codes.json - the canonical URL (https://interop.esante.gouv.fr/ig/fhir/ruim/CodeSystem/cs-ruim-property-codes) does not match the URL (http://data.esante.gouv.fr/ansm/medicament). Use the special-url parameter if you really mean for it not to match
+ERROR: CodeSystem.where(url = 'http://data.esante.gouv.fr/ansm/medicament'): Conformance resource /__w/interop-ig-fhir-referentiel-medicament/interop-ig-fhir-referentiel-medicament/igSource/fsh-generated/resources/CodeSystem-cs-ruim-property-codes.json - the canonical URL (https://interop.esante.gouv.fr/ig/fhir/ruim/CodeSystem/cs-ruim-property-codes) does not match the URL (http://data.esante.gouv.fr/ansm/medicament). Use the special-url parameter if you really mean for it not to match
 ERROR: CodeSystem/cs-ruim-property-codes: CodeSystem.jurisdiction[0].coding[0].display: Wrong Display Name 'FRANCE' for urn:iso:std:iso:3166#FR. Valid display is 'France (la)' (fr) (for the language(s) 'fr')
-ERROR: /home/runner/work/interop-ig-fhir-referentiel-medicament/interop-ig-fhir-referentiel-medicament/igSource/fsh-generated/resources/CodeSystem-cs-ruim-property-codes: URL Mismatch https://interop.esante.gouv.fr/ig/fhir/ruim/CodeSystem/cs-ruim-property-codes vs http://data.esante.gouv.fr/ansm/medicament
+WARNING: Resource: The resource CodeSystem/cs-ruim-property-codes should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
+ERROR: /__w/interop-ig-fhir-referentiel-medicament/interop-ig-fhir-referentiel-medicament/igSource/fsh-generated/resources/CodeSystem-cs-ruim-property-codes: URL Mismatch https://interop.esante.gouv.fr/ig/fhir/ruim/CodeSystem/cs-ruim-property-codes vs http://data.esante.gouv.fr/ansm/medicament
 == fsh-generated/resources/ImplementationGuide-ans.fhir.fr.ruim.json ==
 INFORMATION: ImplementationGuide.definition.resource[3].profile[0]: Pinned the version of https://interop.esante.gouv.fr/ig/fhir/ruim/StructureDefinition/profile-ruim-codesystem to 0.0.1
 ERROR: ImplementationGuide/ans.fhir.fr.ruim: ImplementationGuide.jurisdiction[0].coding[0].display: Wrong Display Name 'FRANCE' for urn:iso:std:iso:3166#FR. Valid display is 'France (la)' (fr) (for the language(s) 'fr')
+INFORMATION: Resource: The resource ImplementationGuide/ans.fhir.fr.ruim could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 == fsh-generated/resources/StructureDefinition-profile-ruim-codesystem.json ==
 INFORMATION: StructureDefinition.baseDefinition: Pinned the version of http://hl7.org/fhir/StructureDefinition/shareablecodesystem to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[0].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/CodeSystem to 4.0.1
@@ -194,8 +304,10 @@ INFORMATION: StructureDefinition.snapshot.element[115].constraint[0].source: Pin
 INFORMATION: StructureDefinition.snapshot.element[116].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.differential.element[6].binding.valueSet: Pinned the version of https://interop.esante.gouv.fr/ig/fhir/ruim/ValueSet/vs-ruim-property-codes to 0.0.1
 ERROR: StructureDefinition/profile-ruim-codesystem: StructureDefinition.jurisdiction[0].coding[0].display: Wrong Display Name 'FRANCE' for urn:iso:std:iso:3166#FR. Valid display is 'France (la)' (fr) (for the language(s) 'fr')
-INFORMATION: StructureDefinition/profile-ruim-codesystem: StructureDefinition.snapshot.element[4].binding.extension[0]: The extension http://hl7.org/fhir/StructureDefinition/elementdefinition-maxValueSet|5.2.0 is deprecated
+INFORMATION: StructureDefinition/profile-ruim-codesystem: StructureDefinition.snapshot.element[4].binding.extension[0]: The extension http://hl7.org/fhir/StructureDefinition/elementdefinition-maxValueSet|5.3.0 is deprecated with the note: 'Use additionalBinding extension or element instead'
+INFORMATION: Resource: The resource StructureDefinition/profile-ruim-codesystem could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 == fsh-generated/resources/ValueSet-vs-ruim-property-codes.json ==
 INFORMATION: ValueSet.compose.include[0]: Pinned the version of http://data.esante.gouv.fr/ansm/medicament to 0.0.1
 INFORMATION: ValueSet.meta.profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/shareablevalueset to 4.0.1
 ERROR: ValueSet/vs-ruim-property-codes: ValueSet.jurisdiction[0].coding[0].display: Wrong Display Name 'FRANCE' for urn:iso:std:iso:3166#FR. Valid display is 'France (la)' (fr) (for the language(s) 'fr')
+WARNING: Resource: The resource ValueSet/vs-ruim-property-codes should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)

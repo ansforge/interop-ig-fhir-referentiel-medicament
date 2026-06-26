@@ -1,30 +1,31 @@
-# ans.fhir.fr.ruim#0.0.1: Référentiel Unique de l'Interopérabilité du Médicament
+# ans.fhir.fr.ruim#0.0.1: Référentiel Unique de l'Interopérabilité du Médicament(fr-FR)
 
 ## Pages
 
-* [Accueil](index.md)
-* [Historique des versions](change-log.md)
-* [Artifacts Summary](artifacts.md)
-* [Sécurité](securite.md)
-* [Autres Ressources](autres_ressources.md)
-* [Téléchargements et usages](downloads.md)
-* [Vue d'ensemble](specifications_techniques.md)
+* [Accueil](fr-FR/index.md)
+* [Téléchargements et usages](fr-FR/downloads.md)
+* [Informations sur la traduction](fr-FR/translationinfo.md)
+* [Autres Ressources](fr-FR/autres_ressources.md)
+* [Artifacts Summary](fr-FR/artifacts.md)
+* [Sécurité](fr-FR/securite.md)
+* [Historique des versions](fr-FR/change-log.md)
+* [Vue d'ensemble](fr-FR/specifications_techniques.md)
 
 ## Resources
 
 ### CodeSystems
 
-* [MinimalRuim](CodeSystem-MinimalRuim.md)
-* [RUIM - Codes des propriétés médicament](CodeSystem-cs-ruim-property-codes.md)
+* [MinimalRuim](fr-FR/CodeSystem-MinimalRuim.md)
+* [RUIM - Codes des propriétés médicament](fr-FR/CodeSystem-cs-ruim-property-codes.md)
 
 ### ValueSets
 
-* [RUIM - ValueSet des codes de propriétés médicament](ValueSet-vs-ruim-property-codes.md)
+* [RUIM - ValueSet des codes de propriétés médicament](fr-FR/ValueSet-vs-ruim-property-codes.md)
 
 ### Resource Profiles
 
-* [Profil RUIM - CodeSystem médicament](StructureDefinition-profile-ruim-codesystem.md)
+* [Profil RUIM - CodeSystem médicament](fr-FR/StructureDefinition-profile-ruim-codesystem.md)
 
 ### ImplementationGuides
 
-* [Référentiel Unique de l'Interopérabilité du Médicament](index.md)
+* [Référentiel Unique de l'Interopérabilité du Médicament](fr-FR/ImplementationGuide-ans.fhir.fr.ruim.md)

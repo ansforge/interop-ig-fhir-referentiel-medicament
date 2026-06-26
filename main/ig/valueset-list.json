@@ -6,6 +6,9 @@
     "name" : "VSRuimPropertyCodes",
     "title" : "RUIM - ValueSet des codes de propriétés médicament",
     "description" : "ValueSet regroupant les codes de propriétés définis pour le référentiel RUIM. Utilisé pour contraindre l'élément `property.code` dans le profil du CodeSystem RUIM.",
-    "systems" : ["http://data.esante.gouv.fr/ansm/medicament"]
+    "systems" : ["http://data.esante.gouv.fr/ansm/medicament"],
+    "uses" : {
+    },
+    "StructureDefinition-profile-ruim-codesystem.html" : "Profil RUIM - CodeSystem médicament"
   }]
 }
